@@ -11,7 +11,6 @@ body{
 
 
 
-
 div.menu{
 
   /*! TRUCO PARA ALINEAR CAJAS AL CENTRO TOTAL  */
@@ -19,19 +18,20 @@ div.menu{
   flex-direction:row;
   justify-content: space-evenly;
  
-  align-items:flex-start;
+  align-items:center;
   
   gap: 5px 5px;
-  height: 20vh;
-  background-color: black;
-  border: 2px solid black;
+  height: 10vh;
+  background-color: rgb(0, 0, 0);
+  /* border: 2px solid black; */
   padding: 10px;
+  border-radius: 15px;
 }
 
 div.item{
   
   /* align-self: center; */
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   
   
   
@@ -41,12 +41,19 @@ opacity:1;
 
 }
 
-a{
-  color:white;  
+a.titulo{
+  color:rgb(255, 255, 255);  
   font-weight: bold;
   text-decoration: none;
 
 }
+a.subtitulo{
+  color:rgb(250, 233, 3);  
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
 
 div.subitem{
   opacity: 0;
@@ -55,7 +62,8 @@ div.subitem{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(247, 243, 7, 0);
+  background-color: rgb(177, 177, 165);
+  border-radius: 0 15px;
   /* border: 2px solid gold; */
   padding: 10px;
 }
@@ -63,7 +71,7 @@ div.subitem{
 
 
 div.link{
-color: white;
+
 /* border: 2px solid rgb(31, 182, 111); */
 margin-bottom: 5px;
 
