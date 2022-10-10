@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial';
+}
+
+/*? MEDIDAS EN CSS */
+
+.container {
+  /** En pixeles  */
+  /* Son fijos y nunca cambian */
+  max-width: 800px;
+
+  /** En tanto por ciento */
+  /* Los tantos por ciento siempre son referentes al padre, son dinámicos */
+  width: 80%;
+
+  margin: 50px auto;
+}
+
+
+.caja-padre {
+  width: 50%;  
+  border: 3px solid black;
+  background: hotpink;
+  padding: 10px;
+}
+
+.caja-hijo {
+  width: 50%;
+  height: 70%;
+  border: 3px solid black;
+  background: gold;
+}
+
+/** Valores tomando como referencia el VIEWPORT (La pantalla) */
+/* vw   vh */
+/* Son tantos por ciento pero de la pantalla, inistintamente de dónde se encuentre la caja */
+.caja-hijo:nth-child(2) {
+  width: 50vw;
+  height: 15vh;
+}
+
+html {
+  font-size: 20px;
+}
+
+
+/** REM --> Es un valor que se multiplicará por el font-size que tenga la etiqueta raíz, es decir <html>. Si no tuviera un font-size establecido a posta, se usará el tamaño por defecto (16px)  */
+
+/* Si utilizas pixeles en algún párrao o donde sea, cuando alguien quiera cambiar el tamaño de letra por defecto (que sería lo mismo que nosotros poner otro tamaño a la etiqueta html) no va a verse modificado ese párrafo. */
+p.pixeles {
+  font-size: 16px;
+}
+
+p.rem {
+  font-size: 1rem;
+}
+
+
+
+/*? Un truco que se suele utilizar con los REM para calcular de una forma más sencilla cuanto son por ejemplo 3.4rem*/
+
+/* Darle al html un font size de 62,5% */
+html {
+  font-size: 62,5%;
+}
+
+/* A partir de ahora, todos los rems multiplicarán por 10px, PERO ESTÁS DEJANDO LIBRE LA POSIBILIDAD DE AUMENTAR EL TAMAÑO */
+
+
+
+/** EM --> Es un valor que se multiplacará por el valor del font-size más cercano, incluído el de él mismo. */
+.caja-padre {
+  font-size: 1.5em;
+}
+
+.caja-hijo2 {  
+  width: 1.5em;
+  height: 50px;
+  background: gold;
+  border: 3px solid black;
+}
+
+
+/* EJEMPLO DE USO DE EM de una forma con sentido, dando solo estilos básicos a un botón, pero utilizando ems para los valores que quieres que se modifiquen, luego solo tienes que crear diferentes clases a las que le das un font-size distinto para que todo crezca o disminuya acorde al font-size */
+button.btn {
+  background: gold;
+  margin: 10px;
+  padding: 0.7em 1em;
+  border: 0.1em solid black;
+}
+
+button.btn-XL {
+  font-size: 18px;
+}
+
+button.btn-XXL {
+  font-size: 24px;
+}
+
+
+/* =============================== */
+/*? 2 funciones muy chulas que vienen de serie con CSS      calc()    y     clamp()  */
+
+.caja-padre.calc {
+  width: calc(50% + 100px);
+}
+
+
+header {
+  padding: 10px;
+  background: gold;
+  height: 60px;
+}
+
+.full-section {  
+  height: calc(100vh - 60px);
+  background: pink;
+}
+
+
+
+/* clamp() */
+.caja-padre.clamp {
+  margin: auto;
+  /* width: 50%;
+  max-width: 550px;
+  min-width: 300px; */
+
+  width: clamp(300px, 50%, 550px);
+}
+
+
+h2 {
+  font-size: calc(3vw + 2em);
+  font-size: clamp(20px, 3vw, 40px);
+}

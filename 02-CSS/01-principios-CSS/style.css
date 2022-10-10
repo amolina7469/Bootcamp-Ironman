@@ -1,0 +1,122 @@
+/*Esto es un comentario*/
+/* estoçes un 
+comentario de bloque
+*/
+
+/*?¿Cómo funciona una regla CSS*/
+/*
+-selector-> Todo lo que haya antes de las llaves {}. Podemos tomarlo como si fuera una condición.
+-llaves-> donde van las propiedades CSS que tendrá el selector
+-propiedades ->Cada una de las palabras que hay delante de los 2 puntos
+-valor de la propiedad -> lo que hay a la derecha de los 2 puntos
+-/*! Punto y com despues de cada propiedad
+*/
+
+
+h3{
+  color:hotpink;
+}
+
+
+/*=============================*/
+/*? Maneras más comunes de llamar a los elementos*/
+
+/** llamarlos por su etiqueta HTML */
+
+li{
+  color: purple;
+}
+
+/** Por su ID -> */
+
+#limon{
+  color: yellowgreen;
+}
+
+/** Por su class --> . */
+
+.titulin{
+  color:aqua;
+}
+
+/** Cualquier etiqueta HTML puede tener ID y CLASS, pero un ID no pued estar repetido, es decir si a un titulo le pono el id="xxxx", no puede haber ninguna otra etiqueta con ese mismo id. En cambio, una CLASS la puede repetir en otras etiquetas*/
+
+.texto-verde{
+  color:green;
+}
+
+/*? Normas Importantes de CSS */
+
+/** 1.CSS está en cascada y eso quiere decir que
+/*! Todolo que está debajo, tiene más importacia que lo que está arriba
+*/
+
+.parrafo{
+  color:lightsalmon;
+  color: tomato;
+}
+
+.parrafo{
+  color:rgb(13, 42, 95);
+}
+
+/** 2. Existen reglas de especificidad que determina quien gana a la hora de dar los estilos 
+
+id es el más espacifico ->gana
+class el siguiente  -> más usado
+el selector es el último -> pierde
+
+/*! el style en linea (En el código HTML) ganaria incluso al ID
+*/
+
+#mini-titulo{
+  color:pink;
+}
+
+.titulo5{
+  color: blue;
+}
+/** Añadir la palabra "!important" detrás de una propiedad hace que gane a casi todo*/
+
+h5{
+  color:blueviolet !important;
+}
+
+/** Para añadir un poco más de especificidad podemos concatenar nombres de clases, id's,... */
+
+h6#ultimo.ultimo{
+  color:fuchsia;
+}
+
+h6.penultimo{
+  color:orange;
+}
+
+.penultimo{
+  color:black;
+}
+
+h6{
+  color:aquamarine;
+}
+
+/* Para dar estilos iguales a varios selectores, utilizamos la "," para separar cada selector
+en vez de:
+
+h1{
+  color:red;
+}
+
+h2{
+  color:red;
+}
+
+h3{
+  color:red;
+}
+
+*/
+
+h1,h2,h3{
+  color:red;
+}

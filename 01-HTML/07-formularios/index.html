@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios en HTML</title>
+</head>
+<body>
+  <h1>Formularios en HTML</h1>
+
+
+  <!-- Tipos de "inputs" -->
+  <!--  -text   
+        -email
+  
+  
+  
+  -->
+<form>
+  <!-- Inputs de tipo texto -->
+  <div>
+    <label for="nombre">Nombre:</label>
+    <input 
+    id="nombre" 
+    type="text" 
+    placeholder="Escribe tu nombre" 
+    name="nombre"
+    required
+    minlength="3"
+    maxlength="10"
+    >
+
+  </div>
+
+  <br>
+
+  <div>
+    <label for="apellido">Apellido:</label>
+    <input 
+    id="apellido" 
+    type="text" 
+    name="apellidos"
+    disabled
+    value="deshabilitado"
+    >
+  </div>
+  <br>
+  <!-- Inputs tipo email -->
+  <div>
+    <label for="email">Email:</label>
+    <input 
+    id="email" 
+    type="email" 
+    name="email"
+    autocomplete="off"
+    >
+  </div>
+  <br>
+  <!-- Inputs de tipo contrasaeña/password -->
+  <div>
+    <label for="password">Contraseña:</label>
+    <input 
+    id="password" 
+    type="password" 
+    name="password"
+    >
+  </div>
+  <br>
+
+   <!-- Inputs de tipo number -->
+   <div>
+    <label for="age">Edad:</label>
+    <input 
+    id="age" 
+    type="number" 
+    name="age"
+    min="18"
+    max="130"
+    >
+  </div>
+  <br>
+ <!-- Inputs de tipo télefono -->
+ <div>
+  <label for="telefono">Teléfono:</label>
+  <input 
+  id="telefono" 
+  type="tel" 
+  name="telefono"
+  >
+</div>
+<br>
+
+ <!-- Inputs de tipo url -->
+ <div>
+  <label for="redes-sociales">Linkedin:</label>
+  <input 
+  id="purl" 
+  type="redes-sociales" 
+  name="redes-sociales"
+  >
+</div>
+<br>
+
+ <!-- Inputs de tipo file -->
+ <!--  en el form habría que poner enctype="multipart/form-data" -->
+ <div>
+  <label for="foto-perfil">Foto de perfil:</label>
+  <input 
+  id="foto-perfil" 
+  type="file" 
+  name="foto-perfil"
+  accept="image/jpeg"
+  >
+</div>
+<br>
+
+ <!-- Inputs de tipo checkbox  Se pueden desmarcar/marcar sin importar los demás-->
+ <h2>¿Qué te gusta?</h2>
+ <div>
+  <label for="leer">Leer:</label>
+  <input 
+  id="leer" 
+  type="checkbox" 
+  name="leer"
+  >
+
+  <div>
+    <label for="bailar">LBailar:</label>
+    <input 
+    id="bailar" 
+    type="checkbox" 
+    name="bailar"
+    >
+  </div>
+</div>
+<br>
+
+<!-- Inputs de tipo checkbox  Se pueden marcar sólo uno de ellos-->
+<h2>Genero</h2>
+<div>
+ <label for="male">Masculino</label>
+ <input 
+ id="male" 
+ type="radio" 
+ name="genero"
+ >
+</div>
+
+<div>
+  <label for="female">Femenino</label>
+  <input 
+  id="female" 
+  type="radio" 
+  name="genero"
+  >
+ </div>
+<br>
+
+<!-- Seleccionable Select -->
+<div>
+  <label for="viaje">¿Dónde quieres viajar?</label>
+   <select id="viaje">
+    <option value="">Selecciona un lugar</option>
+    <option value="paris">París</option>
+    <option value="roma">Roma</option>
+    <option value="berlin">Berlín</option>
+    <option value="tokio">Tokio</option>
+    <option value="bogota">Bogota</option>
+
+   </select>
+  
+</div>
+<br>
+
+<!-- Seleccionable múltiple Select -->
+<div>
+  <label for="viaje-multiple">¿Dónde quieres viajar?</label>
+   <select id="viaje-multiple" name="viaje-multiple" multiple>
+    <option value="">Selecciona un lugar</option>
+    <option value="paris">París</option>
+    <option value="roma">Roma</option>
+    <option value="berlin">Berlín</option>
+    <option value="tokio">Tokio</option>
+    <option value="bogota">Bogota</option>
+
+   </select>
+  
+</div>
+<br>
+
+<fieldset>
+  <legend>Inputs secundarios</legend>
+  <div>
+    <label for="color">Tu color favorito</label>
+    <input
+    id="color"
+    type="color"
+    name="color"
+    >
+   </div>
+  <br>
+  
+  <div>
+    <label for="fecha">Fecha</label>
+    <input
+    id="fecha"
+    type="date"
+    name="fecha"
+    >
+   </div>
+</fieldset>
+<br>
+
+<!-- =================================================================== -->
+
+<input type="submit" value="Enviar formulario">
+<input type="reset" value="Resetear formulario">
+<button>Enviar</button>
+<button type="reset">Resetear</button>
+<button type="button">Button</button>
+
+</form>
+
+</body>
+</html>

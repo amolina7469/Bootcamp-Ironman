@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  position: static; /* Por defecto para todo el mundo */
+}
+
+
+/*? POSICIONAMIENTOS  */
+/** Todas las cajas, por defecto estan en position: static */
+/* Por defecto, cualquier elemento que esté por debajo en el HTML tapará a los de arriba si lo superponemos */
+
+
+
+.caja-padre {
+  background-color: rgba(255, 105, 180, 0.868);
+  padding: 1rem;
+  border: 3px solid black;
+  height: 400px;  
+}
+
+.caja-suelta {
+  background-color: rgba(255, 192, 203, 0.9);
+  padding: 1rem;
+  border: 3px solid black;
+  margin-top: 0px;
+  
+}
+
+
+/** Position relative */
+/* Cuando lo ponemos aparentemente no ocurre nada */
+/* Al ponerlo, ya podemos disponer de 5 propiedades extra que no podíamos usar */
+/* top  /  right  /  bottom  /  left  /  z-index */
+
+/*! Al utilizar relative e incluso mover la caja, NO DEVUELVE EL ESPACIO QUE OCUPABA al resto de elementos. El hueco que ocupaba sigue ocupado  */
+/*! Toda caja a la que le pongamos un position distinto a "static" pasará a estar por encima de las que son static  */
+
+.hijo-relative {
+  background-color: rgba(255, 217, 0, 0.861);
+  padding: 1rem;
+  border: 3px solid black;
+  
+  position: relative; 
+   
+}
+
+.relative-1 {
+  z-index: 2;
+  top: 20px;
+  right: 30px;
+  
+}
+
+.relative-2 {
+  background-color: rgba(252, 229, 98, 0.884);
+  top: -20px;
+
+  z-index: 1;
+}
+
+
+
+
+/** Position absolute  */
+
+.hijo-absolute {
+  background-color: rgba(255, 217, 0, 0.861);
+  padding: 1rem;
+  border: 3px solid black;  
+}
+
+
+/* Lo mismo que el relative en cuanto a top/right/left/bottom/z-index */
+
+/*! Norma 1: Al posicionar con absolute, inmediatamente vemos como el resto de elementos se colocan ocupando el hueco que ha dejado, es decir, que la caja absolute SE SALE DEL FLUJO */
+/*! Norma 2: La caja en absolute PIERDE SU 100% de width que tiene por defecto.  */
+/*! Norma 3: el top/left/right/bottom  posicionarán la caja respecto a la caja por encima en el árbol familiar (ancestro) más cercana que tenga un position establecido distinto a static  */
+/*! Extra norma 3: Si no hubiera ninguna que tuviera un position establecido, entonces será respecto a la ventana del navegador  */
+
+
+.padre-absolute {
+  position: relative;
+}
+
+.absolute-1 {
+  position: absolute;
+  /* El sieguiente top y left hacen referencia al navegador si su padre no tiene un position puesto */
+  top: 10px; 
+  left: 0px; 
+  
+  /* El z-index funciona de la misma forma */
+  z-index: 10;
+}
+
+.absolute-2 {
+  position: absolute;  
+  z-index: 5;
+}
+
+.absolute-3 {
+  position: absolute;
+  z-index: 15;
+
+  /*! Entended que la palabra left/right/top/bottom se refieren al lado de la caja que está absolute  */
+  /*! Y que la cifra que pongas para moverse, será la distancia respecto a ese lado del padre  */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/** Position fixed */
+/*! Norma 1: También se sale del flujo y todo lo demás se recoloca  */
+/*! Norma 2: También pierde el width por defecto y se pone igual que su contenido  */
+/*! Norma 3: top/right/bottom/left SIEMPRE SIEMPRE SIEMPRE tienen como referencia la ventana del naveador */
+.fixed {
+  background: rgba(65, 105, 225, 0.815);
+  padding: 10px;
+  color:white;
+  border: 3px solid black;
+
+
+  position: fixed;
+  width: 50%;
+  top: 10px;
+  left: 10px;  
+  z-index: /*999999*/ 20;
+}
+
+
+/** Position sticky */
+/*! Norma 1: Igual que el RELATIVE porque no se mueve nada del resto de elementos para ocupar su espacio  */
+/*! Norma 2: Igual que el FIXED, tiene como referencia del top/right/left/bottom al navegador solamente  */
+/*! Norma 3: Se queda en su sitio hasta que toque los bordes de la pantalla (siempre según su top/left/right/bottom), entonces se queda pegado. Si vuelves para arriba otra vez, se quedará en su sitio original. */
+/*! Norma 4: Si al quedarse pegado seguimos haciendo scroll y su padre se termina, el sticky también se va.  */
+
+
+
+.hijo-sticky {
+  background-color: gold;
+  border: 3px solid black;
+  padding: 10px;
+
+  position: sticky;
+  top: 25px;  
+}
+
+
+/* ====================================== */
+/** Truquito absolute para rellenar una caja con otra*/
+
+.absolute-4 {
+  position: relative;
+}
+
+.truquito {
+  background-color: rgba(45, 44, 33, 0.47);
+  border: 3px solid black;
+  padding: 10px;
+
+  position: absolute;
+  /* height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0; */
+
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+
+  inset: 0;
+
+  /* además inset me pone espacios en los bordes si quiero */
+  inset: 10px;
+}

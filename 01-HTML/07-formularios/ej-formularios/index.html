@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio formularios</title>
+</head>
+<body>
+  <h1>Travel reservation form</h1>
+
+  <h3>* denotes mandatory</h3>
+
+<form>
+
+  <div>
+      <label for="nombre">Full Name*:</label><br>
+      <input id="nombre" type="text" name="nombre" placeholder="FirstName and LastName" required><br><br>
+  </div>
+
+  <div>
+      <label for="email">Email adress*:</label><br>
+      <input id="email" type="email" name="email" placeholder="Email Adress" required ><br><br>
+  </div>
+
+  <div>
+    <label for="package">Choose your package*:</label><br>
+    <select id="package" name="package">
+
+<!-- lo ideal seria poner  lo siguiente en el primer valor
+      <option value="">Select...</option> -->
+
+      <option value="Goa">Goa</option>
+      <option value="Nueva Delhi">Nueva Delhi</option>
+      <option value="Mumbia">Mumbia</option>
+      <option value="Calcuta">Calcuta</option>
+      <option value="Jaipur">Jaipur</option>
+    </select><br><br>
+ 
+  </div>
+
+  <div>
+    <label for="date">Arrival date*:</label><br>
+    <input id="date" type="date" name="date" required><br><br>
+  </div>
+
+  <div>
+    <label for="persons">Number of persons*:</label><br>
+    <input type="number" id="persons" name="persons" min="1" max="10" step="1" required><br><br>
+  </div>
+
+  <p>What would you want to avail?</p>
+  <div>
+    
+    <label for="boarding">Boarding</label>
+    <input type="checkbox" name="boarding" id="boarding"><br>
+    <label for="fooding">Fooding</label>
+    <input type="checkbox" name="fooding" id="fooding"><br>
+    <label for="sightseeing">Sight Seeing</label>
+    <input type="checkbox" name="sightseeing" id="sightseeing"><br><br>
+  </div>
+
+  <div>
+    <label for="coupon">Discount Coupon Code</label><br>
+    <input type="text" name="coupon" id="coupon" placeholder="UNKNOW_TYPE" min="4" max="8">
+  </div>
+
+  <p>Terms and conditions*</p>
+<div>
+  
+  <input type="radio" name="terms-conditions" id="yes" required>
+  <label for="yes">I agree</label>
+  <input type="radio" name="terms-conditions" id="no" required>
+  <label for="no">I desagree</label><br><br>
+  
+</div>
+
+<!--Con input sería: <input type="submit" value="Complete reservation"> -->
+<!-- Lo ideal es un button -->
+<button type="submit">Complete reservation</button>
+
+</form> 
+
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+/*?  estilos para textos */
+/** Tipo de letra, fuente, familia de la fuente -- font family */
+
+h1{
+  font-family: 'Arial','Alkalami', serif;
+  font-family: 'Impact', 'Montserrat', sans-serif;
+  font-family: 'Verdana';
+  font-family: 'Courier New',monospace;
+}
+
+/**Tamaño de la letra -> font-size  */
+
+h1{
+  font-size: 20px;
+}
+
+/** Grosor/peso de la letra */
+
+h1{
+  font-weight: normal;
+}
+
+.negrita{
+  font-weight:bold;
+}
+
+/** Estilo de la letra --> font-style*/
+
+h1{
+  font-style: italic;
+}
+
+.no-cursiva{
+  font-style: normal;
+}
+
+/** Decoraciones en la letra (subrayados) -->text-decoration */
+
+h2{
+  text-decoration: none;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: underline dashed;
+  text-decoration: underline dotted;
+  text-decoration: line-through;
+}
+
+/** Altura de linea -->line-height */
+
+.parrafo1{
+  line-height: 10px;
+}
+
+/** Forzar mayúsculas, minúsculas, capitalizadas y samll caps --> text-transform */
+
+h2{
+  text-transform: capitalize;
+  text-transform: lowercase;
+  text-transform: uppercase;
+  text-transform: small-caps;
+}
+
+/** Alineación del texto --> text-align */
+
+.left{
+  text-align: left;
+  
+}
+
+.right{
+  text-align: right;
+}
+
+.center{
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
+
+/*? Resumen */
+
+.ultimo{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 25px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+/*? Añadir fuentes externas a mi web */
+
+/* Añadiendo e link de google a nuestro head */
+
+.ultimo{
+  font-family: 'Mali';
+}
+
+/* descargando la fuente como un archivo y cargandola aquí usando @font-face */
+
+@font-face {
+  font-family: 'Courier Prime';
+  src: url(./assets/Fonts/CourierPrime-Regular.ttf);
+  font-weight: 400;
+  
+
+}
+@font-face {
+  font-family: 'Courier Prime';
+  src: url(./assets/Fonts/CourierPrime-Bold.ttf);
+  font-weight: 700;
+
+}
+
+
+.left{
+  font-family:'Courier Prime' ;
+  font-weight: 400;
+}
+
+.right{
+  font-family: 'Courier Prime';
+  font-weight: 400;
+  font-style: italic;
+}

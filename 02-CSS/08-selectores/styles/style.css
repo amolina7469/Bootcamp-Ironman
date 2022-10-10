@@ -1,0 +1,381 @@
+body {
+  padding-bottom: 100px;
+}
+
+/*?  SELECTOR */
+
+/** Universal */
+* {  
+  font-family: 'Arial';
+}
+
+
+/** Por etiqueta */
+h1 {
+  color: tomato;
+}
+
+/** Por su class */
+.subtitulo {
+  text-decoration: underline;
+}
+
+/** Por su ID */
+#titulo2 {
+  color: lightseagreen;
+}
+
+/** Mezclando etiquetas sin poner espacios (aumenta la especificidad) */
+h2.subtitulo#titulo2 {
+  font-variant: small-caps;
+}
+
+/** Propiedades duplicadas */
+h2, h3 {
+  font-style: italic;
+}
+
+/** Por su atributo */
+
+[type] {
+  outline: 1px solid blue;
+}
+
+[type="text"] {
+  padding: 10px;
+}
+
+input[placeholder] {
+  box-shadow: 3px 3px 5px 0px pink;
+}
+
+/*=================================================*/
+/*=================================================*/
+
+/*? COMBINACIÓN DE SELECTORES */
+
+/** Hermanos adyacentes (que se tocan)  */
+/*! Hay que leer de derecha a izquierda  */
+  /* Dale color rojo a cualquier párrafo que ANTES tenga un hermano h3 */
+h3 + p {
+  color: crimson;
+}
+
+input.my-input + input[type="email"] {
+  background: lightgrey;
+}
+
+/** Hermanos generales */
+/* La virgulilla se hace con:
+    AltGr + 4
+    Alt + 126(en el teclado numérico)
+    En mac es Alt + ñ
+*/
+/*! Los hermanos tienen que estar antes de */
+
+
+h3 ~ p {
+  letter-spacing: 3px;
+}
+
+/** Hijos directos */
+ul.lista > li {
+  border: 2px solid black;
+}
+
+/** Hijos generales o también llamados DESCENDIENTES */
+
+ul.lista li {
+  box-shadow: 2px 2px 0px 0px crimson;
+}
+
+/* Con lo que sabemos podemos combinar todo como nos dé la gana */
+
+h1 ~ p + ul.lista + ul > li, h3 {
+  box-shadow: 0 0 0 2px gold;
+}
+
+/* ================================== */
+
+/*? PSEUDOSELECTORES */
+/** Primer hijo o el último hijo   :first-child  :last-child  */
+
+ul.lista3 li:first-child {
+  text-transform: uppercase;
+}
+
+ul.lista3 li:last-child {
+  text-transform: uppercase;
+}
+
+/** Hijos de en medio */
+/* Haremos el ejemplo con una tabla */
+
+table {
+  border-collapse: collapse
+}
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
+table tr:nth-child(5) {
+  background-color: #dadada;
+}
+
+table tr:nth-child(2) {
+  background-color: #dadada;
+}
+
+/* Esto tiene un EXTRA! y es que dentro del paréntesis podemos usar una expresión matemática */
+/* "n" es un contador */
+/* Para hacer pares */
+table tr:nth-child(2n) {
+  color: crimson;
+}
+/* Para hacer impares */
+table tr:nth-child(2n - 1) {
+  font-weight: bold;
+}
+
+
+/** PARA NEGAR  */
+
+.main-menu {
+  margin: 50px 0;
+}
+
+.main-menu a {
+  color: hotpink;
+  text-decoration: none;
+  /* border-right: 2px solid pink; */
+  padding: 10px;
+}
+
+/* una forma sería quitándoselo al último hijo */
+/* .main-menu a:last-child {
+  border-right: none;
+} */
+
+/* Otra forma sería diciendo que le puesiera a todos borde PERO NO AL ÚLTIMO */
+/* .main-menu a:not(:last-child) {
+  border-right: 2px solid pink;
+} */
+
+/* lo mismo pero con una clase */
+/* .main-menu a:not(.sin-borde) {
+  border-right: 2px solid pink;
+} */
+
+.main-menu a:not(:nth-child(5)) {
+  border-right: 2px solid pink;
+}
+
+
+/*? PSEUDOSELECTORES POR UN CAMBIO DE ESTADO */
+
+
+
+.boton1 {
+  border: 2px solid lightseagreen;
+  padding: 5px 10px;
+  background: hsl(170, 100%, 50%); 
+  box-shadow: 2px 2px 0px 0px rgba(0 0 0 / 0.3); 
+}
+
+/** Cuando estamos encima de algo :hover  */
+.boton1:hover {
+  background: hsl(170, 100%, 45%);
+}
+
+img.photo {
+  width: 100px;
+}
+
+img.photo:hover {
+  width: 120px;
+}
+
+
+/** Cuando hacemos click en algo   :active  */
+
+.boton1:active {
+  background: white;
+  box-shadow: 2px 2px 0px 0px rgba(0 0 0 / 0.3) inset; 
+}
+
+/** Cuando un elemento está en foco     :focus  */
+input.foco:focus {
+  box-shadow: 0 0 10px 0 rgba(0 0 0 / 0.3);
+  outline: 2px solid greenyellow;
+}
+
+/*! Ojo porque usar :focus en un link hará que se vean esos estilos cuando le demos click  */
+a:focus {
+  box-shadow: 0 0 10px 0 rgba(0 0 0 / 0.3);
+}
+
+/* Mezclando con lo de antes */
+input:focus:not([type="email"]) {
+  color: crimson;
+}
+
+/** Cuando un checkbox está chequeado     :checked  */
+
+.mi-checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.mi-checkbox:checked {
+  width: 25px;
+  height: 25px;
+}
+
+/** ¡TRUCAZO CSS! Podemos cambiar los estilos de unos elementos CAMBIANDO EL ESTADO DE OTROS  */
+
+.checkbox-truco:checked + label {
+  color: crimson;
+}
+
+div.foto-caja {
+  background: pink;
+}
+
+div.foto-caja:hover img {
+  outline: 3px solid gold;
+}
+
+div.foto-caja:active > img {
+  outline: 5px solid hotpink;
+}
+
+/** Complicando el trucazo */
+
+label.interruptor {
+  border: 2px solid lightseagreen;
+  padding: 5px 10px;
+  background: hsl(170, 100%, 50%); 
+  box-shadow: 2px 2px 0px 0px rgba(0 0 0 / 0.3); 
+}
+
+label.interruptor:hover {
+  background: hsl(170, 100%, 45%);
+}
+
+/* Aqui empieza el truco, lo anterior es para dar estilos al botón */
+
+input[type="checkbox"].interruptor {
+  display: none;
+}
+
+.foto-interruptor {
+  opacity: 0;
+}
+
+input.interruptor:checked ~ img.foto-interruptor {
+  opacity: 1;
+}
+
+/* ============================================== */
+
+/*? PSEUDOELEMENTOS  */
+ 
+/** Para cambiar la selección de un texto */
+
+p.seleccion::selection{
+
+  background-color:pink;
+  color: black;
+}
+
+/* Si queremos ponerselo a toda la página lo podemos poner suelto */
+
+::selection{
+  background: gold;
+  color: crimson;
+}
+
+/* * para cambiar los estilos del placeholder */
+
+input.placeholder::placeholder{
+
+  color: lightseagreen;
+}
+
+
+/* Si queremos ponerselo a toda la página lo podemos poner suelto */
+::placeholder{
+  color: gold;
+}
+
+/** Para cambiar los marcadores de una lista  */
+
+/* Podemos también no solo cambiar los estilos, sino cambiar los puntos por otra cosa */
+
+.lista4 li::marker {
+  content: '➡';
+  color: crimson;
+  font-size: 25px;
+}
+
+/** Para estilizar la primera letra de un texto, o la primera línea */
+p.primera-letra::first-letter {
+  color: gold;
+  font-size: 30px;
+}
+
+p.primera-linea::first-line {
+  color: hotpink;
+}
+
+
+
+
+
+/** ::before y ::after  */
+
+
+h4.before-after {
+  border: 2px solid pink;
+}
+
+h4.before-after::before {
+  content: '👲';
+}
+
+h4.before-after::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  background: hotpink;
+}
+
+.titulo-chulo {
+  text-align: center;
+  width: 50%; 
+  margin: 0 auto;
+}
+
+.titulo-chulo::before {
+  content: '';
+  background-color: crimson;
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  margin-left: -60px;
+  margin-right: 10px;
+}
+
+.titulo-chulo::after {
+  content: '';
+  background-color: crimson;
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  margin-left: 10px;
+  margin-right: -60px;
+}
+

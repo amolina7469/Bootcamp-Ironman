@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-sacle=1">
+        <title> Página con primeras etiquetas</title>
+    </head>
+    <body>
+        <!-- la etiqueta div es de tipo "block" siempre ocupa el ancho de la caja que lo contenga, body en este caso -->
+        <div>Esto es un div</div>
+        <div>Esto es otro div</div>
+
+        <!-- La etiqueta span es de tipo "inline", ocupa el ancho del contenido que tenga, por lo tanto pueden ponerse cajas al lado unas de otras -->
+        <span>Esto es un span</span>
+        <span>Esto es otro span</span>
+
+        <!-- Etiquetas para textos -->
+
+        <!-- Párrafos ->de tipo "block" -->
+        <p> Todo lo que haya dentro de una etiqueta "p" será contenido normal, párrafo básico de toda la vida.</p>
+        <p>Otro párrafo</p>
+        <p>Cualquier otra cosa</p>
+        <!-- Títulos -> <h_> -->
+
+        <!-- Sólo puede haber un h1 ya que es el título más importatnte -->
+        <h1>Mi super página de perros</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione officiis commodi tempora quaerat dolorem quod unde nulla autem asperiores provident optio, quisquam debitis non accusantium laborum iste, possimus voluptatum illum.</p>
+        
+        <!-- El resto de etiquetas (h2,h3,h4,h5 y h6) sirven para dividir el texto en tematicas parecidas entre cada nivel. Se pueden repetir todas las veces que se quiera, pero siempre respetando la estructura del contenido -->
+        <h2>Título que es el segundo a nivel de importancia Ej:Carcterísticas</h2>
+        <p>Lorem ipsum dolor sit amet.</p> 
+        
+        <h3>Título que es el tercero a nivel de importancia Ej:Características Visibles </h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p> <!--No es necesario que haya parrafos entre los títulos  -->
+       
+        <h4>Título que es el cuarto a nivel de importancia Ej:Pelaje</h4>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+       
+
+
+        <!-- Maracadores de texto -> Son de tipo "inline" -->
+
+        <p>Para <strong>dar importancia</strong> a una plabra o parte del texto, utilizamos la etiqueta "strong".</p>
+
+        <p>Para enfatizar un trozo de texto, parecido al "strong" <em> un poco menos importante</em>, utilizamos la etiqueta "em".</p>
+
+        <p><u>Para subrayar un texto</u>, usamos la etiqueta "u".</p>
+
+        <p>Para marcar <mark>como si fuera un subrayador</mark> usamos"mark".</p>
+
+        <p>Para marcar como <del>tachado</del> usamos "del"</p>
+
+        <p>Para hacer "superindices" <sup>2</sup> o "subindices"<sub>2</sub>utilicamos las etiquetas "sup" o "sub" respectivamente</p>
+
+        <!-- Listas -> son de tipo "block" -->
+
+        <!--  lista ordenada, tiene sentido el orden de las cosas -->
+
+        <h2>Receta del bacalao</h2>
+            <ol>
+               <li>Desalar</li>     
+               <li>Enharinar</li> 
+               <li>Freir</li> 
+            </ol>
+
+        <!-- Lista desordenada, da igual el sentido de los elementos -->
+
+        <h2>Lago más grandes del mundo</h2>
+        <ul>
+           <li>Leman</li>     
+           <li>Caspio</li> 
+           <li>Michigan</li> 
+        </ul>
+
+        <!-- Listas anidadas -->
+
+        <h2>Perros</h2>
+        <ol>
+           <li>Características</li>   
+                <ol>
+                    <li>Diferencias respecto a otros cánidos</li>  
+                    <li>Anbatomía externa</li>
+                        <ul>
+                            <li>Pelaje</li>
+                            <li>Cola</li>
+                        </ul>
+                    <li>Aparato locomotor</li> 
+                </ol>
+           <li>Comportamiento</li> 
+           <li>Salud</li> 
+        </ol>
+
+        <!-- Citas -->
+        <!-- Cita en bloque -->
+        <blockquote>"Perdone señora que no me levante"
+            <cite>Groucho Marx (En su epitafio)</cite>
+        </blockquote>
+
+        <!-- Cita en línea -> etiqueta "q" -->
+        <p>Groucho Marx, que es muy gracioso, en su epiatfio puso la frase <q>Perdone que no me levante</q></p>
+
+
+        <!-- Espacios en blanco -->
+        <p>Si yo tengo un parrafo,                                 por muchos espacios que ponga, el navegador sólo cogerá uno.</p>
+        <p>Igual con el 
+
+            salto de linea
+        </p>
+        
+        <!-- Salto de línea  -> <br> -->
+
+        <p>Si quieres un salto de linea <br> puedo utilizar un "br"</p>
+
+    <!-- Si queremos que se respeten los espacios usamos "pre" -->
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi impedit dolor voluptate 
+        laudantium neque blanditiis    assumenda aperiam sequi 
+        facilis minima omnis ab, minus illum animi accusamus? 
+        Corrupti 
+         adipisci architecto    dolorem!</pre>
+
+    <!-- El pre se utiliza casi siempre con "code", sirve para indicar al navegador o a google que es código -->
+    <!-- Code es una etiqueta en línea, se puede usar donde sea -->
+    <p>Para escribir algo por consola usamos <code>console.log</code></p>
+
+    <!-- Otras etiquetas -->
+
+    <!-- etiqueta "small" sirve para poner textos que tienen menos importancia, normalmente suelen ser los textos a pie de página -->
+    <small>Esto es un texto "small"</small>
+
+    <!-- "address" se utiliza para poner direcciones -->
+    <address>Calle Wallaby, 42 Sidney</address>
+
+    <!-- "time" para añadir tiempo, si utilizamos  -->
+    <p>Tu cita es mañana a la <time>22:00</time></p>
+    <p>Tu cita es el <time datetime="2023-03-21 16:00:00">21 de marzo a las 16h</time></p>
+
+    <!-- Para crear una barra horizontal que indica un camnio de tema utilizamos la etiqueta "hr" -->
+
+    <hr>
+
+<!-- Caracterés especiales -->
+
+<!-- El simbolo "menor que" se pone con "&lt;"" -->
+<p> El simbolo "menor que" se escribe &lt;</p>
+
+
+
+    </body>
+</html>

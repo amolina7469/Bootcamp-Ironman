@@ -1,0 +1,103 @@
+body{
+  font-family: 'Arial';
+}
+.btn{
+  background-color: rebeccapurple;
+  color: white;
+  padding: 5px 10px;
+
+transition-property: background-color;
+transition-duration: 2s;
+transition-delay: 0s;
+transition-timing-function: ease;
+
+transition:all 2s 1s ease;
+transition: background-color 0.3s ease;
+transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.btn:hover{
+  background-color: white;
+  color: rebeccapurple;
+
+}
+
+.caja1{
+  width: 100px;
+  height: 50px;
+  background-color: hotpink;
+  margin: 10px 0;
+
+  transition: width 1s ease;
+}
+
+.caja1:hover{
+  width:200px;
+}
+
+.caja2{
+  width: 200px;
+  height: 200px;
+  background: royalblue;
+margin-top: 20px;
+  transition: 1s ease;
+
+}
+
+.btn2{
+  background-color: rebeccapurple;
+  color: white;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn2:hover+ .caja2{
+
+  /** Mover cajas*/
+  transform:translateX(50px);
+  transform:translateY(50px);
+  transform: translateX(50px) translateY(100px);
+  transform: perspective(2500px) translateZ(100px);
+
+  transform: translate(50px, 100px);
+  transform: perspective(1000px) translate3d(50px, 100px, 200px);
+
+  /** Para girar cajas*/
+
+  transform: rotateZ(45deg);
+  transform: perspective(1000px) rotateX(180deg);
+  transform: perspective(1000px) rotateY(360deg);
+  transform: rotate(45deg);
+
+  /** Para escalar una caja (grande/pequeña)**/
+
+  transform: scale(0.5);/*hacer pequeño*/
+  transform: scale(1.1);/*Hacer grande*/
+  transform: scaleX(1.3);
+  transform: scaleY(1.3);
+
+  /**Para sesgar una caja*/
+
+  transform: skewX(40deg);
+  transform: skewX(40deg);
+  transform: skew(40deg, 30deg);
+
+  /** CONCLUSIÓN */
+
+  transform: perspective(1000px) rotate(45deg) translate(100px) scale(0.5);
+}
+
+.foto{
+  filter: blur(10px);
+  filter: brightness(2);/*0 completamente oscuro, 1 normal, más de 1 más brillante*/
+  filter: grayscale(100%);
+  filter: sepia(100%);
+  filter: hue-rotate(150deg);
+
+  transition: filter 1s ease;
+  
+}
+.foto:hover{
+  filter: grayscale(100%);
+}

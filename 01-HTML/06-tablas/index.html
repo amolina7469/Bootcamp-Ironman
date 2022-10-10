@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablas en HTML</title>
+</head>
+<body>
+  <h1>Tablas en HTML</h1>
+  <!-- Etiquetas para crear tablas -->
+    <!-- table, caption,tr,td,thead,tbody, tfoot -->
+
+  <!-- Atributos que usaremos -->
+    <!-- scope,  colspan  rowspan -->
+
+  <table>
+    <!-- Se le puede poner título a la tabla -->
+    <caption>Tabla de cursos</caption>
+
+    <!-- etiquetas para crear filas "tr" ( table row)-->
+    <tr>
+      <!-- Etiquetas para crear cada celda "td" ( table data) o "th" si es la cabecera-->
+      <th scope="col">Cursos</th>
+      <th scope="col">Horas</th>
+      <th scope="col">Horario</th>
+    </tr>
+
+    <tr>
+      <td>HTML</td>
+      <td>4h</td>
+      <td>16 - 20h</td>
+    </tr>
+
+    <tr>
+      <td>CSS</td>
+      <td>3h</td>
+      <td>13 - 16h</td>
+    </tr>
+
+  </table>
+
+  <hr>
+
+  <h2>Tabla con combinación de celdas</h2>
+  <table border="1px"> <!--Usamos border para hacerlo más visual pero no se debe usar, el formato lo daremos con CSS-->
+
+    <th colspan="4">Titulo</th>
+    <tr>
+      <td>Celda 1</td>
+      <td>Celda 2</td>
+      <td>Celda 3</td>
+      <td>Celda 4</td>
+    </tr>
+
+    <tr>
+      <!-- colspan sirve para combinar varias columnas -->
+      <!-- rowspan sirve para combinar varias filas -->
+      <td colspan="2">Celda 5</td>
+      <td>Celda 6</td>
+      <td rowspan="2">Celda 7</td>
+      
+    </tr>
+
+    <tr>
+      <td>Celda 8</td>
+      <td>Celda 9</td>
+      <td>Celda 10</td>
+      
+    </tr>
+
+
+  </table>
+
+  <hr>
+
+  <h2>Tabla con etiquetas semánticas</h2>
+
+  <table border="1px">
+
+    <thead>
+      <tr>
+      <th>Producto</th>
+      <th>Cantidad</th>
+      <th>Precio</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+
+    <tr>
+      <td>Pelota</td>
+      <td>1</td>
+      <td>2€</td>
+    </tr>
+
+
+    <tr>
+      <td>Lápices</td>
+      <td>10</td>
+      <td>0.5€</td>
+    </tr>
+
+    <tr>
+      <td>Auriculares</td>
+      <td>4</td>
+      <td>5€</td>
+    </tr>
+
+    </tbody>
+  
+    <tfoot>
+     <tr>
+       <th colspan="2">TOTAL</th>
+       <td>7.5€</td>
+      
+      </tr>
+    </tfoot>
+
+  </table>
+
+</body>
+</html>

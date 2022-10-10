@@ -1,0 +1,33 @@
+h2.color-nombre{
+  color: tomato;
+}
+
+h2.color-rgb{
+  color: rgb(0, 100, 100);
+}
+
+h2.color-rgba{
+  color: rgba(255,0,0,0.5)
+}
+
+/*  Tambien se puede escribir sin comas
+h2.color-rgba{
+  color: rgba(255 0 0 / 0.5)
+} */
+
+h2.color-hex{
+  color:#ffff00;
+}
+h2.color-hex-alpha{
+  color:#ffff0080;
+}
+
+h2.color-hsl{
+  color:hsl(0, 100%, 50%);
+}
+h2.color-hsl2{
+  color:hsl(0, 100%, 70%);
+}
+h2.color-hsl-alpha{
+  color:hsl(0, 100%, 70%,0.5);
+}

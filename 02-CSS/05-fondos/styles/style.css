@@ -1,0 +1,41 @@
+p.fondo-color{
+  background-color: pink;
+}
+
+p.fondo-imagen{
+  background-image: url(https://picsum.photos/id/1056/200);
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-size: 100%; /*Medida variable*/
+  background-size: 100px; /*Medida fija*/
+  background-size: cover;
+  background-position: 50px 100px ; /* Posiciones X e Y fijas*/
+  background-position: 50% 50%; /*Posiciones X e Y dependiendo de la posición de la caja*/
+  background-position: left top; /*La posiciona a la izquierda y arriba*/
+  background-position: center bottom; /*La posiciona en el centro abajo*/
+
+  background-attachment: scroll; /*Es el que viene por defecto*/
+  background-attachment: fixed;
+  background: url(https://picsum.photos/id/1056/200) no-repeat center top /cover;
+  background: url(https://picsum.photos/id/1056/200) no-repeat 50% 50% /cover;
+
+}
+
+p.fondo-degradado{
+  background: linear-gradient(red, blue);
+  background: linear-gradient(red, gold, blue);
+  background: linear-gradient(to bottom, crimson, gold);
+  background: linear-gradient(to top, crimson, gold);
+  background: linear-gradient(to left, crimson, gold);
+  background: linear-gradient(to right, crimson, gold);
+  background: linear-gradient(55deg, crimson, gold);
+  background: linear-gradient(to right, crimson 50%, gold,60%);
+  background: radial-gradient(circle, crimson, gold);
+
+}
+
+p.fondo-imagen-color{
+  background: linear-gradient(rgba(236, 0, 0, 0.5),rgba(100, 37, 248, 0.5)), url(https://picsum.photos/id/1056/200)center /cover;/*Sin gradiente ponemos 2 veces el mismo color*/
+  background-attachment: fixed;
+  }

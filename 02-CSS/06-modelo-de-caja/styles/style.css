@@ -1,0 +1,278 @@
+.rose{
+  background-color: pink;
+}
+.gold{
+  background-color: gold;
+}
+.inline{
+  display: inline;
+}
+
+.block{
+  display: block;
+}
+
+.none{
+  display: none;
+}
+
+.transparente{
+  opacity: 0.1;
+}
+
+/**Tamaños de caja */
+/* Por defecto ya sabemos que cualquier caja de tipo "block" ocupara siempre el 100% de ancho de la caja que lo contenga, es decir de su padre */
+/* Por defcto todas las cajaj ocuparan de alto */
+
+p.parrafo1{
+  background-color: pink;
+
+  /*anchos*/
+  width: 100%;/*  por defecto*/
+  width: 200px; /* Ancho fijo, nunca cambia*/
+  width: 50%; /*Ancho dinámico*/
+
+  /*Altos*/
+  height:200px;/*Fijo, nada recomendable usar sólo en casos únicos*/
+  height: auto; /*por defecto*/
+
+}
+
+div.caja1{
+  width: 50%;
+}
+
+p.parrafo2{
+  background-color: pink;
+
+  width: 50%; /*Ancho dinámico*/
+  height: 50%;/*Un tanto por ciento de un height no va a afectar casi nunca, ya que el navegadorno puede calcular un tanto por ciento*/
+}
+/*máximos y mínimos*/
+p.ancho-maximo{
+  background: gold;
+  width:50% ;/*va acompañado de un width dinámico, esto hace que varie el ancho*/
+  max-width: 350px;/* es para poner topes, no quiero que te amplies más de...*/
+  min-width: 230px;
+
+  /*/max-height: 500px;
+  min-height: 130px;*/
+}
+
+/*======================================================*/
+
+/**PADDING */
+/** Es el espaciado que hay entre lo que ocupe el contenido y el borde de la caja*/
+/*!El fondo de las cajas llegan siempre hasta el borde, es decir tanto el contenido como el padding tendrá fondo de color, de imagen y lo que sea*/
+
+h3.padding{
+  background: crimson;
+  color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+
+
+  padding: 10px 10px 30px 20px;/* el shorthand funciona como un reloj: arriba, dcha, abajo e izq*/
+
+  padding: 20px 10px 30px; /*20 px arriba , 10px a izq-dcha  y 30px abajo */
+
+  padding: 30px 10px; /* Esto sería 30 px arriba y abajo y 10 px dcha-izq */
+
+  padding: 20px; /* esto es 20 px por cada lado*/
+
+
+}
+
+/**BORDER*/
+/**El borde de la caja, podemos jugar con el color, ancho y estilo de borde */
+
+.borde1{
+  border-width:  3px;
+  border-style: solid; /*solid,dashed,dotted*/
+  border-color: tomato;
+
+  border: 1px solid black;
+}
+
+.borde2{
+  border: 3px dashed gold;
+}
+
+.borde3{
+  border: 5px solid pink;
+  border-radius:10px;
+  border-radius:10px 20px;
+  border-radius:10px 10px 0px 10px;
+  
+}
+
+/**MARGIN*/
+/** Espaciado que hay entre mi cja y la siguiente, es decir por fuera del borde*/
+/* El margin funciona igual que el padding: 4 cifras para cada lado; 2 cifras para arriba-abajao izq-dcha; 1 cifra para los 4 lados*/
+
+.margin1{
+  border: 2px solid black;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+
+.margin2{
+  border: 2px solid rgb(224, 23, 23);
+  margin: 0;
+  margin-left: 50px;
+}
+
+/**Adicionalmente el margin afecta a número negativos*/
+/*Cuidado porque se empiezan a montar cosas encima de otras*/
+.margin3{
+
+  margin-top: -10px;
+}
+
+/*===================================================*/
+
+/**OUTLINE*/
+
+.outline{
+  width: 50%;
+  background-color: gold;
+  padding: 10px;
+  border: 2px solid crimson;
+  outline: 3px solid black;
+  outline-offset: -7px;
+}
+
+/**BOX-SIZING */
+/* las cajas por defecto para saber lo que ocupan tenemos que sumar el width, el padding y el border*/
+
+.box-sizing{
+background: pink;
+width: 200px;
+padding: 20px;  
+border: 5px solid black;
+}
+/* Con  box-sizing en el width ya va incluido el padding y el border*/
+.box-sizing2{
+  box-sizing: border-box;
+  background: pink;
+  width: 200px;
+  padding: 20px;  
+  border: 5px solid black;
+  }
+
+  /*===================================================*/
+
+  /** OVERFLOW */
+  /*Sirve para decidir que hacer con el contenido que se sale de mi caja*/
+
+  .overflow{
+    border: 2px solid gold;
+    width: 50%;
+    height: 75px;
+
+    overflow: hidden;
+  }
+
+  .overflow2{
+    border: 2px solid  crimson;
+    width: 50%;
+    height: 75px;
+    overflow-y: scroll;
+  }
+
+  .overflow2{
+    border: 2px solid  crimson;
+    width: 50%;
+    height: 275px;
+    overflow-y: auto;
+  }
+
+  /*====================================================*/
+
+  /** SOMBRAS */
+
+  /*Sombras para las cajas -> Box shadow*/
+
+  .box-shadow{
+    background-color: lightseagreen;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    margin-left: 50px;
+
+    box-shadow: 5px 10px 0px 0px tomato;/*eje x, eje y, blur, expanse*/
+    box-shadow: 5px 5px 10px -5px rgba(0 0 0 / 0.5);
+    box-shadow: 5px 5px 10px -5px rgba(0 0 0 / 0.5)inset;
+
+
+    box-shadow: 2px 2px 0px 0px tomato, 
+                4px 4px 0px 0px gold,
+                0px 0px 20px 15px rgba(56, 56, 201, 0.527);
+
+  } 
+
+  .text-shadow{
+    font-size: 40px;
+
+    text-shadow: 2px 2px 0 crimson;
+  }
+
+  /*==================================================*/
+
+  /** !TRUCO¡ centrar caja horizontalmente*/
+  /* */
+
+  .centrar{
+    background: pink;
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: 10px auto;
+  }
+/*===================================================*/
+
+/**Diferencias entre displays*/
+
+.h3-block{
+  display: block;/* no hace falata ya es por defecto*/
+  border: 2px solid lightseagreen;
+
+  width: 200px;  /**Se puede*/
+  height: 50px; /**Se puede*/
+
+  margin-left: 50px; /**Se puede*/
+  margin-bottom: 50px; /**Se puede*/
+
+}
+
+.h3-inline{
+  display: inline;
+  border: 2px solid lightcoral;
+
+  width: 200px;  /*! NO se puede*/
+  height: 50px; /*! NO se puede*/
+
+  padding: 5px; /**Se puede*/
+
+  margin-left: 50px; /**Se puede*/
+  margin-right: 50px; /**Se puede*/
+  margin-bottom: 50px; /*! NO se puede*/
+  margin-top: 50px; /*! NO se puede*/
+
+}
+
+.inline-block{
+  border:2px solid lightskyblue;
+
+  width: 200px;/**Se puede*/
+  margin-bottom: 100px;/**Se puede*/
+
+  
+}

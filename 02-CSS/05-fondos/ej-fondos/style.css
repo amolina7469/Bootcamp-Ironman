@@ -1,0 +1,55 @@
+body{
+  color:white;
+  font-family: 'Arial', sans-serif;
+   
+}
+.text-size{
+
+  font-size: x-small;
+  line-height: 15px;
+}
+.mayusculas{
+  text-transform: uppercase;
+ 
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+.center{
+  text-align: center;
+}
+
+.greyscale{
+  background-image: url(https://picsum.photos/200/300?grayscale);
+  background-size: cover;
+  background-position: center;
+}
+.blue{
+  background-color:rgb(126, 209, 241);
+}
+.gradient{
+  background: linear-gradient(135deg, rgba(232,13,128,1) 0%, rgba(125,13,215,1) 61%, rgba(28,26,193,1) 100%);
+}
+
+.gradient-image{
+  background: linear-gradient(90deg, rgba(245, 238, 175, 0.5) 0%, rgba(207,242,61,0.5) 40%, rgba(28,26,193,0.5) 100%), url(https://picsum.photos/id/200/300);
+  background-size: cover;
+  background-position: center;
+}
+
+.color-image{
+  background: linear-gradient(rgb(240, 128, 128,0.75),rgb(240, 128, 128,0.75)), url(https://picsum.photos/id/200/300);
+  background-size: cover;
+  background-position: center;
+}
+
+div.caja{
+  width: 15%;
+  margin: 0 auto;
+}
+
+h2{
+ line-height: normal;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Añadir icono de favoritos, el que está en la pestaña del navegador utlizamos la etiqueta link -->
+  <!-- Desde una URL -->
+    <link rel="icon" href="https://cdn.albertoroura.com/media/2014/05/html5_logo.png">
+  <!-- Desde un archivo -->
+  <!-- <link rel="icon" href="./assets/Elefante.png"> -->
+
+  <title>Utiliza multimedia en HTML</title>
+</head>
+<body>
+  <h1>Utiliza multimedia en HTML</h1>
+  <h2>Imágenes</h2>
+
+  <!-- La etiqueta "img" es huerfana. Necesitamos añadir la ruta de la imagen con "src" y poner un texto alternativo en el archivo "alt" -->
+  <img src="./assets/Cucharas.png" alt="Foto de cucharas de madera" width="100px">
+  <p>Cucharas de madera</p> <!--No está relacionado con la imagen-->
+
+  <!-- Para relacionar un archivo media con un texto, necesitamos usar las etiquetas "figure" y "figcaption" -->
+
+<figure>
+  <img src="./assets/Elefante.png" alt="Foto de un elefante"
+width="200px">
+  <figcaption>Elefenate en la sabana</figcaption>
+</figure>
+
+<hr>
+<h2>Vídeos</h2>
+
+<!-- Existen 2 formas de añadir un vídeo -->
+
+<!-- La forma sencilla: usamos la tarjeta "vídeo" y sólo permite utilizar un tipo de archivo de vídeo-->
+<figure>
+  <video src="./assets/video-mar.mp4" width="300px" controls loop>Tu navegador no acepta vídeos</video>
+</figure>
+
+<!-- La forma más compleja nos permite usar diferentes tipos de archivo -->
+<figure>
+  <video width="300px" controls autoplay muted><!--Google sólo permite autoplay con el muted, si quitamos "controls" podemos poner el vídeo de fondo-->
+  <source src="./assets/video-mar.mp4">
+  <source src="./assets/video-mar.webm">
+  <source src="./assets/video-mar.ogg">
+</video>
+<figcaption>Olas del mar</figcaption>
+</figure>
+
+<hr>
+<h2>Audios</h2>
+
+<!-- Se utiliza igual que los vídeos -->
+
+<audio src="./assets/moby-porcelain.mp3" controls>Tu navegador no acepta audios</audio>
+
+<audio controls>
+  <source src="./assets/moby-porcelain.mp3">
+  <source src="./assets/moby-porcelain.ogg">
+  <source src="./assets/moby-porcelain.wav">
+  Tu navegador no acepta audios
+</audio>
+
+<hr>
+<h2>iframes</h2>
+
+<!-- Con un iframe podemos ver una web externa dentro de la nuestra -->
+
+<iframe src="https://www.as.com" width="420px" height="236px"></iframe><br>
+
+<!-- Vídeo de youtube(Compartir y enlace) -->
+<iframe width="420" height="236" src="https://www.youtube.com/embed/H0CKjRGx698" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+<!-- Google maps 3 rayas horizontales Compartir o insertar -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12777.804971428199!2d-2.58917445!3d36.8077055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1664440266271!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+<!-- Ivoox -->
+<iframe id='audio_93006923' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_93006923_6_1.html' loading='lazy'></iframe><br>
+
+
+
+</body>
+</html>

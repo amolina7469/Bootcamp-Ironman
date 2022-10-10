@@ -1,0 +1,176 @@
+.container{
+  width: 80% ;
+  max-width: 800px;
+  margin: 50px auto;
+
+}
+
+/*? ESTILOS FLEX PARA EL PADRE  */
+
+.caja-padre{
+  background-color:   hotpink;
+  border: 3px solid black;
+  padding: 5px;
+  height: 40vh;
+
+  /*! Norma 1: Por defecto, siempre que añadimos display: flex, se ponen todos los elementos HIJOS en fila y pasan a tener el ancho de su contenido  */
+  /*! Norma 2: Por defecto, las cajas hijas pasan a tener una altura como el padre, es decir se ESTIRAN para ocupar todo el alto */
+
+display: flex;
+
+
+flex-direction: row-reverse; /* No muy usado */
+flex-direction: column-reverse; /* No muy usado */
+flex-direction: column;
+flex-direction: row;
+
+
+
+/**Alinear elementos según su "main axis"*/
+
+justify-content: start; /*Por defecto*/
+justify-content: end;
+justify-content: space-evenly;
+justify-content: space-around;
+justify-content: center;
+justify-content: space-between; /* El primero y el último hasta los bordes, y el resto los reparte */
+
+/**Alinear elementos según su "cross axis"*/
+
+align-items: start; /* Alinea todos los BORDES DE LAS CAJAS al principio del cross axis  */
+align-items: end;
+align-items: flex-start;
+align-items: baseline;/* Alinea todas las cajas según la base de su texto, hace falta que los tamños de los textos sean diferentes */
+align-items: stretch;/*Por defecto*/
+align-items: center;
+
+
+  /*! TRUCO PARA ALINEAR CAJAS AL CENTRO TOTAL  */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;   */
+  /* ========================================== */
+
+/** Si queremos que cuando no quepan cajas, bajen a la siguiente línea, usamos flex-wrap  */
+
+flex-wrap: nowrap;/*Por defecto*/
+flex-wrap: wrap-reverse;/*No la he usado nunca*/
+flex-wrap: wrap;
+
+ /** Para decidir cómo se alinean las FILAS cuando existe WRAP usamos align-content  */
+
+align-content: normal;/*Por defecto*/
+align-content: start;
+align-content: end;
+align-content: space-evenly;
+align-content: space-between;
+align-content: space-around;
+align-content: center;
+
+
+/**Parar darle espacio entre las cajas usamos GAP*/
+
+column-gap: 5px;
+row-gap: 10px;
+gap: 1rem;
+
+}
+
+.caja-hijo{
+background-color: gold;
+border: 2px solid black;
+padding: 5px;
+
+}
+
+
+/* .hijo2{
+  font-size: 2rem;
+} */
+
+/*? ESTILOS FLEX PARA LOS HIJOS  */
+
+ /*! POR DEFECTO todas las cajas hijas tienen
+    flex-grow: 0      --> no pueden crecer
+    flex-shrink: 1    --> se pueden comprimir
+    flex-basis: auto  --> el ancho de su contenido */
+
+.hijo-1 {
+  /** Si queremos cambiarles el orden podemos sobreescribir el orden que tienen por defecto, que es 0 */
+
+  order:1;
+
+  flex-grow: 1;
+  flex-grow: 0; /* Por defecto todos tienen flex-grow 0, es decir que no les permite agrandarse */
+
+
+  /** Sería qué ancho te gustaría que tuviera la caja y cambia a el alto cuando estás en columna  */
+  flex-basis: 100px;
+
+  /** Utilizamos el flex-shrink, que por defecto es 1, para decidir si una caja se puede encoger o no */
+  flex-shrink: 0;
+  flex-shrink: 1; /* por defecto */
+
+
+  /** Podemos hacer que SOLO UNA CAJA se alinee sola respecto a su padre  */
+  align-self: start;
+  align-self: stretch;  
+  align-self: end;  
+  align-self: center;
+
+}
+
+.hijo-2 {
+  order: 2;
+  flex-basis: 200px;
+  flex-shrink: 0;
+}
+
+.hijo-3 {
+  order: 4;  
+}
+
+.hijo-4 {
+  order: 3;
+  /* flex-grow: 2; */
+}
+
+
+
+/*! TRUQUITO para mover cajas hacia los lados  */
+
+.caja-padre {
+  justify-content: start;
+}
+
+.hijo-1 {
+  margin-right: auto;  
+}
+
+.hijo-2 {
+   margin-left: auto; 
+}
+.hijo-3 {
+  margin-left: auto;
+}
+
+
+
+
+/* 
+ .cajon {
+  display: flex;
+  flex-wrap: wrap;
+  width: 160px;
+}
+.cajita {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.cajita:nth-child() {
+  background: brown;
+}
+ .cajita:nth-child(n) {
+  background: lightgoldenrodyellow;
+}   */
