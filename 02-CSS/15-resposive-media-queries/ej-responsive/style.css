@@ -10,11 +10,6 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-
-
-  
-  
-  
 }
 
 .submenu{
@@ -22,9 +17,7 @@
   height: 50px;
   color: rgb(0, 162, 255);
   text-decoration: none;
-  padding: 10px;
-  
-  
+  padding: 10px; 
 }
 
 @media(max-width:500px){
@@ -32,15 +25,10 @@
   .menu{
     border: 6px solid hotpink;
     flex-direction: column;
-    
-    
-
   }
 
   .submenu{
     border: 3px solid hotpink;
     color: hotpink;
-
-
   }
 }
