@@ -27,7 +27,7 @@
 
 .container{
   width: 80% ;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 50px auto;
   background-color: var.$main-color;
 }
@@ -37,38 +37,59 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  border: 3px solid black;
+  // border: 3px solid black;
   background-color:var.$label-color;
-}
-.caja-hijo1{
+  border-radius: 5px;
   
-  grid-area:1 / 1 / 3 / 4;
-
-}
-
-.caja-hijo2{
   
-  grid-area:3 / 1 / 4 / 2;
-
-}
-
-
-.caja-hijo3{
+  .caja-hijo1{
+    
+    grid-area:1 / 1 / 3 / 4;
+    span{
+      color:var.$accent-color;
+    }
   
-  grid-area:3 / 2 / 4 / 3;
-
-}
-
-.caja-hijo4{
+  }
   
-  grid-area:3 / 3 / 4 / 4;
-
-}
-
-.caja-hijo5{
- 
-  grid-area:1 / 4 / 4 / 7;
-
+  .caja-hijo2{
+    // border:3px solid lightseagreen;
+    grid-area:3 / 1 / 4 / 2;
+    place-self:center;
+    
+    
+  }
+  
+  
+  .caja-hijo3{
+    // border:3px solid lightseagreen;
+    grid-area:3 / 2 / 4 / 3;
+    place-self:center;
+    padding-right: 50px;
+    
+  }
+  
+  .caja-hijo4{
+    // border:3px solid lightseagreen;
+    grid-area:3 / 3 / 4 / 4;
+    place-self:center;
+    padding-right: 120px;
+    
+    
+  }
+  
+  .caja-hijo5{
+    
+    grid-area:1 / 4 / 4 / 7;
+    img{
+      display: block;
+      width:100%;
+      height: auto;
+      // border:3px solid gold;
+    
+    }
+    // border:3px solid lightseagreen;
+    
+  }
 }
 
 
@@ -76,22 +97,36 @@
 .tittle{
   font-family: 'Inter';
   font-weight: 700;
+  font-size: 35px ;
   color:var.$tittle-color;
-  text-align: center;
-  padding: 25px;
+  text-align: left;
+  padding: 50px 75px 0 50px;
 
 }
 
 .text{
-  font-weight: 'Inter';
+  font-family: 'Inter';
   font-weight: 400;
+  font-size: 15px;
   color:var.$text-color;
-  text-align: center;
-
-  padding: 25px;
+  text-align:left;
+  padding: 20px 75px 0 50px;
 
 }
 
-span{
-  color:var.$accent-color;
+.number{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 20px ;
+  color:var.$tittle-color;
+  text-align:left;
+  // padding-top: 20px;
+}
+
+.subtittle{
+  font-family: 'Lexend Deca';
+  font-size:13px;
+  color:var.$text-color;
+  text-align:left;
+  text-transform:uppercase;
 }

@@ -91,7 +91,7 @@ select {
 }
 .container {
   width: 80%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 50px auto;
   background-color: hsl(233deg, 47%, 7%);
 }
@@ -100,48 +100,70 @@ select {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  border: 3px solid black;
   background-color: hsl(244deg, 38%, 16%);
+  border-radius: 5px;
 }
-
-.caja-hijo1 {
+.caja-padre .caja-hijo1 {
   grid-area: 1/1/3/4;
 }
-
-.caja-hijo2 {
+.caja-padre .caja-hijo1 span {
+  color: hsl(277deg, 64%, 61%);
+}
+.caja-padre .caja-hijo2 {
   grid-area: 3/1/4/2;
+  place-self: center;
 }
-
-.caja-hijo3 {
+.caja-padre .caja-hijo3 {
   grid-area: 3/2/4/3;
+  place-self: center;
+  padding-right: 50px;
 }
-
-.caja-hijo4 {
+.caja-padre .caja-hijo4 {
   grid-area: 3/3/4/4;
+  place-self: center;
+  padding-right: 120px;
 }
-
-.caja-hijo5 {
+.caja-padre .caja-hijo5 {
   grid-area: 1/4/4/7;
+}
+.caja-padre .caja-hijo5 img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .tittle {
   font-family: "Inter";
   font-weight: 700;
+  font-size: 35px;
   color: hsl(0deg, 0%, 100%);
-  text-align: center;
-  padding: 25px;
+  text-align: left;
+  padding: 50px 75px 0 50px;
 }
 
 .text {
-  font-weight: "Inter";
+  font-family: "Inter";
   font-weight: 400;
+  font-size: 15px;
   color: hsla(0deg, 0%, 100%, 0.75);
-  text-align: center;
-  padding: 25px;
+  text-align: left;
+  padding: 20px 75px 0 50px;
 }
 
-span {
-  color: hsl(277deg, 64%, 61%);
+.number {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(0deg, 0%, 100%);
+  text-align: left;
+}
+
+.subtittle {
+  font-family: "Lexend Deca";
+  font-size: 13px;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  text-align: left;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
