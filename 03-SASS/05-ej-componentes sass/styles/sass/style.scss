@@ -33,13 +33,13 @@
 }
 
 .caja-padre{
-
+  
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  // border: 3px solid black;
+  // border: 3px solid rgb(193, 224, 16);
   background-color:var.$label-color;
-  border-radius: 5px;
+  border-radius: 7px;
   
   
   .caja-hijo1{
