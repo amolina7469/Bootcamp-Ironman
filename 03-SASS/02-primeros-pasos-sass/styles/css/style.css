@@ -1,0 +1,18 @@
+/*Comentario
+de 
+bloque*/
+:root {
+  --color-principal:tomato;
+}
+
+body {
+  font-family: "Arial";
+  color: tomato;
+}
+
+h2 {
+  color: gold;
+  border: 3px solid red;
+}
+
+/*# sourceMappingURL=style.css.map */

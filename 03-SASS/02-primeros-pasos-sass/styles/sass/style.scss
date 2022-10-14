@@ -1,0 +1,26 @@
+/*Comentario
+de 
+bloque*/
+
+//Comentario de línea que no aparece en CSS
+
+
+
+$color-secundario:gold;
+$color: red;
+$ancho: 3px;
+$estilo: solid;
+
+:root{
+  --color-principal:tomato;
+}
+
+body{
+  font-family: 'Arial';
+  color:tomato;
+}
+ h2{
+  color:$color-secundario;
+  border:$ancho $estilo $color;
+
+ }

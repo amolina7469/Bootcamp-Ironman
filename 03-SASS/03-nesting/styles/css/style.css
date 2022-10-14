@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.main-menu {
+  background-color: lightseagreen;
+  padding: 1rem;
+}
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+}
+.main-menu ul li {
+  border: 2px solid white;
+  padding: 0.5rem;
+}
+.main-menu ul li:hover {
+  border-color: crimson;
+}
+.main-menu ul li::before {
+  content: "😎";
+}
+.main-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: italic;
+}
+@media (max-width: 500px) {
+  .main-menu ul li a {
+    color: gold;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

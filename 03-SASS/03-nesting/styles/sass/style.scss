@@ -1,0 +1,54 @@
+
+//? Nesting (anidamiento)
+
+.main-menu{
+
+  background-color: lightseagreen;
+  padding: 1rem;
+
+
+  //* Nesting de selectores
+  //! No se recomienda mas de 3 niveles
+  ul{
+    list-style: none;
+    padding: 0;
+
+    li{
+      border: 2px solid white;
+      padding: 0.5rem;
+
+      
+      //* Nesting de pseudoselectores
+      &:hover{
+        border-color: crimson;
+      }
+      
+      &::before{
+        content:'😎';
+      }
+
+      a{
+        color:white;
+        text-decoration: none;
+
+        //* Nesting de propiedades
+        //font-size: 1.5rem;
+        //font-weight: bold;
+        //font-variant: small-caps;
+
+        font: {
+            size:1.5rem;
+            weight:bold;
+            variant:small-caps;
+            style:italic;
+          }
+
+        //* Nesting de media queries
+        @media(max-width: 500px){
+          color:gold;
+        }
+        }
+    }
+  }
+
+}

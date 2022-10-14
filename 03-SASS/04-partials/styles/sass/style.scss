@@ -1,0 +1,8 @@
+//*@import 'variables'; Se suele usar sólo para el reset ya que si hay varios imports coge las variables de unos y otros y da problemas.En su lugar usaremos @use*/
+
+@use 'variables' as var;
+
+h1{
+  //color:variables.$main-color; //* Hay que llmara a la variable usando el namespace en este caso 'variables'. se puede poner un alias usan "as"
+  color:var.$main-color; //* se puede poner un alias usando "as"
+}
