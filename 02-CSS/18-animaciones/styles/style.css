@@ -1,0 +1,73 @@
+.container{
+  width: 80% ;
+  max-width: 800px;
+  margin: 50px auto;
+
+}
+
+
+.caja-padre{
+
+  border:2px solid black;
+  background: hotpink;
+  height: 300px;
+}
+
+
+.caja-hijo{
+
+  border:2px solid white;
+  background: gold;
+  height: 50px;
+  width:50px;
+
+  border-radius: 50%;
+
+
+  /**Las animaciones dson parecidas a las transition*/
+
+  animation-name: moverDerecha;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-iteration-count: 3;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;/*Para quedarse en la posición final*/
+
+  animation: moverDerecha 1s ease-in 3 forwards,
+   cambiaColor 1s ease forwards,
+   colorBorde 1s ease forwards;
+}
+
+
+
+
+
+@keyframes moverDerecha{
+
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+    transform:translateX(200px);
+  }
+
+}
+
+@keyframes cambiaColor{
+
+  0%{
+    background-color: gold;
+  }
+  100%{
+    background-color: crimson;
+  }
+}
+@keyframes colorBorde{
+to{
+  border: 4px solid lightseagreen;
+}
+
+}

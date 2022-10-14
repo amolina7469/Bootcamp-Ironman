@@ -1,0 +1,44 @@
+.container{
+  width: 80% ;
+  max-width: 800px;
+  margin: 50px auto;
+
+}
+
+
+.caja{
+
+  border:3px solid black;
+  background: hotpink;
+}
+
+.caja-1{
+  width: 100px;
+  height: 100px;
+
+  clip-path: circle(2px at 0.5 1);
+}
+
+/*?Columnas texto*/
+
+p.columnas{
+  /* column-count: 2;
+  column-count: 3; */
+  column-width: 100px;
+  column-gap: 50px;
+  column-rule: 2px solid crimson;
+  text-align: justify;
+}
+
+button.cursor{
+
+  display: block;
+  border: 2px solid lightseagreen;
+  background: white;
+  font-size: 1.3rem;
+
+  cursor:copy;
+  cursor: no-drop;
+  cursor:move;
+  cursor:pointer;
+}
