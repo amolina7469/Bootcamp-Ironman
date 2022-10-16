@@ -100,33 +100,83 @@ body {
 }
 
 .padre {
+  position: relative;
   margin-top: 200px;
   width: 1000px;
-  height: 400px;
+  height: 415px;
   background-color: hsl(244deg, 38%, 16%);
   border-radius: 5px;
 }
-.padre .hijo1 {
-  width: 500px;
-  height: 134px;
-  border: 2px solid green;
-}
-.padre .hijo1 h1 {
+.padre h1 {
   font-family: "Inter";
   color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
 }
-.padre .hijo1 span {
+.padre span {
   color: hsl(277deg, 64%, 61%);
 }
-.padre .hijo2 {
+.padre p {
+  font-family: "Inter";
+  font-weight: 400;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.padre img {
+  border-radius: 0 5px 5px 0;
+}
+.padre .hijo1 {
+  position: absolute;
   width: 500px;
   height: 134px;
-  border: 2px solid rgb(201, 235, 11);
+  text-align: left;
+  padding: 50px;
+}
+.padre .hijo2 {
+  position: absolute;
+  top: 40%;
+  width: 500px;
+  height: 134px;
+  font-size: 15px;
+  padding: 0 70px 0 50px;
 }
 .padre .hijo3 {
+  position: absolute;
+  top: 60%;
   width: 500px;
   height: 134px;
-  border: 2px solid rgb(235, 11, 104);
+  padding: 50px;
+}
+.padre .hijo3 h1 {
+  font-size: 22px;
+}
+.padre .hijo3 p {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.padre .hijo3 .data1 {
+  position: absolute;
+  top: 30%;
+}
+.padre .hijo3 .data2 {
+  position: absolute;
+  top: 30%;
+  left: 37%;
+}
+.padre .hijo3 .data3 {
+  position: absolute;
+  top: 30%;
+  left: 63%;
+}
+.padre .hijo4 {
+  position: absolute;
+  display: block;
+  left: 50%;
+  width: 500px;
+  height: 415px;
+}
+
+.overlay {
+  background-color: hsl(277deg, 64%, 61%);
 }
 
 /*# sourceMappingURL=style.css.map */

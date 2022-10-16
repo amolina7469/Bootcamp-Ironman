@@ -34,42 +34,101 @@ body{
   
 }
 .padre{
+  position: relative;
   margin-top: 200px;
   width: 1000px;
-  height: 400px;
+  height: 415px;
   background-color: var.$label-color;
   // border: 2px solid black;
   border-radius: 5px;
-
-  .hijo1{
-    width:500px;
-    height:134px;
-    border:2px solid green;
-
-    h1{
-        font-family: 'Inter';
-        color:var.$tittle-color;
-    }
-
-    span{
-        color:var.$accent-color;
-    }
-
-    // p{
-    //   color:var.$text-color;
-    // }
-
+  
+  h1{
+    font-family: 'Inter';
+    color:var.$tittle-color;
+    font-weight: 700;
   }
-
-  .hijo2{
-    width:500px;
-    height:134px;
-    border:2px solid rgb(201, 235, 11);
+  
+  span{
+    color:var.$accent-color;
   }
-
-  .hijo3{
-    width:500px;
-    height:134px;
-    border:2px solid rgb(235, 11, 104);
+  
+  p{
+    font-family: 'Inter';
+    font-weight: 400;
+    color:var.$text-color;
   }
-}
+  img{
+          border-radius:0 5px 5px 0;
+        }
+        
+        .hijo1{
+          position: absolute;
+          width:500px;
+          height:134px;
+          // border:2px solid green;
+          text-align:left;
+          padding: 50px;
+        }
+        
+        .hijo2{
+          position: absolute;
+          top:40%;
+          width:500px;
+          height:134px;
+          // border:2px solid rgb(201, 235, 11);
+          font-size: 15px;
+          padding: 0 70px 0 50px;
+          
+        }
+        
+        .hijo3{
+          position: absolute;
+          top:60%;
+          width:500px;
+          height:134px;
+          // border:2px solid rgb(235, 11, 104);
+          padding: 50px;
+          h1{
+            font-size: 22px;
+            
+          }
+          
+          p{
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          }
+          .data1{
+            position: absolute;
+            top: 30%;
+          }
+          
+          .data2{
+            position: absolute;
+            top: 30%;
+            left:37%;
+          }
+          .data3{
+            position: absolute;
+            top: 30%;
+            left:63%;
+          }
+        }
+        
+        .hijo4{
+          position: absolute;
+          display: block;
+          left:50%;
+          width:500px;
+          height:415px;
+          // background-image: url(../../../05-ej-componentes-sass/assets/img/image-header-desktop.jpg);
+          // border:2px solid rgb(11, 235, 235);
+          
+          
+        }
+        
+      }
+      .overlay{
+      
+        background-color: var.$accent-color;
+      }
