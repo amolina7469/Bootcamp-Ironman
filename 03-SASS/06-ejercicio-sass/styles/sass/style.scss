@@ -1,0 +1,75 @@
+@use 'variables' as var;
+
+@import 'reset';
+
+@font-face{
+  font-family: 'Inter';
+  src:url(../../../05-ej-componentes-sass/assets/fonts/Inter-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Inter';
+  src:url(../../../05-ej-componentes-sass/assets/fonts/Inter-Bold.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face{
+  font-family: 'Lexend Deca';
+  src:url(../../../05-ej-componentes-sass/assets/fonts/LexendDeca-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+  width: 80% ;
+  max-width: 800px;
+  margin: 50px auto;
+  
+}
+body{
+  background-color: var.$main-color;
+  
+}
+.padre{
+  margin-top: 200px;
+  width: 1000px;
+  height: 400px;
+  background-color: var.$label-color;
+  // border: 2px solid black;
+  border-radius: 5px;
+
+  .hijo1{
+    width:500px;
+    height:134px;
+    border:2px solid green;
+
+    h1{
+        font-family: 'Inter';
+        color:var.$tittle-color;
+    }
+
+    span{
+        color:var.$accent-color;
+    }
+
+    // p{
+    //   color:var.$text-color;
+    // }
+
+  }
+
+  .hijo2{
+    width:500px;
+    height:134px;
+    border:2px solid rgb(201, 235, 11);
+  }
+
+  .hijo3{
+    width:500px;
+    height:134px;
+    border:2px solid rgb(235, 11, 104);
+  }
+}
