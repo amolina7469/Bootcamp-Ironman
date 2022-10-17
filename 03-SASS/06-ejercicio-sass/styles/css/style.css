@@ -176,7 +176,6 @@ body {
 }
 
 .overlay {
-  position: absolute;
   background-color: hsl(277deg, 64%, 61%);
 }
 
