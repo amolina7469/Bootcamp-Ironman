@@ -143,7 +143,8 @@
 
 @media (max-width:1001px){
   .caja-padre{
-    
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "foto"
     "main"
