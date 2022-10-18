@@ -3,92 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="https://ivan-luengo.com/wp-content/uploads/2020/03/cropped-favicon-ivan_luengo-32x32.png">
-  <title>Ejercicio Maquetación FINAL</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="icon" href="../../favicon.png">
+  <!-- <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./reset/reset.css"> -->
+
+   <!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <title></title>
 </head>
+
 <body>
-    <header>
+  
+    <header class="row align-items-center m-0 ">
+      <div class= "bg-primary " >
 
-      <div>
-        <figure class="logo">
-          <img src="http://placeimg.com/50/50/animals" alt="Foto de un animal">
-        </figure> 
-
-        <nav class="main-menu">
-          <a href="#">Inicio</a>
-          <a href="#">Nosotros</a>
-          <a href="#">Blog</a>
-          <a href="#">Contacto</a>
+        <figure class="d-inline-block col-12 col-md-2">
+          <img class="py-3 float-start" src="http://placeimg.com/50/50/animals" alt="Foto de un animal">
+        </figure>
+        
+        <nav class="d-inline-block  col-12  col-md-5">
+          <a class="text-dark fw-bold text-decoration-none mx-3" href="#">Inicio</a>
+          <a class="text-dark fw-bold text-decoration-none mx-3 " href="#">Nosotros</a>
+          <a class="text-dark fw-bold text-decoration-none mx-3" href="#">Blog</a>
+          <a class="text-dark fw-bold text-decoration-none mx-3" href="#">Contacto</a>
         </nav>
 
-        <form class="search">
-          <input type="text" placeholder="Buscar...">
-          <button>Buscar</button>
+        <form class="d-inline-block col-12 col-md-4">
+          <input type="text" placeholder="Search...">
+          <button class="btn btn-sm btn-warning rounded-0">Login</button>
         </form>
 
       </div>
     </header>
 
-    <main>
-      <div class="left-side">
-        <section class="welcome">
-          <h1 class="welcome__title">¡Bienvenid@ a mi web!</h1>
-          <div class="welcome__content">
-            <img src="http://placeimg.com/100/100/animals" alt="Foto de un animal">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, ex magni aspernatur molestiae aliquid sit eveniet illum ratione eius voluptatibus voluptas magnam iure veritatis expedita?</p>
-          </div>
-        </section>
 
-        <section class="news-section">
-          <article class="news">
-            <i class="icon bi bi-lightning"></i>
-            <h2>ARTÍCULO 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eligendi nostrum harum nisi quisquam, error quasi vero distinctio quos placeat dignissimos maiores quo necessitatibus eos natus totam quis facilis exercitationem!</p>
-          </article>
-
-          <article class="news">
-            <i class="icon bi bi-moon-stars"></i>
-            <h2>ARTÍCULO 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eligendi nostrum harum nisi quisquam, error quasi vero distinctio quos placeat dignissimos maiores quo necessitatibus eos natus totam quis facilis exercitationem!</p>
-          </article>
-
-          <article class="news">
-            <i class="icon bi bi-magnet"></i>
-            <h2>ARTÍCULO 3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eligendi nostrum harum nisi quisquam, error quasi vero distinctio quos placeat dignissimos maiores quo necessitatibus eos natus totam quis facilis exercitationem!</p>
-          </article>
-        </section>
-
-        <section class="banner">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </section>
+  <div class="container">
+    <main class="row col-12 col-md-6 m-0 p-0  ">
+      <div class="bg-danger gx-2 gy-2 ">
+        <div>
+          <h1>!Bienvenid@ a mi web!</h1>
+              <div >
+                <img class="float-start " src="http://placeimg.com/100/100/animals" alt="Foto de un animal">
+    
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, eos a quam excepturi perspiciatis officiis, officia asperiores aspernatur enim delectus consequuntur veniam, sit facere?  </p>
+    
+              </div>
+        </div>
       </div>
+    </main>
+    
 
-      <aside class="right-side">
-        <h2>Artículos anteriores</h2>
-
-        <nav class="aside-menu">
-          <a href="#">Artículo 1</a>
-          <a href="#">Artículo 2</a>
-          <a href="#">Artículo 3</a>
-          <a href="#">Artículo 4</a>
-          <a href="#">Artículo 5</a>
-        </nav>
-
-        <h2>Redes sociales</h2>
-        <div class="rrss">          
-          <i class="bi bi-facebook"></i>          
-          <i class="bi bi-linkedin"></i>
-          <i class="bi bi-instagram"></i>
-          <i class="bi bi-youtube"></i>
+    <section class="row col-12">
+    
+    
+        <div class="  col-md-3 text-center gy-2 gx-2">
+          <article class="bg-info justify-content-center">
+            <i class="bi bi-wind"></i>
+            <h2>ARTÍCULO 1</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nesciunt quae cum hic minus consequatur iste obcaecati aperiam nisi amet, officia adipisci voluptates, aut quas voluptate incidunt repellendus facilis rerum eaque dignissimos! Neque, tempora sapiente.</P>
+          </article>
         </div>
 
-      </aside>
-    </main>
+        <div class=" col-md-3 text-center gy-2 gx-2">
+          <article class="bg-info justify-content-center">
+            <i class="bi bi-vector-pen"></i>
+            <h2>ARTÍCULO 2</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nesciunt quae cum hic minus consequatur iste obcaecati aperiam nisi amet, officia adipisci voluptates, aut quas voluptate incidunt repellendus facilis rerum eaque dignissimos! Neque, tempora sapiente.</P>
+          </article>
+        </div>
 
-    <footer>
-      <small>Copyright &copy;</small>
-    </footer>
+        <div class=" col-md-6 text-center gy-2 gx-2">
+        <article class="bg-info justify-content-center">
+          <i class="bi bi-upc-scan"></i>
+          <h2>ARTÍCULO 3</h2>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nesciunt quae cum hic minus consequatur iste obcaecati aperiam nisi amet, officia adipisci voluptates, aut quas voluptate incidunt repellendus facilis rerum eaque dignissimos! Neque, tempora sapiente.</P>
+        </article>
+        </div>
+    
+    </section>
+    
+    <section class="row col-12 col-md-6 align-items-center">
+      <div class="bg-dark">
+    
+          <p class="lead text-white text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    
+      </div>
+    </section>
+
+
+    <aside class="row col-12  col-md-4">
+      <div class="bg-warning">
+    
+        <nav class="text-center text-dark">
+          <h2>Articulos anteriores</h2>
+            <a class="text-decoration-none text-dark" href="#">Artículo 1</a>
+            <hr>
+            <a class="text-decoration-none text-dark" href="#">Artículo 2</a>
+            <hr>
+            <a class="text-decoration-none text-dark" href="#">Artículo 3</a>
+            <hr>
+            <a class="text-decoration-none text-dark" href="#">Artículo 4</a>
+            <hr>
+            <a class="text-decoration-none text-dark" href="#">Artículo 5</a>
+        </nav>
+
+        <nav class="text-center pt-5">
+          <h2>Redes sociales</h2>
+              <div class="rrss">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-youtube"></i>
+              </div>
+        </nav>
+
+      </div>
+    </aside>
+
+  </div>
 </body>
 </html>
