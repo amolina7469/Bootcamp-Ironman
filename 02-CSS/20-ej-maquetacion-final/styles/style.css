@@ -1,0 +1,172 @@
+/* .container{
+  width: 80% ;
+  max-width: 800px;
+  margin: 50px auto;
+
+} */
+
+
+.caja-padre{
+  font-family: 'Arial';
+  display: grid;
+  grid-template-columns: 0.90fr repeat(3, 1fr) 0.08fr 1fr 0.90fr;
+  grid-template-rows: 0.25fr 1fr 2fr 0.40fr 0.25fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 4px;
+  grid-template-areas:
+  "nav nav nav nav nav nav nav"
+  ". header header header . aside ."
+  ". article1 article2 article3 . aside ."
+  ". quote quote quote . aside ."
+  "footer footer footer footer footer footer footer";
+
+}
+
+div.nav{
+  grid-area: nav;
+  background: rgb(13, 110, 253);
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items:center; 
+}
+
+.button{
+  background: rgb(255, 193, 7);
+  border: none;
+}
+
+.header{
+  grid-area:header;
+  background:rgb(220, 53, 69) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
+nav.main-menu{
+  margin-right: auto;
+  word-spacing: 15px;
+ 
+}
+
+.article1{
+  grid-area:article1;
+  background: rgb(13, 202, 240);
+}
+
+.article2{
+  grid-area:article2;
+  background: rgb(13, 202, 240);
+}
+
+.article3{
+  grid-area:article3;
+  background: rgb(13, 202, 240);
+}
+
+
+.aside{
+  grid-area: aside;
+  background:rgb(255, 193, 7) ;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+
+}
+
+.aside-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+
+.quote{
+  grid-area: quote;
+  background: rgb(34, 38, 42);
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.footer{
+  grid-area: footer;
+  background: rgb(108, 117, 125);
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items:center; 
+}
+
+
+.main-menu a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.aside-menu a{
+  color: black;
+  text-decoration: none;
+
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content:stretch;
+  align-items: center;
+}
+
+p{
+  padding: 10px;
+}
+img{
+  padding: 10px;
+}
+
+h1{
+  padding: 30px 0 0 0;
+
+}
+h2{
+  text-align: center;
+}
+hr{
+  width: 190px;
+  height: 3px;
+  border-style: none;
+  background-color: black;
+}
+small{
+  color: white;
+}
+.text p{
+  text-align:center;
+}
+@media (max-width: 500px) {
+  .caja-padre{
+    
+    grid-template-areas:
+    "nav"
+    "header"
+    "article1"
+    "article2"
+    "article3"
+    "aside"
+    "quote"
+    "footer";
+
+
+  }
+
+  div.nav{
+    flex-direction: column;
+  }
+}
