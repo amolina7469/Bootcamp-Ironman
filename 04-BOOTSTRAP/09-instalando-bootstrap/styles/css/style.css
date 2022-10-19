@@ -10859,7 +10859,6 @@ body.background {
 }
 
 .caja-padre {
-  border: 2px solid hotpink;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 0.4fr repeat(3, 1fr) 0.5fr;
