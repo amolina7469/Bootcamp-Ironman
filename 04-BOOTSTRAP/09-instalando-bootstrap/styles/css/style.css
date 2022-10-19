@@ -10858,13 +10858,14 @@ body.background {
   margin: 50px auto;
 }
 
-.header {
+.caja-padre {
   border: 2px solid hotpink;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 0.4fr repeat(3, 1fr) 0.5fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  gap: 5px;
   grid-template-areas: "head1 head2 head3" "game1 game2 game3" "game4 game5 game6" "game7 game8 game9" "score1 score2 score3";
 }
 
@@ -10888,41 +10889,193 @@ p {
   display: inline-block;
 }
 
-.caja1 {
+.head1 {
   grid-area: head1;
   border: 2px solid crimson;
-  width: auto;
+  width: 150px;
   height: 35px;
+  display: flex;
   align-self: flex-start;
   justify-self: flex-start;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
   font-size: 20px;
+  margin-top: 14px;
 }
 
-.caja2 {
+.head2 {
   grid-area: head2;
   border: 2px solid crimson;
   width: 150px;
   height: 35px;
+  display: flex;
   align-self: center;
   justify-self: center;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   background: hsl(200deg, 35%, 19%);
   color: hsl(200deg, 23%, 72%);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
-.caja3 {
+.head3 {
   grid-area: head3;
   border: 2px solid crimson;
   width: 35px;
   height: 35px;
   font-size: 20px;
-  color: white;
+  color: rgb(92, 89, 89);
+  display: flex;
   align-self: flex-end;
   justify-self: flex-end;
-  text-align: center;
-  background: hsl(200deg, 23%, 72%);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.game1 {
+  grid-area: game1;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.game2 {
+  grid-area: game2;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.game3 {
+  grid-area: game3;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-end;
+  align-items: center;
+  justify-content: center;
+}
+
+.game4 {
+  grid-area: game4;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-self: flex-start;
+  justify-self: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+.game5 {
+  grid-area: game5;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.game6 {
+  grid-area: game6;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-end;
+  align-items: center;
+  justify-content: center;
+}
+
+.game7 {
+  grid-area: game7;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.game8 {
+  grid-area: game8;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.game9 {
+  grid-area: game9;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-end;
+  align-items: center;
+  justify-content: center;
+}
+
+.score1 {
+  grid-area: score1;
+  width: 150px;
+  height: 80px;
+  background: hsl(178deg, 60%, 48%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  justify-self: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+.score2 {
+  grid-area: score2;
+  width: 150px;
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.score3 {
+  grid-area: score3;
+  width: 150px;
+  height: 80px;
+  background: hsl(39deg, 88%, 58%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-self: flex-end;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
