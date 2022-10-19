@@ -10920,7 +10920,6 @@ h3, .h3 {
 
 .head1 {
   grid-area: head1;
-  border: 2px solid crimson;
   width: 150px;
   height: 35px;
   display: flex;
@@ -10934,7 +10933,6 @@ h3, .h3 {
 
 .head2 {
   grid-area: head2;
-  border: 2px solid crimson;
   width: 150px;
   height: 35px;
   box-shadow: 0 5px;
@@ -10950,7 +10948,6 @@ h3, .h3 {
 
 .head3 {
   grid-area: head3;
-  border: 2px solid crimson;
   width: 35px;
   height: 35px;
   font-size: 20px;
