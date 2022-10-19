@@ -40,7 +40,7 @@ body.background{
   grid-template-rows: 0.4fr repeat(3, 1fr) 0.5fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  gap:5px;
+  gap:10px;
   grid-template-areas:
   "head1 head2 head3"
   "game1 game2 game3"
@@ -67,7 +67,16 @@ body.background{
 .grey{
   background-color: var.$grey-color;
 }
-
+.icon{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-self: flex-start;
+  justify-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  text-align:start;
+}
 
 p{
   font-family: 'Montserrat';
@@ -92,7 +101,7 @@ h3{
   align-items: center;
   justify-content: center;
   text-align:start;
-  font-size: 20px;
+  
   margin-top: 14px;
 
 }
@@ -102,6 +111,7 @@ h3{
   border:2px solid crimson;
   width: 150px;
   height:35px;
+  box-shadow: 0 5px;
   display: flex;
   align-self: center;
   justify-self: center;
@@ -109,7 +119,7 @@ h3{
   justify-content: center;
   text-align: center;
   background: var.$square-color;
-  color:var.$grey-color;
+  // color:var.$grey-color;
   border-radius: 10px;
   
  
@@ -122,6 +132,7 @@ h3{
   height:35px;
   font-size: 20px;
   color: rgb(92, 89, 89);
+  box-shadow: 0 5px;
   display: flex;
   align-self: flex-end;
   justify-self: flex-end;
@@ -139,6 +150,7 @@ h3{
   width: 150px;
   height:150px;
   border-radius: 10px;
+  box-shadow: 0 5px;
   display: flex;
   align-self:flex-start;
   justify-self:flex-start;
@@ -153,6 +165,7 @@ h3{
   width: 150px;
   height:150px;
   border-radius: 10px;
+  box-shadow: 0 5px;
   display: flex;
   align-self: center;
   justify-self: center;
@@ -167,6 +180,7 @@ h3{
   width: 150px;
   height:150px;
   border-radius: 10px;
+  box-shadow: 0 5px;
   display: flex;
   align-self: flex-end;
   justify-self: flex-end;
@@ -179,6 +193,7 @@ h3{
   width: 150px;
   height:150px;
   border-radius: 10px;
+  box-shadow: 0 5px;
   display: flex;
   align-self:flex-start;
   justify-self:flex-start;
@@ -191,6 +206,7 @@ h3{
   width: 150px;
   height:150px;
   border-radius: 10px;
+  box-shadow: 0 5px;
   display: flex;
   align-self: center;
   justify-self: center;
@@ -204,6 +220,7 @@ h3{
   width: 150px;
   height:150px;
   border-radius: 10px;
+  box-shadow: 0 5px;
   display: flex;
   align-self: flex-end;
   justify-self: flex-end;
@@ -216,6 +233,7 @@ h3{
   width: 150px;
   height:150px;
   border-radius: 10px;
+  box-shadow: 0 5px;
 }
 .game8{
   grid-area: game8;
@@ -223,6 +241,7 @@ h3{
   width: 150px;
   height:150px;
   border-radius: 10px;
+  box-shadow: 0 5px;
   display: flex;
   align-self: center;
   justify-self: center;
@@ -235,6 +254,7 @@ h3{
   width: 150px;
   height:150px;
   border-radius: 10px;
+  box-shadow: 0 5px;
   display: flex;
   align-self: flex-end;
   justify-self: flex-end;
