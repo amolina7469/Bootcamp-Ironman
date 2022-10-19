@@ -10848,6 +10848,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url(../../assets/Montserrat-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../../assets/Montserrat-Bold.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
 body.background {
   background: hsl(199deg, 33%, 15%);
 }
@@ -10885,7 +10897,14 @@ body.background {
 }
 
 p {
+  font-family: "Montserrat";
+  font-weight: 400;
   display: inline-block;
+}
+
+h3, .h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 
 .head1 {
