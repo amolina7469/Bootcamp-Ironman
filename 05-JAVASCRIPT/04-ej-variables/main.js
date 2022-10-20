@@ -15,7 +15,7 @@ const euros=7
 const dolar=2
 const cambio= euros * dolar
 
-console.log('7 euros son '+ cambio+ ' dolares')
+console.log('7 euros son '+ cambio + ' dolares')
 
 //*====================================
 
