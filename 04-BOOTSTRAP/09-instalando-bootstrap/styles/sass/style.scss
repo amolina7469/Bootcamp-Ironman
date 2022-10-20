@@ -77,6 +77,16 @@ body.background{
   justify-content: center;
   text-align:start;
 }
+.text{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: larger;
+  font-weight: bold;
+  display: inline-block;
+}
+.color{
+  color:var.$grey-color;
+}
 
 p{
   font-family: 'Montserrat';
@@ -270,8 +280,8 @@ h3{
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
-  justify-self: flex-start;
+  align-self: center;
+  justify-self: center;
   align-items: center;
   justify-content: center;
 }

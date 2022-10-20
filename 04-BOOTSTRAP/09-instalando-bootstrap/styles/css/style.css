@@ -10907,6 +10907,18 @@ body.background {
   text-align: start;
 }
 
+.text {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: larger;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.color {
+  color: hsl(200deg, 23%, 72%);
+}
+
 p {
   font-family: "Montserrat";
   font-weight: 400;
@@ -11080,8 +11092,8 @@ h3, .h3 {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
-  justify-self: flex-start;
+  align-self: center;
+  justify-self: center;
   align-items: center;
   justify-content: center;
 }
