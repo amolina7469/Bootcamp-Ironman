@@ -36,7 +36,7 @@ let miNombre //* ¡Super! 😎
 
 
 //* como se crea una variable
-
+//* let --> Permite crear variable y luego cambiar el valor
 //Podemos crear una variable -> Podemos crear una variable sin asignarle un valor
 
 let nombre 
@@ -64,7 +64,59 @@ console.log(tuNombre)
 tuNombre =23
 console.log(tuNombre)
 
+//* const --> permite crear una variable a la que no podemos cambiar su valor
+
+const miPerra= 'Eevee'
+console.log(miPerra)
+
+//miPerra = 'Nala' //! esto es un error
+
+//! const sólo permite declara e inicializar al mismo tiempo
+
+//const  miPerra  //! guardaría undefined en 'miPerra' no está permitido
 
 
+//* var --> forma tradicional de declara una variable no se recomienda su uso
+
+var miFruta= 'Plátano'
+console.log(miFruta)
 
 
+//************************************************************************/
+
+//? Como mostrar datos para "debuggear"
+
+
+//* console.log()--> Muestra en consola lo que pongas entre los ()
+
+console.log('miFruta -->', miFruta)
+//* alert() --> muestra una ventana emergente que corta la ejecución del código hasta que le des a aceptar
+
+alert('esto es un alert')
+console.log('Texto despues de un alert')
+
+//* prompt() --> input para que interactue el usuario
+//El cvalor introducido por el usuario deberiamos gurdarlo en una variable, para usarlo más tarde
+const nombreUser = prompt('Cómo te llamas?')
+console.log(nombreUser)
+
+//Posibilidades del prompt
+  //1: Si escribes algo se guardará ese texto
+  //2: Si no escribes nada se guardará un texto vacío ''
+  //3: Si le das a cancelar guardarám "null"
+
+  //? Extras del console
+
+  //Mensaje de error en rojo
+  console.error('Esto es un error')
+  // Mensaje de advertencia
+  console.warn('Esto es una advertencia')
+  //Contador de tiempo
+  console.time()
+  let miVariable=5
+  console.timeEnd()
+
+  //Contador de tiempo con nombre
+  console.time('Temporizador1')
+  let otraVariable=7
+  console.timeEnd('Temporizador1')
