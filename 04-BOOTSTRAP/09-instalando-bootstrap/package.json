@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass ./styles/sass:./styles/css"
+    "sass": "sass -w styles/sass:styles/css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.2"
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
   }
 }

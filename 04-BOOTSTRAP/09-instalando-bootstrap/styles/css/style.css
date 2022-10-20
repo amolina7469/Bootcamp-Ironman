@@ -10871,6 +10871,7 @@ body.background {
 }
 
 .caja-padre {
+  max-width: 400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 0.4fr repeat(3, 1fr) 0.5fr;
@@ -10899,12 +10900,6 @@ body.background {
 .icon {
   width: 50px;
   height: 50px;
-  display: flex;
-  align-self: flex-start;
-  justify-self: flex-start;
-  align-items: center;
-  justify-content: center;
-  text-align: start;
 }
 
 .text {
@@ -11092,8 +11087,8 @@ h3, .h3 {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  align-self: center;
-  justify-self: center;
+  align-self: flex-start;
+  justify-self: flex-start;
   align-items: center;
   justify-content: center;
 }
