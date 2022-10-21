@@ -1,48 +1,47 @@
-let nota
+// let nota
 
-nota=prompt('Introduce un nota del 0 al 10:')
+// nota=prompt('Introduce un nota del 0 al 10:')
 
-console.log(nota)
 
-if((nota==null)|| typeof nota=='string'){
+// if(nota==null){
 
-  console.log('No has introducido la edad')
+//   console.log('No has introducido la edad')
 
-}else{
+// }else{
 
-if ((nota > 5)&&(nota < 11)) {
-  console.log('Aprobado')
-} else if (nota == 5) {
-  console.log('Aprobado por los pelos')
-} else if ((nota < 5) && (nota > -1)) {
-  console.log('Suspenso')
-}else {
-  console.log('El número introducido no es correcto')
+// if ((nota > 5)&&(nota < 11)) {
+//   console.log('Aprobado')
+// } else if (nota == 5) {
+//   console.log('Aprobado por los pelos')
+// } else if ((nota < 5) && (nota > -1)) {
+//   console.log('Suspenso')
+// }else {
+//   console.log('El número introducido no es correcto')
 
-}}
+// }}
 
 
 //*=========================================
 
 
-// let numero
+let numero
 
-// numero=prompt('Introduce un número entero:')
+numero=prompt('Introduce un número entero:')
 
-// if((numero==null)||(numero==0)|| typeof numero=='string'){
+if((numero==null)||(numero==0)|| typeof numero=='string'){
 
-//   console.log('No has introducido un número')
+  console.log('No has introducido un número')
 
-// }else{
+}else{
 
-// if(numero > 0){
+if(numero > 0){
 
-// console.log('Es un número positivo')}
-// else{
+console.log('Es un número positivo')}
+else{
   
-// console.log('Es un número negativo')
+console.log('Es un número negativo')
 
-// }}
+}}
 
 //*=========================================
 
@@ -227,3 +226,20 @@ if ((nota > 5)&&(nota < 11)) {
 
 
 //*==================================================================
+
+
+// let hora
+// let min
+// let seg
+
+// hora=prompt('Introduce la hora:')
+// min=prompt('Introduce los minutos:')
+// seg=prompt('Introduce los segundos:')
+
+
+// if((hora>0 && hora<=24)&&(min>0 && min<=59)&&(seg>0 && seg<=59) || typeof hora=='string' || typeof min=='string' ||typeof seg=='string'){
+
+
+// }
+
+// console.log(hora,minutos,segundos)
