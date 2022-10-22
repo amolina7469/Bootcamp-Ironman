@@ -24,24 +24,48 @@
 //*=========================================
 
 
-let numero
+// let numero
 
-numero=prompt('Introduce un número entero:')
+// numero=prompt('Introduce un número entero:')
+// console.log(numero)
+// if((numero==null)||(numero==0)){
 
-if((numero==null)||(numero==0)|| typeof numero=='string'){
+//   console.log('No has introducido un número')
 
-  console.log('No has introducido un número')
+// }else{
 
-}else{
+//       if(numero > 0){
 
-if(numero > 0){
-
-console.log('Es un número positivo')}
-else{
+//           console.log('Es un número positivo')}
+//       else{
   
-console.log('Es un número negativo')
+//           console.log('Es un número negativo')}
 
-}}
+//       if(numero%2 == 0){
+
+//         console.log('Es un número par')}
+        
+//         else{
+          
+//           console.log('Es un número impar')}
+          
+//       if(numero%5 == 0){
+            
+//           console.log('Es multiplo de 5')}
+
+//       if(numero > 100){
+
+//         console.log('Es mayor que 100')}
+//       else if(numero<100){
+          
+//         console.log('Es menor que 100')}
+//       else{
+
+//         console.log('Es 100')}
+
+//       }
+
+      
 
 //*=========================================
 
@@ -80,7 +104,7 @@ console.log('Es un número negativo')
 // }}
 
 
-//*===========================================================
+//*===========================================================*//
 
 // let dia 
 
@@ -201,26 +225,41 @@ console.log('Es un número negativo')
 
 
 
-// if((mes==null) || (mes<=0) || (mes>12) || typeof mes=='string' ){
+// if((mes==null) || (mes<=0)|| (mes>12)){
 
-//   console.log('El dato no es valido. Introduce un número del 1 al 12.')
+//   console.error('El dato no es valido. Introduce un número del 1 al 12.')
 
 // }else{
 
-//     if(mes==2){
+//    switch(mes){
 
-//       console.log('El mes tiene 28 días')
-//     }if(mes%2!=0){
-      
-//       console.log('El mes tiene 30 días')
+//       case '1':
+//       case '3':
+//       case '5':
+//       case '7':
+//       case '8':
+//       case '10':
+//       case '12':{
 
-//     }else{
+//         console.log( 'El mes tiene 31 días')
+//         break
+//       }
 
-//       console.log('El mes tiene 31 días')
+//       case '4':
+//       case '6':
+//       case '9':
+//       case '11':{
+  
+//           console.log( 'El mes tiene 30 días')
+//           break
+//         }
 
-//     }
+//       case'2':{
 
+//         console.log('El mes tiene 28 días')
+//       }
 
+//    }
 
 // }
 
@@ -228,18 +267,18 @@ console.log('Es un número negativo')
 //*==================================================================
 
 
-// let hora
-// let min
-// let seg
+let hora
+let min
+let seg
 
-// hora=prompt('Introduce la hora:')
-// min=prompt('Introduce los minutos:')
-// seg=prompt('Introduce los segundos:')
-
-
-// if((hora>0 && hora<=24)&&(min>0 && min<=59)&&(seg>0 && seg<=59) || typeof hora=='string' || typeof min=='string' ||typeof seg=='string'){
+hora=prompt('Introduce la hora:')
+min=prompt('Introduce los minutos:')
+seg=prompt('Introduce los segundos:')
 
 
-// }
+if((hora>0) && (hora<=24) && (min>0) && (min<59) && (seg>0) && (seg<59) ){
 
-// console.log(hora,minutos,segundos)
+  console.log(hora,min,seg)
+
+}
+
