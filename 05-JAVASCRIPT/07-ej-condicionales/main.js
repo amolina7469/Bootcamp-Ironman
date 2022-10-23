@@ -276,9 +276,28 @@ min=prompt('Introduce los minutos:')
 seg=prompt('Introduce los segundos:')
 
 
-if((hora>0) && (hora<=24) && (min>0) && (min<59) && (seg>0) && (seg<59) ){
+if((hora>0) && (hora<24) && (min>0) && (min<59) && (seg>0) && (seg<59) ){
 
-  console.log(hora,min,seg)
+ debugger 
+  if((seg == 59) && (min != 59) && (hora !=23)){
+    
+      min++
+      seg=0
+
+      console.log(hora,min,seg)
+    }
+    else if((seg === 59)&& (min === 59) && (hora !=23)){
+      
+      hora++
+      min=0
+      seg=0
+      
+      console.log(hora,min,seg)
+  }
+  
+
+
+
 
 }
 
