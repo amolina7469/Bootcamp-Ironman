@@ -28,12 +28,11 @@ comparaNumeros(5, 5)
 // * Funciones 03
 
 function mayusculas (palabra) {
-  // const letra = palabra.substr(0, 1).toUpperCase()
-  // const recorte = palabra.substr(1, palabra.length)
+  const resultado = palabra.substr(0, 1).toUpperCase() + palabra.slice(1) // Si sólo ponemos un número cogera las letras desde ese punto hasta el final
+  console.log(resultado)
+  // const letra = palabra.slice(0, 1).toUpperCase()
+  // const recorte = palabra.slice(1, palabra.length)
   // console.log(letra + recorte)
-  const letra = palabra.slice(0, 1).toUpperCase()
-  const recorte = palabra.slice(1, palabra.length)
-  console.log(letra + recorte)
 }
 
 
