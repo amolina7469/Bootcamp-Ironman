@@ -1,3 +1,6 @@
+/* eslint-disable no-mixed-operators */
+/* eslint-disable no-constant-condition */
+/* eslint-disable eqeqeq */
 //? Condicionales en Javascript
 
 const num1 = 14
@@ -50,19 +53,18 @@ if (num3 <= num2) {
 }
 
 
-
 //* Igual que....       ==
 if (num1 == num2) {
-  console.log('==  ->' , `${num1} es igual que ${num2}`)
+  console.log('==  ->', `${num1} es igual que ${num2}`)
 }
-//! los 2 iguales solo comprueban si los VALORES de las variables son iguales, le da igual el tipo de valor que sean  
+//! los 2 iguales solo comprueban si los VALORES de las variables son iguales, le da igual el tipo de valor que sean
 
 //* ========================================== *//
 
 
 //* Igual que...PERO DE VERDAD DE LA BUENA      ===
 if (num1 === num2) {
-  console.log('===  ->' , `${num1} es igual que ${num2}`)
+  console.log('===  ->', `${num1} es igual que ${num2}`)
 }
 
 if (nombre === 'Ivan') {
@@ -82,12 +84,12 @@ if (typeof num1 === 'string') {
 
 //*  Distinto que...      !=
 if (num1 != num2) {
-  console.log('!=  ->' , `${num1} y ${num2} son distintos`)
+  console.log('!=  ->', `${num1} y ${num2} son distintos`)
 }
 
 //* Distinto que...PERO DE VERDAD DE LA BUENA    !==
 if (num1 !== num2) {
-  console.log('!==  ->' , `${num1} y ${num2} son distintos`)
+  console.log('!==  ->', `${num1} y ${num2} son distintos`)
 }
 
 //* ========================================== *//
@@ -114,28 +116,26 @@ if (num1 !== num2) {
 // Cuando preguntamos con el AND, necesita que LOS DOS LADOS SEAN true para que TODO SEA true
 
 //                   true
-//        true                    true   
+//        true                    true
 if (nombre === 'Ivan' && typeof num1 === 'string') {
-  console.log(`La variable nombre contiene el "string" "Ivan" y num1 es de tipo "string"`)
+  console.log('La variable nombre contiene el "string" "Ivan" y num1 es de tipo "string"')
 }
 
-
-
-//* OR -->   || 
+//* OR -->   ||
 // Cuando usamor OR, le da igual qué lado de los dos sea true, SOLO CON QUE TENGA UNO, todo será true
 
 
 //                   false
 //         false                 false
 if (nombre === 'Carlos' || typeof num1 === 'string') {
-  console.log(`La variable nombre contiene el "string" "Ivan" O también puede ser que num1 sea de tipo "string"`)
+  console.log('La variable nombre contiene el "string" "Ivan" O también puede ser que num1 sea de tipo "string"')
 }
 
 
 //                                              true
-//                       false                   ||               true    
+//                       false                   ||               true
 //           false     ||            false                         ||                true
-//          false             false                 true                    true            true 
+//          false             false                 true                    true            true
 if (nombre === 'Carlos' || num1 > num2 && typeof nombre === 'string' || num3 > num2 && num2 % 3 === 0) {
   console.log('Se cumple todo')
 }
@@ -144,7 +144,7 @@ if (nombre === 'Carlos' || num1 > num2 && typeof nombre === 'string' || num3 > n
 //* ========================================== *//
 
 //*  else if.......    -->  EN CAMBIO, SI SE CUMPLE ESTO...HAZ ESTO
-//! No puede existir un else if... si no hay un if primero 
+//! No puede existir un else if... si no hay un if primero
 //! Puedes añadir todos los else if... que quieras, pero solo un if
 
 /*
@@ -174,11 +174,11 @@ if (nombre === 'Ivan') {
 // aunque el nombre sea 'Ivan' va a preguntar los dos siguientes ifs, aunque ya sepamos que no pueden ser verdad
 if (nombre === 'Ivan') {
   console.log('Hola, Ivan')
-} 
+}
 
 if (nombre === 'Alberto') {
   console.log('Hola, Alberto')
-} 
+}
 
 if (nombre === 'Rocío') {
   console.log('Hola, Rocío')
@@ -249,9 +249,9 @@ if (nombre === 'Ivan') {
         ''          -->     false
         0           -->     false
         */
-       
-let estaCasado = false   
-        
+
+let estaCasado = false
+
 if (estaCasado === true) {
   console.log('✅')
 } else {
@@ -270,7 +270,7 @@ if (estaCasado) {
 if (estaCasado === false) {
   console.log('A qué esperas, cásate ya!')
 }
-   
+
 //! SIEMPRE QUE VERAS UNA ADMIRACIÓN TRANSFÓRMALA EN LA PALBRA ¡NO!
 if (!estaCasado) {
   console.log('A qué esperas, cásate ya!')
@@ -282,9 +282,9 @@ if (!estaCasado) {
 if (estaCasado) console.log('✅')
 else console.log('❌')
 
-if (num1 > 0)       console.log('num1 es positivo')
-else if (num1 < 0)  console.log('num1 es negativo')
-else                console.log('num1 es 0')
+if (num1 > 0) console.log('num1 es positivo')
+else if (num1 < 0) console.log('num1 es negativo')
+else console.log('num1 es 0')
 
 
 //* ========================================== *//
@@ -298,7 +298,7 @@ const color = 'butano'
 if (color === 'rojo') {
   console.log('El color de la pasión 💘')
 } else if (color === 'verde') {
-  console.log('El color de la esperanza 🥦')  
+  console.log('El color de la esperanza 🥦')
 } else if (color === 'amarillo') {
   console.log('El color del Sol 🌞')
 } else if (color === 'azul') {
@@ -311,34 +311,49 @@ if (color === 'rojo') {
 
 
 switch (color) {
-
-  case 'rojo': {
-    console.log('El color de la pasión 💘')
-    break
-  }
-
-  case 'verde': {
-    console.log('El color de la esperanza 🥦') 
-    break
-  }
-
-  case 'amarillo': {
-    console.log('El color del Sol 🌞')
-    break
-  }
-
-  case 'azul': {
-    console.log('El color del mar 🌊')
-    break
-  }
-
-  case 'naranja': 
-  case 'butano' : {
-    console.log('Color butano ⛽')
-    break
-  }
-  default: {
-    console.log(`${color} no es un color molón`)
-  }
-
+case 'rojo': {
+  console.log('El color de la pasión 💘')
+  break
 }
+
+case 'verde': {
+  console.log('El color de la esperanza 🥦')
+  break
+}
+
+case 'amarillo': {
+  console.log('El color del Sol 🌞')
+  break
+}
+
+case 'azul': {
+  console.log('El color del mar 🌊')
+  break
+}
+
+case 'naranja':
+case 'butano' : {
+  console.log('Color butano ⛽')
+  break
+}
+default: {
+  console.log(`${color} no es un color molón`)
+}
+}
+
+
+// *===================================================*//
+// *===================================================*//
+// *Ambito de las variable -->   SCOPE*
+
+let miNombre = 'Ronald' // Cuando usamos una variable en cualquier lado (fuera de unos bloques de llaves{}) --> ámbito global (global scope)
+if (miNombre.length > 5) {
+  const miPerra = 'Kira' // una variable creada dentro de un juego de llaves sólo se puede usar dentro de ese bloque --> ámbito local (local ccope)
+  miNombre = 'Ivan'
+}
+console.log(miNombre)
+
+// console.log(miPerra) // ! ERROR!!!! Fuera no existe
+console.log(miNombre)
+
+
