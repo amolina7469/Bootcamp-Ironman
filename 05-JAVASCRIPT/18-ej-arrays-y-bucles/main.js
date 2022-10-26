@@ -80,15 +80,102 @@
 // Elimina todas las vocales de la frase y imprime la nueva frase por consola como un
 // string.
 
-const frase = prompt('Introduce una frase')
-const arrayFrase = frase.split('')
+// const frase = prompt('Introduce una frase')
+// const arrayFrase = frase.split('')
 
 
-for (let i = 0; i < frase.length; i++) {
-  if (arrayFrase[i] === 'a' || arrayFrase[i] === 'e' || arrayFrase[i] === 'i' || arrayFrase[i] === 'o' || arrayFrase[i] === 'u' || arrayFrase[i] === 'A' || arrayFrase[i] === 'E' || arrayFrase[i] === 'I' || arrayFrase[i] === 'O' || arrayFrase[i] === 'U') {
-    arrayFrase.splice(i, 1)
-    i--
+// for (let i = 0; i < frase.length; i++) {
+//   if (arrayFrase[i] === 'a' || arrayFrase[i] === 'e' || arrayFrase[i] === 'i' || arrayFrase[i] === 'o' || arrayFrase[i] === 'u' || arrayFrase[i] === 'A' || arrayFrase[i] === 'E' || arrayFrase[i] === 'I' || arrayFrase[i] === 'O' || arrayFrase[i] === 'U') {
+//     arrayFrase.splice(i, 1)
+//     i--
+//   }
+// }
+
+// console.log(arrayFrase.join(''))
+
+
+// ? Bucles 10. ===============================================================================================
+
+// Recorrer la siguiente lista con un bucle, imprimiendo el doble de cada número:
+
+// const myList = [1, 9, 3, 8, 5, 7]
+
+// for (let i = 0; i < myList.length; i++) {
+//   const resultado = myList[i] * 2
+//   console.log(resultado)
+// }
+
+// ? Bucles 11. ================================================================================================
+
+// En un array cualquiera con 10 números, contar cuantos números positivos hay,
+// cuantos negativos y cuantos ceros.
+
+// const arrayRandom = []
+// let positivo = 0
+// let negativo = 0
+// let ceros = 0
+
+// for (let i = 0; i < 10; i++) {
+//   arrayRandom.push(Math.floor(Math.random() * (99 - -99 + 1) + -99))
+// }
+// console.log(arrayRandom)
+
+// for (let i = 0; i < arrayRandom.length; i++) {
+//   if (Math.sign(arrayRandom[i] > 0)) {
+//     positivo++
+//   } else if (Math.sign(arrayRandom[i] < 0)) {
+//     negativo++
+//   } else {
+//     ceros++
+//   }
+// }
+// console.log(`En el array hay ${positivo} números positivos, ${negativo} números negativos y ${ceros} ceros`)
+
+ // ? Bucles 06. ================================================================================================
+
+// for (let i = 1; i <= 10; i++) {
+//   for (let x = 0; x <= 10; x++) {
+//     console.log(`${i} x ${x} = ${i * x}`)
+//   }
+// }
+
+
+  // ? Bucles 09. ================================================================================================
+
+// let estrellas = ''
+// let i = 0
+
+
+// while (i < 7) {
+//   console.log(estrellas = estrellas + '*')
+//   i++
+// }
+
+// ? Bucles 13. ==================================================================================================
+
+const numeroSecreto = Math.floor((Math.random() * 100) + 1)
+console.log(numeroSecreto)
+let intentos = 0
+let numeroUser = parseInt(prompt('Introduce un número del 1 al 100'))
+
+for (let i = 5; i > 0; i--) {
+  if (numeroSecreto === numeroUser) {
+    console.log(`Enhorabuena el número secreto era ${numeroSecreto} !!!`)
+    i = -1
+  } else if (numeroSecreto < numeroUser) {
+    numeroUser = parseInt(prompt(`El número introducido es mayor. Introduce un número menor. Te quedan ${i} intento(s)`))
+    intentos++
+  } else {
+    numeroUser = parseInt(prompt(`El número introducido es menor. Introduce un número mayor. Te quedan ${i} intento(s)`))
+    intentos++
   }
 }
+if (intentos === 5) {
+  console.log('Lo siento no has adivinado el número')
+}
 
-console.log(arrayFrase.join(''))
+// ? Bucles 12. ==============================================================================================
+
+// const numero = parseInt(prompt('Introduce un número mayor que 1:'))
+
+// if (numero)
