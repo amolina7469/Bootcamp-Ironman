@@ -173,7 +173,7 @@
 // ? Bucles 13. ==================================================================================================
 
 const numeroSecreto = Math.floor((Math.random() * 100) + 1)
-// console.log(numeroSecreto)
+console.log(numeroSecreto)
 let intentos = 0
 let numeroUser = parseInt(prompt('Introduce un número del 1 al 100'))
 
