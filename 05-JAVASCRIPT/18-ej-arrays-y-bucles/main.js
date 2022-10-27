@@ -105,6 +105,18 @@
 //   console.log(resultado)
 // }
 
+// FOR OF:
+// const myList = [1, 9, 3, 8, 5, 7]
+// for (const num of myList) {
+//   console.log(num * 2)
+// }
+
+// FOR IN:
+// const myList = [1, 9, 3, 8, 5, 7]
+// for (const i in myList) {
+// console.log(myList[i] * 2)
+// }
+
 // ? Bucles 11. ================================================================================================
 
 // En un array cualquiera con 10 números, contar cuantos números positivos hay,
@@ -116,7 +128,7 @@
 // let ceros = 0
 
 // for (let i = 0; i < 10; i++) {
-//   arrayRandom.push(Math.floor(Math.random() * (99 - -99 + 1) + -99))
+//   arrayRandom.push(Math.floor(Math.random() * (99 - (-99) + 1) + (-99)))
 // }
 // console.log(arrayRandom)
 
@@ -134,8 +146,8 @@
  // ? Bucles 06. ================================================================================================
 
 // for (let i = 1; i <= 10; i++) {
-//   for (let x = 0; x <= 10; x++) {
-//     console.log(`${i} x ${x} = ${i * x}`)
+//   for (let j = 0; j <= 10; j++) {
+//     console.log(`${i} x ${j} = ${i * j}`)
 //   }
 // }
 
@@ -144,23 +156,32 @@
 
 // let estrellas = ''
 // let i = 0
+// const vueltas = 7
 
-
-// while (i < 7) {
-//   console.log(estrellas = estrellas + '*')
+// while (i < vueltas) {
+//   console.log(estrellas += '*')
 //   i++
+// }
+
+// Opción método repeat
+
+// const estrellita = '*'
+// for (let i = 1; i <= 7; i++) {
+//   console.log(estrellita.repeat(i))
 // }
 
 // ? Bucles 13. ==================================================================================================
 
 const numeroSecreto = Math.floor((Math.random() * 100) + 1)
-console.log(numeroSecreto)
+// console.log(numeroSecreto)
 let intentos = 0
 let numeroUser = parseInt(prompt('Introduce un número del 1 al 100'))
 
+
 for (let i = 5; i > 0; i--) {
   if (numeroSecreto === numeroUser) {
-    console.log(`Enhorabuena el número secreto era ${numeroSecreto} !!!`)
+    // console.log(`Enhorabuena el número secreto era ${numeroSecreto} !!!`)
+    alert(`Enhorabuena el número secreto era ${numeroSecreto} !!! 🎉🥳`)
     i = -1
   } else if (numeroSecreto < numeroUser) {
     numeroUser = parseInt(prompt(`El número introducido es mayor. Introduce un número menor. Te quedan ${i} intento(s)`))
@@ -170,12 +191,26 @@ for (let i = 5; i > 0; i--) {
     intentos++
   }
 }
+
 if (intentos === 5) {
-  console.log('Lo siento no has adivinado el número')
+  // console.log('Lo siento no has adivinado el número')
+  alert(`Lo siento no has adivinado el número. El número secreto era ${numeroSecreto} !!!`)
 }
 
 // ? Bucles 12. ==============================================================================================
 
-// const numero = parseInt(prompt('Introduce un número mayor que 1:'))
-
-// if (numero)
+// const numero = Number(prompt('Introduce un número mayor que 1:'))
+// let esPrimo = true
+// if (numero > 1) {
+//   for (let i = 2; i < numero; i++) {
+//     if (numero % i === 0) {
+//       esPrimo = false
+//       break
+//     }
+//   }
+//   if (esPrimo) { // Esto quiere decir que es "esPrimo === true". No es primo sería "!esPrimo"
+//     console.log('Es primo')
+//   } else {
+//     console.log('No es primo')
+//   }
+// }
