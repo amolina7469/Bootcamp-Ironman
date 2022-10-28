@@ -81,7 +81,9 @@ const arrayFrutas = ['Plátanos', 'Bananas', 'Piñas', 'Manzanas', 'Peras', 'Uva
 //   }
 //   return arrayInverso
 // }
+// console.time('alreves')
 // alreves(arrayFrutas)
+// console.timeEnd('alreves')
 // console.log(alreves(arrayFrutas))
 
 
@@ -102,63 +104,169 @@ const arrayFrutas = ['Plátanos', 'Bananas', 'Piñas', 'Manzanas', 'Peras', 'Uva
 // Refactoriza para que haya el menor número de cosas repetidas.
 
 
-const sumar = () => {
-  const num1 = Number(prompt('Introduce el primer sumando'))
-  const num2 = Number(prompt('Introduce el segundo sumando'))
+// const sumar = () => {
+//   const num1 = Number(prompt('Introduce el primer sumando'))
+//   const num2 = Number(prompt('Introduce el segundo sumando'))
+//   console.log(num1 + num2)
+// }
+
+// const restar = () => {
+//   const num1 = Number(prompt('Introduce el minuendo'))
+//   const num2 = Number(prompt('Introduce el sustraendo'))
+//   console.log(num1 - num2)
+// }
+
+// const multiplicar = () => {
+//   const num1 = Number(prompt('Introduce el multiplicando'))
+//   const num2 = Number(prompt('Introduce el multiplicador'))
+//   console.log(num1 * num2)
+// }
+
+// const dividir = () => {
+//   const num1 = Number(prompt('Introduce el dividendo'))
+//   const num2 = Number(prompt('Introduce el divisor'))
+//   console.log(num1 / num2)
+// }
+// const exponencial = () => {
+//   const num1 = Number(prompt('Introduce un número'))
+//   const num2 = Number(prompt('Introduce la potencia'))
+//   console.log(num1 ** num2)
+// }
+
+// const porcentaje = () => {
+//   const num1 = Number(prompt('Introduce un número'))
+//   const num2 = Number(prompt('Introduce el tanto por ciento'))
+//   console.log(num1 * (num2 / 100))
+// }
+
+
+// let opcion = 'x'
+// do {
+//   opcion = prompt(`Elige una de las siguientes opciones:
+//   (s) sumar
+//   (r) restar
+//   (m) multiplicar
+//   (d) dividir
+//   (e) exponencial
+//   (p) porcentaje
+//   (x) salir
+//   `)
+//   switch (opcion) {
+//   case 's':
+//     sumar()
+//     break
+//   case 'r':
+//     restar()
+//     break
+//   case 'm':
+//     multiplicar()
+//     break
+//   case 'd':
+//     dividir()
+//     break
+//   case 'e':
+//     exponencial()
+//     break
+//   case 'p':
+//     porcentaje()
+//     break
+//   default:
+//     break
+//   }
+// } while (opcion !== 'x')
+
+
+// * ======================================== *//
+
+
+const pedirNumero = (mensaje) => {
+  let num1
+  do {
+    num1 = prompt(mensaje)
+  } while (num1 === null || num1.trim() === '' || isNaN(num1) === true)
+  num1 = Number(num1)
+  return num1
+}
+
+const sumar = (num1, num2) => {
   console.log(num1 + num2)
 }
 
-const restar = () => {
-  const num1 = Number(prompt('Introduce el minuendo'))
-  const num2 = Number(prompt('Introduce el sustraendo'))
+const restar = (num1, num2) => {
   console.log(num1 - num2)
 }
 
-const multiplicar = () => {
-  const num1 = Number(prompt('Introduce el multiplicando'))
-  const num2 = Number(prompt('Introduce el multiplicador'))
+const multiplicar = (num1, num2) => {
   console.log(num1 * num2)
 }
 
-const dividir = () => {
-  const num1 = Number(prompt('Introduce el dividendo'))
-  const num2 = Number(prompt('Introduce el divisor'))
+const dividir = (num1, num2) => {
   console.log(num1 / num2)
 }
-const exponencial = () => {
-  const num1 = Number(prompt('Introduce un número'))
-  const num2 = Number(prompt('Introduce la potencia'))
+
+const exponencial = (num1, num2) => {
   console.log(num1 ** num2)
 }
 
-const porcentaje = () => {
-  const num1 = Number(prompt('Introduce un número'))
-  const num2 = Number(prompt('Introduce el tanto por ciento'))
+const porcentaje = (num1, num2) => {
   console.log(num1 * (num2 / 100))
 }
 
-
-let opcion = 'x'
+let respuesta
 do {
-  opcion = prompt('Elige una de las siguientes opciones:(s) sumar, (r) restar, (m) multiplicar, (d) dividir, (e) exponencial, (p) porcentaje y (x) salir. ')
-  switch (opcion) {
-  case 's':
-    sumar()
-    break
-  case 'r':
-    restar()
-    break
-  case 'm':
-    multiplicar()
-    break
-  case 'd':
-    dividir()
-    break
-  case 'e':
-    exponencial()
-    break
-  case 'p':
-    porcentaje()
+  respuesta = prompt(`¡Bienvenid@ a la calculadora 1.0  ¿Qué quieres hacer?  
+  (s) sumar  
+  (r) restar  
+  (m) multiplicar  
+  (d) dividir  
+  (e) exponencial  
+  (p) porcentaje  
+  (x) salir  
+  `)
+
+  switch (respuesta) {
+  case 's': {
+    const a = pedirNumero('Dime el minuendo.')
+    const b = pedirNumero('Dime el sustraendo.')
+    sumar(a, b)
     break
   }
-} while (opcion !== 'x')
+  case 'r': {
+    const a = pedirNumero('Dime el primer sumando.')
+    const b = pedirNumero('Dime el segundo sumando.')
+    restar(a, b)
+    break
+  }
+  case 'm': {
+    const a = pedirNumero('Dime el multiplicando.')
+    const b = pedirNumero('Dime el multiplicador.')
+    multiplicar(a, b)
+    break
+  }
+  case 'd': {
+    const a = pedirNumero('Dime el dividendondo.')
+    const b = pedirNumero('Dime el divisor.')
+    dividir(a, b)
+    break
+  }
+  case 'e': {
+    const a = pedirNumero('Dime un número.')
+    const b = pedirNumero('Dimela potencia al que lo vamos a elevar.')
+    exponencial(a, b)
+    break
+  }
+  case 'p': {
+    const a = pedirNumero('Dime un número.')
+    const b = pedirNumero('Introduce el tanto por ciento que le vamos a aplicar.')
+    porcentaje(a, b)
+    break
+  }
+  case 'x' : {
+    break
+  }
+  default:{
+    console.error('No has puesto una respuesta correcta.')
+  }
+  }
+} while (respuesta !== 'x')
+

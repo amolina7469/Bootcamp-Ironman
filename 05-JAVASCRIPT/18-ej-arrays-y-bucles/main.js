@@ -172,45 +172,45 @@
 
 // ? Bucles 13. ==================================================================================================
 
-const numeroSecreto = Math.floor((Math.random() * 100) + 1)
-console.log(numeroSecreto)
-let intentos = 0
-let numeroUser = parseInt(prompt('Introduce un número del 1 al 100'))
+// const numeroSecreto = Math.floor((Math.random() * 100) + 1)
+// console.log(numeroSecreto)
+// let intentos = 0
+// let numeroUser = parseInt(prompt('Introduce un número del 1 al 100'))
 
 
-for (let i = 5; i > 0; i--) {
-  if (numeroSecreto === numeroUser) {
-    // console.log(`Enhorabuena el número secreto era ${numeroSecreto} !!!`)
-    alert(`Enhorabuena el número secreto era ${numeroSecreto} !!! 🎉🥳`)
-    i = -1
-  } else if (numeroSecreto < numeroUser) {
-    numeroUser = parseInt(prompt(`El número introducido es mayor. Introduce un número menor. Te quedan ${i} intento(s)`))
-    intentos++
-  } else {
-    numeroUser = parseInt(prompt(`El número introducido es menor. Introduce un número mayor. Te quedan ${i} intento(s)`))
-    intentos++
-  }
-}
+// for (let i = 5; i > 0; i--) {
+//   if (numeroSecreto === numeroUser) {
+//     // console.log(`Enhorabuena el número secreto era ${numeroSecreto} !!!`)
+//     alert(`Enhorabuena el número secreto era ${numeroSecreto} !!! 🎉🥳`)
+//     i = -1
+//   } else if (numeroSecreto < numeroUser) {
+//     numeroUser = parseInt(prompt(`El número introducido es mayor. Introduce un número menor. Te quedan ${i} intento(s)`))
+//     intentos++
+//   } else {
+//     numeroUser = parseInt(prompt(`El número introducido es menor. Introduce un número mayor. Te quedan ${i} intento(s)`))
+//     intentos++
+//   }
+// }
 
-if (intentos === 5) {
-  // console.log('Lo siento no has adivinado el número')
-  alert(`Lo siento no has adivinado el número. El número secreto era ${numeroSecreto} !!!`)
-}
+// if (intentos === 5) {
+//   // console.log('Lo siento no has adivinado el número')
+//   alert(`Lo siento no has adivinado el número. El número secreto era ${numeroSecreto} !!!`)
+// }
 
 // ? Bucles 12. ==============================================================================================
 
-// const numero = Number(prompt('Introduce un número mayor que 1:'))
-// let esPrimo = true
-// if (numero > 1) {
-//   for (let i = 2; i < numero; i++) {
-//     if (numero % i === 0) {
-//       esPrimo = false
-//       break
-//     }
-//   }
-//   if (esPrimo) { // Esto quiere decir que es "esPrimo === true". No es primo sería "!esPrimo"
-//     console.log('Es primo')
-//   } else {
-//     console.log('No es primo')
-//   }
-// }
+const numero = Number(prompt('Introduce un número mayor que 1:'))
+let esPrimo = true
+if (numero > 1) {
+  for (let i = 2; i < numero; i++) {
+    if (numero % i === 0) {
+      esPrimo = false
+      break
+    }
+  }
+  if (esPrimo) { // Esto quiere decir que es "esPrimo === true". No es primo sería "!esPrimo"
+    console.log('Es primo')
+  } else {
+    console.log('No es primo')
+  }
+}
