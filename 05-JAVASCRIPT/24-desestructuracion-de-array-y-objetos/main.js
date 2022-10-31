@@ -84,6 +84,7 @@ console.log(icono)
 // * ======================================== *//
 
 // * Ejercicio
+
 const luke = {
   name: 'Luke Skywalker',
   height: '172',
@@ -116,7 +117,7 @@ const luke = {
 
 // desetructurar las propiedades edited films y  hir_color y las guardais con los nombres edited films y pelo
 
-const { edited, films, hair_color : pelo } = luke
+const { edited, films, hair_color: pelo } = luke
 
 // imprime los 3 valores
 console.log(edited)
