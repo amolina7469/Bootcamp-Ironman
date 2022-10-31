@@ -21,6 +21,27 @@ console.log(naranjas)
 
 // ? Caso práctico
 
+const pedirDosNumeros = () => {
+  const num1 = +prompt('Dime un número')
+  const num2 = +prompt('Dime otro número')
+
+  return [num1, num2] // [5, 2]
+}
+// versión normal y corriente
+// const arrDosNums = pedirDosNumeros() // [5, 2]
+// const num1 = arrDosNums[0] // 5
+// const num2 = arrDosNums[1] // 2
+
+// versión desestructurada
+// const arrayNums = pedirDosNumeros()
+// const [a, b] = arrayNums
+
+// versión desestructurada más corta
+
+// const [x, y] = pedirDosNumeros()
+
+
+// console.log(x + y) // 5 + 2
 
 // * ======================================== *//
 
@@ -36,7 +57,26 @@ const sandia = {
 
 // version normal
 const nombre = sandia.nombre
-console.log(nombre)
+const emoticono = sandia.emoticono
+console.log(nombre, emoticono)
+
+// desestructurando
+const { procedencia, dulzor, cantidad } = sandia
+
+
+console.log(`La ${sandia.nombre} es una fruta que viene de ${sandia.procedencia} y ahora mismo me quedan ${sandia.cantidad} en stock. Son super dulces, tienen un dulzor de nivel ${sandia.dulzor}. ¿Quieres sandías? ${sandia.emoticono}`)
+
+// version corta
+console.log(`La ${nombre} es una fruta que viene de ${procedencia} y ahora mismo me quedan ${cantidad} en stock. Son super dulces, tienen un dulzor de nivel ${dulzor}. ¿Quieres sandías? ${emoticono}`)
+
+//! NORMAS DE LA DESESTRUCTURACIÓN DE OBJETOS
+//* NO IMPORTA EL ORDEN EN QUE CREES LAS VARIABLES, LO IMPORTANTE SON LOS NOMBRES
+
+//* como EXTRA, podemos ponerle un "alias" a las variables que desestructures
+
+const { emoticono: icono } = sandia
+
+console.log(icono)
 
 
 // * ======================================== *//
@@ -85,4 +125,4 @@ console.log(pelo)
 // como films es un array desestructurar la primera peli, la segunda y la cuarta
 
 const [peli1, peli2, , peli4] = films
-  console.log(peli1, peli2, peli4)
+console.log(peli1, peli2, peli4)
