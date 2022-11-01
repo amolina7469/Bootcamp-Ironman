@@ -1,9 +1,9 @@
 // Mini "base de datos"
 // ! array de strings nos da poco juego, siempre jugaremos con un array de objetos
 const allToDos = [
-  { id: 1, task: 'Pasear a las perras 🐶' },
-  { id: 2, task: 'Estudiar Javascript 💻' },
-  { id: 3, task: 'Comprar el pan 🥖' }
+  { id: 1, task: 'Pasear a las perras 🐶', isCompleted: false },
+  { id: 2, task: 'Estudiar Javascript 💻', isCompleted: true },
+  { id: 3, task: 'Comprar el pan 🥖', isCompleted: false }
 ]
 let tarea
 let contador = 3
@@ -26,7 +26,8 @@ const readToDos = (array) => {
   console.clear()
   console.log('***ESTAS SON TUS TAREAS***')
   for (let i = 0; i < allToDos.length; i++) {
-    console.log(`${allToDos[i].id}: ${allToDos[i].task}`)
+    const completedIcon = allToDos[i].isCompleted === true ? '✅' : '❌'
+    console.log(`${completedIcon} ${allToDos[i].id}: ${allToDos[i].task}`)
   }
 }
 
@@ -79,7 +80,30 @@ const deleteToDo = (array, texto) => {
 
 
 const completeUncompleteToDo = (array, texto) => {
-  console.log('completando')
+  readToDos()
+  let idDelete
+  let existe = false
+
+  do {
+    idDelete = Number(prompt('Dime el ID de la tarea que quieres completar o descompletar:'))
+  } while (idDelete === null)
+
+  for (let i = 0; i < allToDos.length; i++) {
+    if (idDelete === allToDos[i].id) {
+      if (allToDos[i].isCompleted === true) {
+        allToDos[i].isCompleted = false
+        console.log('Has cambaido la tarea a incompleta correctamente')
+      } else {
+        allToDos[i].isCompleted = true
+        console.log('Has cambaido la tarea a completada correctamente')
+      }
+      existe = true
+    }
+  }
+
+  if (existe === false) {
+    console.error(`El id:${idDelete} no existe en la base de datos`)
+  }
 }
 
 
