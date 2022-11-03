@@ -1,0 +1,21 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  margin-block: 1rem;
+  border: 2px solid black;
+  background: pink;
+  overflow: auto;
+
+  animation: irDerecha 2s alternate 2 linear;
+}
+
+input:focus {
+  outline-color: lightseagreen;
+}
+
+
+@keyframes irDerecha {
+  to {
+    transform: translateX(200px)
+  }
+}

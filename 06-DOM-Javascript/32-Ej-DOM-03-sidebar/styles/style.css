@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: pink;
+  padding: 0.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu__link {
+  color: black;
+  text-decoration: none;
+} 
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.sidebar {
+  background-color: hotpink;
+  position: absolute;
+  width: 200px;
+  padding: 1rem;
+  text-align: center;
+  transition : right 1s ease;
+  right: -200px;
+}
+
+
+.menu-sidebar {
+  display: flex;
+  flex-direction: column;
+
+}
+.menu-sidebar__link {
+  text-decoration: none;
+  color: white;
+}
+
+.toggle-button {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.open {
+  right: 0px;
+}
