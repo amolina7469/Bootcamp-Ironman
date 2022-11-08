@@ -1,0 +1,121 @@
+:root {
+  --main-color: hsl(267, 72%, 63%);
+  --accent: hsl(52, 99%, 62%);
+  --accent-hover: hsl(52, 99%, 75%);  
+  --accent-active: hsl(52, 99%, 50%);
+  --invalid-color: hsl(345, 100%, 60%);
+  --radius: 3px;
+  --shadow-color: hsl(0, 0%, 19%, 0.3);
+  --shadow: 0 3px 15px 0 var(--shadow-color);
+}
+
+::selection {
+  background-color: var(--accent);
+  color: hsl(0, 0%, 19%);
+}
+
+body {
+  background: var(--main-color);
+  color: white;  
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+form.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.2rem 0.8rem;
+  box-shadow: var(--shadow);
+  border: 0;
+  border-radius: var(--radius);
+}
+input[type="text"]:focus {
+  outline: 2px solid var(--accent);
+  border: none;
+}
+
+input[type="text"].invalid {
+  outline:2px solid var(--invalid-color);
+}
+
+.isRead-box {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--accent);
+}
+
+.form-btn {
+  background-color: var(--accent);
+  border: 0;
+  padding: 0.3rem 0.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+
+
+.form-btn:hover {
+  background-color: var(--accent-hover);  
+}
+
+.form-btn:active {
+  background-color: var(--accent-active);  
+}
+
+
+
+section.book-section {
+  width: 80%;
+  max-width: 800px;
+  margin-inline: auto;
+  margin-block: 2rem;
+  padding: 1.5rem 2.5rem;
+
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+h2.book-section__title {
+  text-align: center;
+}
+
+ul.book-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+li.book-list__item {
+  display: flex;
+  font-size: 1.3rem;
+}
+
+span.delete-icon {
+  margin-left: auto;
+  cursor: pointer;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+span.delete-icon:hover {
+  transform: rotate(90deg);
+}

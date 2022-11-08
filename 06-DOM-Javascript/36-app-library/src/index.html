@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fuente Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="https://ivan-luengo.com/wp-content/uploads/2020/03/cropped-favicon-ivan_luengo-32x32.png">
+
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <title>App de mi librería</title>
+</head>
+<body>
+  <h1>Mi librería</h1>
+
+  <form class="form">
+    <input type="text" placeholder="Título del libro..." name="title">
+    <div class="isRead-box">
+      <input id="isRead" type="checkbox" name="isRead">
+      <label for="isRead">¿Leído?</label>
+    </div>
+    <button class="form-btn">Añadir</button>
+  </form>
+  
+  <section class="book-section">
+    <h2 class="book-section__title">Mis libros:</h2>
+    <ul class="book-list">
+      <li class="book-list__item">El perfume - <span class="isRead-icon">📖</span><span class="delete-icon">❌</span></li>
+      <li class="book-list__item">1984 - <span class="isRead-icon">📕</span><span class="delete-icon">❌</span></li>
+    </ul>
+  </section>
+  
+  <script src="main.js"></script>
+</body>
+</html>
