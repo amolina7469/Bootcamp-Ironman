@@ -46,10 +46,10 @@ console.log(mas5Unidades)
 
 // Quiero un array nuevo con todas las frutas
 
-const arrayNuevo = arrayFrutas.forEach((fruta, i) => {
-  arrayNuevo.push(fruta[i])
-})
-console.log(arrayNuevo)
+// const arrayNuevo = arrayFrutas.forEach((fruta, i) => {
+//   arrayNuevo.push(fruta[i])
+// })
+// console.log(arrayNuevo)
 
 
 // Filtra todas las frutas que sean de Marruecos
@@ -73,3 +73,5 @@ const frutaCanarias = arrayFrutas.filter((fruta) => {
   }
 })
 console.log(frutaCanarias)
+
+const canaryFruit = arrayFrutas.find (() => {return fruta.procedencia === 'Canarias'}) 
