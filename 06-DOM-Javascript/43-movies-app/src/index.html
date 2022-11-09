@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" href="https://ivan-luengo.com/wp-content/uploads/2020/03/cropped-favicon-ivan_luengo-32x32.png">
+
+  <link rel="stylesheet" href="./styles/css/style.css">
+
+  <title>Movies App 2.0</title>
+</head>
+<body>
+
+  <header class="bg-warning p-2">
+    <h1 class="m-0 text-center">Mis películas</h1>
+  </header>
+  
+  <main class="container">
+    <!-- Con row -->
+    <!-- <form class="main-form my-5 row g-2">
+
+      <div class="col-12 col-sm-4">
+        <input class="form-control col-6" type="text" placeholder="Película..." name="title">
+      </div>
+
+      <div class="col-12 col-sm-4">
+        <select class="form-select" name="genre">
+          <option value="">Género...</option>
+          <option value="aventuras">Aventuras</option>
+          <option value="accion">Acción</option>
+          <option value="fantasia">Fantasía</option>
+          <option value="terror">Terror</option>
+          <option value="comedia">Comedia</option>
+          <option value="drama">Drama</option>
+        </select>
+      </div>
+
+      <div class="col-12 col-sm-2 mt-1 d-flex flex-column align-items-center">
+        <label class="form-check-label" for="isSeen">¿Vista?</label>
+        <input class="form-check-input" id="isSeen" type="checkbox" name="isSeen">
+      </div>
+
+      <div class="col-12 col-sm-2">
+        <button class="btn btn-info text-white w-100">Añadir</button>
+      </div>
+
+    </form> -->
+
+    <!-- Con d-flex -->
+    <form class="main-form my-5 d-flex align-items-center gap-2 flex-column flex-sm-row">
+      
+      <input class="form-control" type="text" placeholder="Película..." name="title">
+      
+      <select class="form-select" name="genre">
+        <option value="">Género...</option>
+        <option value="Aventuras">Aventuras</option>
+        <option value="Acción">Acción</option>
+        <option value="Fantasía">Fantasía</option>
+        <option value="Terror">Terror</option>
+        <option value="Comedia">Comedia</option>
+        <option value="Drama">Drama</option>
+      </select>
+
+      <div class="mt-1 d-flex flex-column align-items-center w-50">
+        <label class="form-check-label" for="isSeen">¿Vista?</label>
+        <input class="form-check-input" id="isSeen" type="checkbox" name="isSeen">
+      </div>
+      
+      <button class="btn btn-info text-white w-auto">Añadir</button>
+      
+
+    </form>
+
+    <section class="movie-list d-flex flex-column gap-2 border border-2 border-dark px-3 py-2 rounded">
+
+      <!-- <article class="movie d-flex align-items-center gap-3">
+        <span class="fs-3">Harry Potter</span>
+        <span class="badge text-bg-adventures me-auto">Aventuras</span>
+        <i class="icon bi bi-eye fs-4 text-primary"></i>
+        <i class="icon bi bi-trash fs-4 text-danger"></i>
+      </article>
+
+      <article class="movie d-flex align-items-center gap-3">
+        <span class="fs-3">Robocop</span>
+        <span class="badge text-bg-action me-auto">Acción</span>
+        <i class="icon bi bi-eye-slash fs-4 text-info"></i>
+        <i class="icon bi bi-trash fs-4 text-danger"></i>
+      </article> -->
+
+    </section>
+
+    <!-- <table class="table movie-list border border-2 border-dark px-3 py-2 rounded mt-4">
+      <tr class="movie d-flex">
+        <td class="fs-3">Harry Potter</td>
+        <td>
+          <span class="badge bg-adventures">Aventuras</span>
+        </td>
+        <td>
+          <i class="bi bi-eye fs-4 text-primary"></i>
+        </td>
+        <td>
+          <i class="bi bi-trash fs-4 text-danger"></i>
+        </td>
+      </tr>
+      <tr class="movie d-flex">
+        <td class="fs-3">Robocop</td>
+        <td>
+          <span class="badge bg-action">Acción</span>
+        </td>
+        <td><i class="bi bi-eye-slash fs-4 text-info"></i></td>
+        <td><i class="bi bi-trash fs-4 text-danger"></i></td>
+      </tr>
+    </table> -->
+
+
+  </main>
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>

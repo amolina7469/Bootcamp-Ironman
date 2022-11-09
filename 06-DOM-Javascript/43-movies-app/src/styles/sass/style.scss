@@ -1,0 +1,52 @@
+@use 'fonts';
+// Sobreescribimos las variables que queramos
+$font-family-sans-serif: 'Nunito';
+$headings-font-weight: 800;
+
+// colores
+$primary: #619b8a;
+$secondary: #233d4d;
+$warning: #fcca46;
+$success: #a1c181;
+$info: #fe7f2d;
+$danger: #fb6376;
+$light: #fafafa;
+$dark: #232323;
+
+$adventures: #9b5de5;
+$horror: #00bbf9;
+$action: #fee440;
+$drama: #f15bb5;
+$fantasy: #00f5d4;
+$comedy: #fb8500;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "adventures": $adventures,
+  "horror":     $horror,
+  "action":     $action,
+  "drama":      $drama,
+  "fantasy":    $fantasy,
+  "comedy":     $comedy
+);
+
+
+// Importamos Bootstrap
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Nuestro propio CSS
+i.icon {
+  cursor: pointer;
+  transition: transform 0.3s ease;  
+}
+
+i.icon:hover {
+  transform: scale(1.1);
+}
