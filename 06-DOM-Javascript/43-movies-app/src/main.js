@@ -1,5 +1,5 @@
 // mini "base de datos"
-const allMovies = [
+let allMovies = [
   // {
   //   id: 1, 
   //   title: 'Harry Potter',
@@ -14,24 +14,13 @@ const allMovies = [
   // }
 ]
 
-// Escuchar el submit del formulario
-
-
-// conseguir los datos que has puesto en los inputs
-
-
-// revisar que no queden vacíos
-
-// si está todo bien, crearemos un objeto nuevo que meteremos dentro de la base de datos (push)
-
-// crearemos una funcion printMovies() que recorrerá el array de allMovies, creará cada article nuevo con createElement y lo meterá en la sección de movie-list uno detrás de otro
-
 
 const form = document.querySelector('.main-form')
 const movieList = document.querySelector('.movie-list')
-console.log(movieList)
+
 
 form.addEventListener('submit', (event) => addData(event))
+// form.addEventListener('submit',  addData) también se podrái escribir asi pero addData tendría que estar arriba
 
 const badgeColor = (genre) => {
   switch(genre){
@@ -57,34 +46,44 @@ const badgeColor = (genre) => {
 }
 
 const clearSection = (movieList) => {
- movieList.innerHTML = ''
+  movieList.innerHTML = ''
 }
 
+const changeSeeMovie = (event, movie) => {
+movie.isSeen = !movie.isSeen
+printMovies(allMovies) 
+}
 
 const printMovies = (allMovies) => {
-
   clearSection(movieList)
-  allMovies.forEach((film) => {
-    const title = film.title
-    const genre = film.genre
-    const isSeen = film.isSeen
-   
+  allMovies.forEach((movie) => {
+
     film = document.createElement ('article')
     film.className = "movie d-flex align-items-center gap-3"
-    const isSeenIcon = isSeen ? 'icon bi bi-eye text-primary' : 'icon bi bi-eye-slash text-info'
-    const genreColor = badgeColor(genre)
+    const isSeenIcon = movie.isSeen ? 'icon bi bi-eye text-primary' : 'icon bi bi-eye-slash text-info'
+    const genreColor = badgeColor(movie.genre)
     film.innerHTML = `
-      <span class="fs-3">${title}</span>
-      <span class="badge ${genreColor} me-auto">${genre}</span>
-      <i class="${isSeenIcon} fs-4"></i>
-      <i class="icon bi bi-trash fs-4 text-danger"></i>
+      <span class="fs-3">${movie.title}</span>
+      <span class="badge ${genreColor} me-auto">${movie.genre}</span>
+      <i class="eyeIcon ${isSeenIcon} fs-4"></i>
+      <i class="trashIcon icon bi bi-trash fs-4 text-danger"></i>
   `
-    console.log(film.innerHTML)
-    movieList.append(film)
-  })
+  const eyeIcon = film.querySelector('.eyeIcon')
+  const trashIcon = film.querySelector('.trashIcon')
+  eyeIcon.addEventListener('click', (event) => changeSeeMovie(event, movie))
+  trashIcon.addEventListener('click', (event) => deleteMovie(event,movie))
+  movieList.append(film)
+})
 }
 
-
+const deleteMovie = (event, movie) => {
+  allMovies.forEach((movieDel, index)=> {
+    if(movie.id === movieDel.id){
+      allMovies.splice(index, 1)
+    }
+  })
+  printMovies(allMovies) 
+}
 
 const addData = (event) => {
     event.preventDefault()
@@ -93,20 +92,33 @@ const addData = (event) => {
     const genre = form.genre.value
     const isWatch = form.isSeen.checked
     let newMovie = {}
-    console.log(title, genre, isWatch)
     
     if(title !== '' && genre !== ''){
-      
+      form.title.classList.remove('is-invalid')
+      form.genre.classList.remove('is-invalid')
       newMovie = {
         id: allMovies.length + 1,
         title: title,
         genre: genre,
         isSeen: isWatch
       }
+    } else {
+      console.log('Hay que poner los datos')
+      form.title.classList.add('is-invalid')
+      form.genre.classList.add('is-invalid')
+      return
     }
     form.reset()
     allMovies.push(newMovie)
-    console.log(allMovies)
+    localStorage.setItem('MOVIES', JSON.stringify(allMovies))
     printMovies(allMovies)
     }
   
+const moviesFromLS = localStorage.getItem('MOVIES')
+if (moviesFromLS === null) {
+  allMovies = []
+} else {
+  allMovies = JSON.parse(moviesFromLS)
+}
+
+printMovies(allMovies)
