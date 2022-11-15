@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="https://ivan-luengo.com/wp-content/uploads/2020/03/cropped-favicon-ivan_luengo-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    
+    <div class="background h-60 absolute w-full top-0 -z-10 bg-no-repeat bg-cover bg-center"></div>
+    <main class="w-96 mx-auto mt-12">
+      
+      <h1 class="text-3xl font-bold text-white tracking-[8px] mb-6">TODO</h1>
+      
+      <form class="main-form">
+        <input class="bg-white border-0 py-3 px-5 w-full rounded shadow focus:outline-none focus:ring-2 ring-purple-400" type="text" placeholder="Create a new toDo..." name="toDoInput">
+      </form>
+      
+      
+      <section class="toDo-list mt-3 rounded overflow-hidden shadow-lg">
+        <article class="toDo bg-white py-3 px-5 flex items-center border-b-2 border-b-gray-200 hover:bg-gray-50">
+          <i class="checkIcon fa-solid fa-circle-check cursor-pointer hover:scale-110 transition-transform"></i>
+          <span class="ml-3 mr-auto text-gray-300 line-through">Estudiar Javascript 👩‍🎓</span>
+          <i class="delete-icon fa-solid fa-xmark cursor-pointer hover:scale-110 transition-transform"></i>
+        </article>
+        <article class="toDo bg-white py-3 px-5 flex items-center border-b-2 border-b-gray-200 hover:bg-gray-50">
+          <i class="checkIcon fa-regular fa-circle cursor-pointer hover:scale-110 transition-transform"></i>
+          <span class="ml-3 mr-auto">Comprar el pan 🥖</span>
+          <i class="delete-icon fa-solid fa-xmark cursor-pointer hover:scale-110 transition-transform"></i>
+        </article>
+        <div class="info-box bg-white px-5 py-4 flex justify-between text-xs text-gray-400">
+          <span>5 items left</span>
+          <span class="cursor-pointer hover:text-gray-600">Clear Completed</span>
+        </div>
+      </section>
+
+      <section class="filters bg-white px-5 py-3 mt-3 rounded shadow-lg text-gray-500 text-sm flex justify-center gap-5">
+        <span class="cursor-pointer hover:text-gray-800">All</span>
+        <span class="cursor-pointer hover:text-gray-800">Active</span>
+        <span class="cursor-pointer hover:text-gray-800">Completed</span>
+      </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
