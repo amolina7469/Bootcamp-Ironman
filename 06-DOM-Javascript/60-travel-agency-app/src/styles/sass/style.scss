@@ -1,0 +1,38 @@
+@use 'fonts';
+
+
+$primary: #264653;
+$secondary: #e76f51;
+$success: #2a9d8f;
+$warning: #e9c46a;
+$danger: #e63946;
+$info: #f4a261;
+$light: #fffbde;
+$dark: #303030;
+
+$input-group-addon-bg: #f4a26170;
+$component-active-bg: $warning;
+
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+img.destination-photo {
+  width: 100%;
+  aspect-ratio: 21/9;
+  object-fit: cover;  
+}
+
+.destination-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.icon {
+  cursor: pointer;
+  transition: transform .5s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1) rotate(10deg);
+}

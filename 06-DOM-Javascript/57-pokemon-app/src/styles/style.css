@@ -1,0 +1,56 @@
+body {
+  font-family: 'Inconsolata', sans-serif;
+  background: linear-gradient(135deg,rgba(255, 99, 71, 0.85), rgba(65, 105, 225, 0.85))
+}
+
+.container {
+  margin-block: 2rem;
+  width: 80%;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+form.main-form {
+  display: flex;
+  justify-content: center;
+  margin-block: 1.2rem;  
+}
+
+input[name="pokemonName"] {
+  border: none;
+  padding: 0.2rem 0.8rem;
+  border-radius: 0.1rem;
+  outline-color: tomato;
+}
+
+section.pokemon-info {
+  display: grid;  
+  justify-content: center;
+  gap: 1rem;
+  grid-template-columns: 70vw;
+}
+
+.pokemon {   
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemon ul {
+  padding: 0;
+  color: white;
+}
+
+@media (min-width: 500px) {
+  section.pokemon-info {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}

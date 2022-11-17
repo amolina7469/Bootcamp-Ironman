@@ -1,0 +1,17 @@
+.container{
+  width: 80% ;
+  max-width: 800px;
+  margin: 50px auto;
+
+}
+
+
+body {
+  background-color: lightseagreen;
+}
+
+.poke-data {
+  border: 2px solid white;
+  border-radius: 5px;;
+ 
+}

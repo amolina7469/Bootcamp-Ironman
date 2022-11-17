@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="icon" href="https://ivan-luengo.com/wp-content/uploads/2020/03/cropped-favicon-ivan_luengo-32x32.png">
+  <link rel="stylesheet" href="./src/styles/sass/style.scss">
+
+  <title>Travel Agency App</title>
+</head>
+<body class="bg-light">
+
+  <header class="bg-success p-2 text-light text-center">
+    <h1>Travel Agency</h1>
+  </header>
+
+  <main class="container my-4">
+    <form class="main-form row g-3">
+
+      <div class="col-6">
+        <div class="input-group">
+          <label for="city" class="input-group-text rounded-0 border-0">Ciudad</label>
+          <input id="city" type="text" class="form-control rounded-0" name="city">
+        </div>
+      </div>
+
+      <div class="col-6">
+        <div class="input-group">
+          <label for="country" class="input-group-text rounded-0 border-0">País</label>
+          <input id="country" type="text" class="form-control rounded-0" name="country">
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="urlPhoto" class="input-group-text rounded-0 border-0">Url Foto</label>
+        <input id="urlPhoto" type="url" class="form-control rounded-0" name="urlPhoto">
+      </div>
+
+      <div>
+        <button class="btn btn-success text-light w-100 rounded-0">Añadir</button>
+      </div>
+
+    </form>
+
+    <section class="destination-list my-5">
+
+      <article class="destination bg-white shadow">
+        <div class="d-flex align-items-center gap-3 py-2 px-3">
+          <h2 class="m-0 fs-4">Madrid</h2>
+          <h3 class="m-0 fs-6 badge bg-info fw-normal me-auto">España</h3>
+          <i class="icon edit-icon bi bi-pencil text-success fs-4"></i>
+          <i class="icon delete-icon bi bi-trash text-danger fs-4"></i>
+        </div>
+
+        <div class="position-relative">
+          <img class="destination-photo" src="https://images.pexels.com/photos/3254729/pexels-photo-3254729.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Foto de Madrid">
+          <i class="icon bi bi-heart text-danger position-absolute start-0 top-0 ms-2 mt-2"></i>
+        </div>
+      </article>
+
+
+    </section>
+
+
+  </main>
+  
+  
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
