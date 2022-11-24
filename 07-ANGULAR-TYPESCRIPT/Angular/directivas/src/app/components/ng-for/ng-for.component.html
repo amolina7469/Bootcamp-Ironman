@@ -1,0 +1,25 @@
+<!-- Vamos a crear un selector que me permita seleccionar entre los 3 directores y una opcion será todos
+OJO solo teneis que modificar el array de datos ngFor se encarga del resto. Recordar si filtramos y sobreescribimos perdemos los datos. Necesitamos un array temporal.
+-->
+<select name="directores" (change)="filtrarLista($event)">
+  <option value="">Todos</option>
+  <option value="Tim Van Patten">Tim Van Patten</option>
+  <option value="Brian Kirk">Brian Kirk</option>
+  <option value="Daniel Minahan">Daniel Minahan</option>
+</select>
+  
+
+<section class="row">
+  <!-- ngFor se aplica sobre lo que se conoce como superficie iterable, aquella que se repite en el html y concuerda con los elementos del array-->
+  <article [ngClass]="{'gray': esPar, 'beige' : esImpar}" 
+  *ngFor="let episodio of arrFiltro; let i=index; let esPar = even; let esImpar = odd; let primero = first; let ultimo = last">
+    <small>{{i}}</small>
+    <h3>{{episodio.title}}</h3>
+    <p>{{episodio.director}}</p>
+    <p>Par: {{esPar}}</p>
+    <p>Impar: {{esImpar}}</p>
+    <p>primero: {{primero}}</p>
+    <p>ultimo: {{ultimo}}</p>
+  </article>
+
+</section>

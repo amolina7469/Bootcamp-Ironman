@@ -1,0 +1,8 @@
+<div class="notificaciones" [ngSwitch] = "productos.length">
+  <p class="alert" *ngSwitchCase="0">No tenemos ingredientes</p>
+  <p class="warning" *ngSwitchCase="1">Nos faltan tres ingredientes</p>
+  <p class="warning" *ngSwitchCase="2">Nos faltan dos ingredientes</p>
+  <p class="warning" *ngSwitchCase="3">Nos faltan un ingredientes</p>
+  <p class="success" *ngSwitchCase="4">Tenemos ingredientes para la nocilla</p>
+  
+</div>

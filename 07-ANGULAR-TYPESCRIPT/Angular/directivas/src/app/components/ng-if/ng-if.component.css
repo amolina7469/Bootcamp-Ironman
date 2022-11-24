@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.tabs{
+  width: 750px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.tabs .menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+}
+
+.tabs .menu li{
+  cursor: pointer;
+  padding: 10px;
+  font-size: 120%;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.tabs .menu :is(li:hover, .activo){
+  background-color: gray;
+}
+.tabs section{
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+.tabs section p{
+  margin-bottom: 10px;
+}

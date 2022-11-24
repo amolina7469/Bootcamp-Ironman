@@ -1,0 +1,17 @@
+<!-- <p [style]="'color:' + color">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus facere in repellendus voluptatem unde, distinctio at nostrum dolore perferendis porro animi aliquam laboriosam quis culpa commodi laudantium quas. Nostrum laborum reiciendis sed deleniti nulla error voluptatem perspiciatis sapiente tenetur neque, impedit repudiandae repellendus magnam. Doloremque vel debitis amet porro fugiat?</p> -->
+
+<input type="range" min="10" max="60" step="5" [value]="fontSize" (input)="cambiarFuente($event)">
+<input type="color" (input)="cambiarColor($event)">
+
+<p [ngStyle]= "{'color':color, 'font-size': fontSize + 'px'}">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus facere in repellendus voluptatem unde, distinctio at nostrum dolore perferendis porro animi aliquam laboriosam quis culpa commodi laudantium quas. Nostrum laborum reiciendis sed deleniti nulla error voluptatem perspiciatis sapiente tenetur neque, impedit repudiandae repellendus magnam. Doloremque vel debitis amet porro fugiat?</p>
+
+
+<hr>
+
+<label for="propiedadCss">Propiedad CSS</label>
+<input type="text" id="propiedadCss" [(ngModel)]="propiedadCss">
+<label for="valorCSS">Valor CSS</label>
+<input type="text" id="valorCSS" [(ngModel)] = "valorCSS">
+<button (click)="addStyles()">Aplicar</button>
+
+<p [ngStyle]= "estiloParrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus facere in repellendus voluptatem unde, distinctio at nostrum dolore perferendis porro animi aliquam laboriosam quis culpa commodi laudantium quas. Nostrum laborum reiciendis sed deleniti nulla error voluptatem perspiciatis sapiente tenetur neque, impedit repudiandae repellendus magnam. Doloremque vel debitis amet porro fugiat?</p>

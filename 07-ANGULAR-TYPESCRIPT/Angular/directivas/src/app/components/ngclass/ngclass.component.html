@@ -1,0 +1,7 @@
+<p [class]="estilos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non cumque autem modi corporis. Sed, architecto cum, aliquid distinctio rem omnis totam a voluptates ab aliquam amet quaerat. Dolore, ipsum?</p>
+
+<p [ngClass]="['textoRojo', azulito]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non cumque autem modi corporis. Sed, architecto cum, aliquid distinctio rem omnis totam a voluptates ab aliquam amet quaerat. Dolore, ipsum?</p>
+
+<p class="textoRojo" [ngClass] = "{'fondoRojo': activo, 'fondoAzul': !activo}">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non cumque autem modi corporis. Sed, architecto cum, aliquid distinctio rem omnis totam a voluptates ab aliquam amet quaerat. Dolore, ipsum?</p>
+
+<button (click) ="cambiarEstado()">Cambiar</button>

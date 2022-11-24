@@ -1,0 +1,36 @@
+<p [ngStyle]="{'display': 'none'}">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dignissimos unde, doloremque consequuntur, quae soluta error repellendus autem distinctio quod labore! Rerum quisquam corporis doloribus eligendi esse dicta voluptatem praesentium.</p>
+
+<p *ngIf="estado === 'visto'">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dignissimos unde, doloremque consequuntur, quae soluta error repellendus autem distinctio quod labore! Rerum quisquam corporis doloribus eligendi esse dicta voluptatem praesentium.</p>
+
+<hr>
+<hr>
+
+<!-- ejercicio con ngIf menu de tabs-->
+
+<div class="tabs">
+  <nav>
+    <ul class="menu">
+      <li [ngClass]="{'activo': seccionActual === 'london'}" (click) ="cargarSeccion('london')">London</li>
+      <li [ngClass]="{'activo': seccionActual === 'paris'}"  (click) ="cargarSeccion('paris')">París</li>
+      <li [ngClass]="{'activo': seccionActual === 'tokyo'}"  (click) ="cargarSeccion('tokyo')">Tokyo</li>
+    </ul>
+  </nav>
+  <section *ngIf="seccionActual === 'london'">
+    <h2>London</h2>
+    <p>1.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam culpa magni dolorem inventore dolorum ducimus impedit! Quod ullam consectetur, debitis, rem qui fugiat possimus doloribus ipsam, iure aperiam accusamus.</p>   
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam culpa magni dolorem inventore dolorum ducimus impedit! Quod ullam consectetur, debitis, rem qui fugiat possimus doloribus ipsam, iure aperiam accusamus.</p>
+    </section>
+    <section *ngIf="seccionActual === 'paris'">
+      <h2>París</h2>
+      <p>2.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam culpa magni dolorem inventore dolorum ducimus impedit! Quod ullam consectetur, debitis, rem qui fugiat possimus doloribus ipsam, iure aperiam accusamus.</p>
+    </section>
+
+    <section *ngIf="seccionActual === 'tokyo'">
+      <h2>Tokyo</h2>
+      <p>3.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam culpa magni dolorem inventore dolorum ducimus impedit! Quod ullam consectetur, debitis, rem qui fugiat possimus doloribus ipsam, iure aperiam accusamus.</p>
+    </section>
+ 
+
+  
+</div>
