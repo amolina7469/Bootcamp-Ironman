@@ -1,0 +1,32 @@
+
+
+<div>
+  <input type="color" (input) ="cambiarColor($event)">
+  <div class="caja" [style]="'background-color:' + color"></div>
+</div>
+
+<div><input type="text" placeholder="introduce tu texto" (input) = "capturarTexto($event)">
+<p>{{texto}}</p>
+</div>
+
+<hr>
+
+<h1>Ejercicio 1</h1>
+<div>
+  <h1>{{mensaje}}</h1>
+  <button (click)="mostrarTexto()">{{textBtn}}</button>
+</div>
+
+<hr>
+
+<h1>Ejercicio 2</h1>
+
+<select (change)= "eligeCiudad($event)">
+  <option value="Ciudad" selected >Elige una ciudad...</option>
+  <option value="Roma">Roma</option>
+  <option value="París">París</option>
+  <option value="Berlín">Berlín</option>
+  <option value="Londres">Londres</option>
+  <option value="Amsterdam">Amsterdam</option>
+</select>
+ <h1>{{mensajeCiudad}}</h1>

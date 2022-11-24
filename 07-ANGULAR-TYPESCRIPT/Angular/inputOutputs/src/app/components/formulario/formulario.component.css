@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.form :is(label, input){
+  display:block;
+}
+.form input{
+  width: 90%;
+  padding: 3px;
+}
+
+.form button{
+  padding: 3px;
+  margin-top: 10px;
+}

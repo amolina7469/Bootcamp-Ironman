@@ -1,0 +1,7 @@
+<label for="filtro">Filtra por nombre:</label>
+<input type="text" id="filtro" [(ngModel)] = "searchName">
+
+
+
+
+<ul class="contactos" [innerHTML] = "cargarContactos()"></ul>

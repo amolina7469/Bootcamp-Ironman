@@ -1,0 +1,15 @@
+<p>calculadora works!</p>
+
+<!-- Two way data binding : comunicación bidireccional del html al ts y viceversa. Para usarlo necesitamos importar una librería de angular que se llama FormsModule y se importa en el app module-->
+
+<div class="calculadora">
+  <label >Primer número</label>
+  <input type="number" [(ngModel)] = "numero1">
+  <label >Segundo número</label>
+  <input type="number" [(ngModel)]="numero2">
+  <button (click)="sumar()">Sumar</button>
+  <button (click)="restar()">Restar</button>
+  <button (click)="multiplicar()">Multiplicar</button>
+</div>
+
+<h1>Mi resultado es: {{resultado}}</h1>

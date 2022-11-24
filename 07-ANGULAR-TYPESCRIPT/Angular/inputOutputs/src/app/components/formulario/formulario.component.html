@@ -1,0 +1,15 @@
+
+<h2>Insertar contacto</h2>
+
+<div class="form">
+  <label for="nombre">Nombre</label>
+  <input type="text" id="nombre" [(ngModel)]= "nuevoContacto.nombre">
+
+  <label for="telefono">Telefono</label>
+  <input type="text" number="telefono" [(ngModel)]= "nuevoContacto.telefono">
+
+  <label for="email">Email</label>
+  <input type="text" id="email"[(ngModel)]= "nuevoContacto.email" >
+
+  <button (click)="recogerDatosForm()">Guardar</button>
+</div>

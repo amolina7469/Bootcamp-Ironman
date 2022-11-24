@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
+aside{
+  padding: 10px;
+  box-shadow: 1px 1px 3px #444;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 30%;
+}
+
+section{
+  padding: 10px;
+  border-left: 1px solid black;
+  margin-left: 10px;
+  width: calc(70% - 10px);
+
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+
+}

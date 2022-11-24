@@ -1,0 +1,17 @@
+<p>saludo works!</p>
+
+<ul>
+  <li>Edad: {{datos.edad}}</li>
+  <li>Email: <a [href]="'mailto:' + datos.email">{{datos.email}}</a></li>
+  <li>Telefono: {{datos.telefono}}</li>
+</ul>
+
+<!-- en las propiedades de HTML (href, src,title,..) no debemos usar interpolaciones, debemos usar propertybiding-->
+<p [class]="color + numeroAleatorio"> Hola tengo {{datos.edad}}</p>
+
+<div class="galeria">
+  <figure>
+    <img [src]="arrImagenes[numeroImagen].url" [alt]="arrImagenes[numeroImagen].name">
+    <figcaption>{{arrImagenes[0].name}}</figcaption>
+  </figure>
+</div>

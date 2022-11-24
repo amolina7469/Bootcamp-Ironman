@@ -1,0 +1,36 @@
+.rojo1 {
+  color: red;
+}
+.rojo2 {
+  color: darkred;
+}
+.rojo3{
+  color:lightcoral;
+}
+.rojo4 {
+  color: rosybrown;
+}
+
+.verde1{
+  color: green;
+}
+.verde2{
+  color: lightgreen;
+}
+.verde3{
+  color: darkgreen;
+}
+.verde4{
+  color:grey;
+}
+
+.galeria{
+  width: 600px;
+  padding:  10px;
+  border: 2px solid black;
+}
+
+.galeria img{
+width: 100%;
+height: auto;
+}

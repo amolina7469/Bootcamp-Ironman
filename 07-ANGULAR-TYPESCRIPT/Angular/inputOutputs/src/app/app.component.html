@@ -1,0 +1,19 @@
+<!--Los inputs son propiedades de la etiqueta html que modifican el resultado del componente-->
+
+<!-- <div [style]="'background-color:' + color">
+  <app-cronometro [inicio] = "valorInicial" [fin] ="valorFinal" (finalizado)="cargarColor($event)" [color] = "'violet'"></app-cronometro>
+  <app-cronometro [inicio] = "10" [fin] ="20" (finalizado)="cargarColor($event)" [color] = "'green'"></app-cronometro>
+  <app-cronometro [inicio] = "20" [fin] ="33" (finalizado)="cargarColor($event)" [color] = "'salmon'"></app-cronometro>
+</div> -->
+
+<main>
+  <aside>
+    <!-- formulario -->
+    <app-formulario (contactoEmitido)="guardarContacto($event)"></app-formulario>
+  </aside>
+  <section>
+    <!-- contactos -->
+    <app-contactos [listaContactos]="arrContactos"></app-contactos>
+  </section>
+</main>
+

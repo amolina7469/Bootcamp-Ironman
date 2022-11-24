@@ -1,0 +1,13 @@
+<p>{{primerContacto.name}}</p>
+<p>{{tercerContacto.name}}</p>
+
+<select (change) = "filtrarContactos($event)">
+  <option value="">Selecciona un tipo de contacto:</option>
+  <option value="laboral">Laboral</option>
+  <option value="personal">Personal</option>
+</select>
+<label>Buscar contacto</label>
+<input type="text" [(ngModel)] = "name">
+<button (click)="buscarContacto()">Buscar</button>
+<ul class="contactos"[innerHTML]="cargarContactos()">
+</ul>
