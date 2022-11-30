@@ -1,0 +1,8 @@
+<!-- <button (click) = "sumar()">Sumar</button>
+<app-prueba-ciclo-vida [valor]="resultado"></app-prueba-ciclo-vida> -->
+
+<input type="number" (input) = "crearNumero($event)">
+<ul>
+  <li *ngFor = "let numero of arrNumeros">{{numero}}</li>
+</ul>
+<app-acumulador [numeros] = "arrNumeros"></app-acumulador>

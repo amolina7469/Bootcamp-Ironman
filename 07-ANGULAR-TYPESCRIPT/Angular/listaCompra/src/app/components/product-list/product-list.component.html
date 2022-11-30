@@ -1,0 +1,23 @@
+<aside class="d-flex justify-content-between">
+ 
+<app-filter-price (pricesEmit)="filterByPrice($event)"></app-filter-price>
+<app-search (searchEmit)="searchProduct($event)"></app-search>
+</aside>
+<section class="products">
+  <h2>Listado de productos</h2>
+  <hr>
+
+  <div *ngIf="products.length !==0; else withoutProducts">
+    <article class="card p-3" *ngFor="let product of products">
+      <app-product-card [myProduct] = "product"></app-product-card>
+    </article>
+  </div>
+  <ng-template #withoutProducts>
+    <article class="card p-3">
+      <h3 class="text text-danger">No hay productos</h3>
+    </article>
+  </ng-template>
+</section>
+
+
+

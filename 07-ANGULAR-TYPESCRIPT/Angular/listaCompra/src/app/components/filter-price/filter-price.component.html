@@ -1,0 +1,10 @@
+
+
+<form #priceForm = "ngForm" (ngSubmit)="getPrice(priceForm)">  
+  <input type="number" class="form-control" placeholder="Precio min" name="priceMin" ngModel>
+  <input type="number" class="form-control" placeholder="Precio max" name="priceMax" ngModel>
+  <input type="submit" value="filtrar" class="btn btn-dark m-1">
+  <input type="reset" (click)="getAllProducts()" value="Mostrar Todos" class="btn btn-danger">
+</form>
+
+
