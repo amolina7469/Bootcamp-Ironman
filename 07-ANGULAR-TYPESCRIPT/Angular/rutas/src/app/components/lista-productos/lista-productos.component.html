@@ -1,5 +1,9 @@
 <section>
-  <h2>Listado de productos</h2>
+  <div>
+    <h2>Listado de productos</h2>
+    <app-filtro-lista (stockEmit)="filterByStock($event)"></app-filtro-lista>
+  </div>
+
   <hr>
 
   

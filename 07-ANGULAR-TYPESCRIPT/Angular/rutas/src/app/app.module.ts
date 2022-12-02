@@ -13,6 +13,7 @@ import { ListaProductosComponent } from './components/lista-productos/lista-prod
 import { ProductoCardComponent } from './components/producto-card/producto-card.component';
 import { ProductosViewComponent } from './components/productos-view/productos-view.component';
 import { FiltroListaComponent } from './components/filtro-lista/filtro-lista.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FiltroListaComponent } from './components/filtro-lista/filtro-lista.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

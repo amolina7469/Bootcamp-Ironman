@@ -16,6 +16,10 @@ getAll(): Producto[]{
 }
 
  getById(pId: number): Producto | undefined {
-  return this.arrProductos.find(producto => producto.id == pId)
+  return this.arrProductos.find(producto => producto.id === pId)
  } 
+
+ getByStock(pStock: boolean | string) : Producto[]{
+  return this.arrProductos.filter(producto => producto.stock === pStock)
+ }
 }

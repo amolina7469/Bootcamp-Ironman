@@ -18,5 +18,19 @@ ngOnInit(){
   this.productos  = this.productosService.getAll();
   }
 
-  
+ filterByStock($event: string | boolean): void{
+  // if($event.stock === 'true'){
+  //   this.productos = this.productosService.filterByStock($event);
+  // }if else($event.stock === 'false'){
+  //    this.productos = this.productosService.filterByStock($event);
+  // }else{
+  //   this.productos= this.productosService.getAll();
+  // }
+  if($event !== 'all'){
+    this.productos = this.productosService.getByStock($event);
+  } else {
+    this.productos = this.productosService.getAll();
+  }
+
+ }
 }

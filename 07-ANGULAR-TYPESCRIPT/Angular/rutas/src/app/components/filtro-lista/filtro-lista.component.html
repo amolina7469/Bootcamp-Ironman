@@ -1,1 +1,5 @@
-<p>filtro-lista works!</p>
+<div >
+<input type="radio" name="stock" value="all" (change) = "getStock($event)"><label class="me-4">Todos</label>
+<input type="radio" name="stock" value="false" (change) = "getStock($event)"><label class="me-4">Sin stock</label>
+<input type="radio" name="stock" value="true" (change) = "getStock($event)"><label class="me-4">Con stock</label>
+</div>
