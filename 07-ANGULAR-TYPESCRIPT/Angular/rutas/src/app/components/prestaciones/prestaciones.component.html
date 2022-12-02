@@ -1,0 +1,8 @@
+<section>
+  <h2>Servicios ofrecidos</h2>
+  <hr>
+  <ul>
+    <li *ngFor="let prestacion of prestaciones"> {{prestacion.title.toUpperCase()}} - <a class="link" [routerLink]="['/prestacion', prestacion.url]">Ver detalle</a>
+    </li>
+  </ul>
+</section>

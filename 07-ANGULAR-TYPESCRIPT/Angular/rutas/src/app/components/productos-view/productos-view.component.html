@@ -1,0 +1,14 @@
+<!-- <h3>{{miProducto.title}} </h3> -->
+<div class="card" style="width: 18rem;">
+  <img src="{{miProducto.photo}}" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">{{miProducto.title}}</h5>
+    <div *ngIf="miProducto.stock === true; else haystock">
+      <p class="card-text text-success fw-bold mb-3">Hay stock</p>
+    </div>
+    <ng-template #haystock>
+      <p class="card-text text-danger fw-bold mb-3">No hay stock</p>
+    </ng-template>
+    <a class="btn btn-dark" [routerLink]="['/listaProductos']">Volver</a>
+  </div>
+</div>

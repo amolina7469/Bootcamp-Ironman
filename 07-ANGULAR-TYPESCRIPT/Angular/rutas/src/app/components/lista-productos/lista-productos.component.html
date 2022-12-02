@@ -1,0 +1,17 @@
+<section>
+  <h2>Listado de productos</h2>
+  <hr>
+
+  
+    <div *ngIf="productos.length !== 0; else sinProductos">
+        <article *ngFor="let producto of productos" class="card mb-3" [ngClass]="{'border border-3 border-danger': producto.stock === false,'border border-dark border-3': producto.stock === true}">
+          <app-producto-card [miProducto]="producto"></app-producto-card>
+        </article>
+    </div>
+
+  <ng-template #sinProductos>
+    <article class="card">
+        <h3>No hay productos</h3>
+    </article>
+  </ng-template>
+</section>
