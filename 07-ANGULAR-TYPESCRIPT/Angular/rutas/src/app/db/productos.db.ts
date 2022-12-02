@@ -5,7 +5,7 @@ export const PRODUCTOS: Producto[]=[
   {
     id:1,
     title:'Camiseta',
-    photo: 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d75f8ea0f0ff4a0e8830ae880131076c_9366/Spain_22_Home_Jersey_Rojo_HF1408_01_laydown.jpg',
+    photo: 'https://www.futbolemotion.com/imagesarticulos/173994/750/camiseta-adidas-espana-primera-equipacion-mundial-qatar-2022-nino-power-red-navy-blue-0.jpg',
     price: 70,
     stock: true,
   },

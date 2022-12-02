@@ -14,6 +14,8 @@ import { ProductoCardComponent } from './components/producto-card/producto-card.
 import { ProductosViewComponent } from './components/productos-view/productos-view.component';
 import { FiltroListaComponent } from './components/filtro-lista/filtro-lista.component';
 import { FormsModule } from '@angular/forms';
+import { TallasComponent } from './components/productos-view/tallas/tallas.component';
+import { OpinionesComponent } from './components/productos-view/opiniones/opiniones.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { FormsModule } from '@angular/forms';
     ProductoCardComponent,
     ProductosViewComponent,
     ProductosViewComponent,
-    FiltroListaComponent
+    FiltroListaComponent,
+    TallasComponent,
+    OpinionesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,14 +1,21 @@
 <!-- <h3>{{miProducto.title}} </h3> -->
-<div class="card" style="width: 18rem;">
+<div class="card " style="width: 18rem;">
   <img src="{{miProducto.photo}}" class="card-img-top">
   <div class="card-body">
-    <h5 class="card-title">{{miProducto.title}}</h5>
+    <h5 class="card-title d-flex justify-content-around"><p>{{miProducto.title}}</p><p>{{miProducto.price}}€</p></h5>
     <div *ngIf="miProducto.stock === true; else haystock">
-      <p class="card-text text-success fw-bold mb-3">Hay stock</p>
+      <p class="card-text text-success fw-bold mb-3 d-flex justify-content-center">Hay stock</p>
     </div>
     <ng-template #haystock>
-      <p class="card-text text-danger fw-bold mb-3">No hay stock</p>
+      <p class="card-text text-danger fw-bold mb-3 d-flex justify-content-center">No hay stock</p>
     </ng-template>
-    <a class="btn btn-dark" [routerLink]="['/listaProductos']">Volver</a>
+    <a class="btn btn-dark d-flex justify-content-center" [routerLink]="['/listaProductos']">Volver</a>
+    <hr>
+    <div class="d-flex justify-content-around">
+      <button class="btn btn-sm btn-secondary m-1" [routerLink]="['/producto',miProducto.id, 'opiniones']">Opiniones</button>
+      <button class="btn btn-sm btn-secondary m-1" [routerLink]="['/producto',miProducto.id, 'tallas']">Tallas</button>
+    </div>
+    <router-outlet></router-outlet>
   </div>
 </div>
+
