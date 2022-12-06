@@ -1,0 +1,6 @@
+<ul *ngIf="arrSeasons.length > 0; else bloquelse">
+    <li *ngFor ="let season of arrSeasons">{{season}}</li>
+</ul>
+<ng-template #bloquelse>
+    <p>Solo tiene una temporada</p>
+</ng-template>

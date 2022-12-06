@@ -1,1 +1,23 @@
-<p>serie-view works!</p>
+<section class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img [src]="serie.imagen" class="img-fluid rounded-start" alt="serie.titulo">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <h1 class="card-title">{{serie.titulo}}</h1>
+                    <button class="btn btn-sm btn-warning m-1 px-4" [routerLink]="['/serie']">Volver</button>
+                </div>
+                <hr>
+                <h5 class="card-text">{{serie.creador}}</h5>
+                <p class="card-text">{{serie.canal}}</p>
+                <p class="card-text">⭐️ {{serie.rating}}</p>
+                <p class="card-text"><small class="text-muted">{{serie.fechas}}</small></p>
+                <button class="btn btn-sm btn-warning m-1" [routerLink]="['/serie', serie.id, 'reparto']">Personajes</button>
+                <button class="btn btn-sm btn-warning m-1" [routerLink]="['/serie', serie.id, 'temporadas']">Temporadas</button>
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</section>

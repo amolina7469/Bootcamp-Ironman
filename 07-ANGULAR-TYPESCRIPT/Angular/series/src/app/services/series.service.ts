@@ -7,14 +7,19 @@ import { Serie } from '../interfaces/serie.interface';
 })
 export class SeriesService {
 
-  private arrSeries: Serie[]=SERIES;
+  private arrSeries: Serie[] = SERIES;
+
   constructor() { }
 
-  getAll():serie[]  {
-    return this.arrSeries
+  getAll(): Serie[] {
+    return this.arrSeries;
   }
-getById(pId: number): Serie | undefined{
-  return this.arrSeries.find(serie => serie.id === pId);
-}
 
+  getById(pId: number): Serie | undefined {
+    return this.arrSeries.find(serie => serie.id === pId)
+  }
+ 
+  getAllChannels():string[] {
+    return this.arrSeries.map(serie => serie.canal)
+  }
 }

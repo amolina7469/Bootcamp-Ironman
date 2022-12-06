@@ -10,11 +10,16 @@ export class CharactersService {
   private arrCharacters: Character[] = CHARACTERS;
   constructor() { }
 
-  getAll() : Character[] {
-    return this.arrCharacters
+  getAll(): Character[] {
+    return this.arrCharacters;
   }
 
-  getById(pId: any){
+  getById(pId: number): Character | undefined {
     return this.arrCharacters.find(character => character.id === pId);
   }
+
+  getByIdSerie(pIdSerie: number): Character[]{
+    return this.arrCharacters.filter(character => character.serie == pIdSerie);
+  }
+
 }

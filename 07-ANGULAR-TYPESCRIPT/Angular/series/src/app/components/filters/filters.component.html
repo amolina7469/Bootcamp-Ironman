@@ -1,1 +1,18 @@
-<p>filters works!</p>
+
+    <div class="nav flex-column card text-bg-warning m-3 h-100" style="max-width: 18rem;">
+        <div class="card-filter d-flex justify-content-center">
+            <h2 class="mt-3">Filtros</h2>
+        </div>
+        <hr>
+        <div class="card-button d-flex justify-content-center ">
+          <input type="submit" value="    Series    " class="btn btn-dark m-1" [routerLink]="['/series']">
+        </div>
+        <div class="card-button d-flex justify-content-center ">
+            <input type="submit" value="Personajes" class="btn btn-dark m-1" [routerLink]="['/personajes']">
+        </div>
+        <select class="form-select bg-transparent border-0 p-2">
+          <option value="todas" selected>Todas las cadenas</option>
+          <option *ngFor="let channel of arrChannels" value="channel">{{channel.toUpperCase()}}</option>
+        </select>
+    </div>
+

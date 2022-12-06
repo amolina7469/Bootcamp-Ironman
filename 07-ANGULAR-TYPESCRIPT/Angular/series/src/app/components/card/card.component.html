@@ -1,0 +1,7 @@
+<div class="card mb-3" style="width: 18rem">
+    <img [src]="miItem.imagen" [alt]="name" class="card-img-top" >
+    <div class="card-body">
+      <h5 class="card-title">{{name}}</h5>
+      <button class="btn btn-sm btn-warning m-1" [routerLink]="[url, miItem.id]">Detalle</button>
+    </div>
+</div>

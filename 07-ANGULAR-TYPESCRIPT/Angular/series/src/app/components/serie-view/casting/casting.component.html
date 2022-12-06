@@ -1,1 +1,5 @@
-<p>casting works!</p>
+<div class="row g-2" >
+    <article class="col-12 col-md-4" *ngFor="let character of characters">
+        <app-card [miItem]="character"></app-card>
+    </article>
+</div>
