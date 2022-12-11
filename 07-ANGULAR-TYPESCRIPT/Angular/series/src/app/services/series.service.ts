@@ -20,6 +20,12 @@ export class SeriesService {
   }
  
   getAllChannels():string[] {
-    return this.arrSeries.map(serie => serie.canal)
+   let channels = this.arrSeries.map(serie => serie.canal)
+   channels = [...new Set(channels)];
+   console.log(channels)
+   return channels
+  }
+  getByChannel(pCanal: string): Serie[]{
+    return this.arrSeries.filter(serie => serie.canal.toLowerCase().includes(pCanal));
   }
 }

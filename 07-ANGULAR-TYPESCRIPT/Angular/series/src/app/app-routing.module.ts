@@ -9,6 +9,7 @@ import { SerieViewComponent } from './components/serie-view/serie-view.component
 const routes: Routes = [
   { path: "", pathMatch: 'full', redirectTo: 'series' },
   { path: 'series', component: ItemListComponent },
+  {path:'series/:channel', component: ItemListComponent},
   {
     path: 'serie/:idserie', component: SerieViewComponent, children: [
       {path: "", pathMatch: 'full', redirectTo: 'temporadas'},

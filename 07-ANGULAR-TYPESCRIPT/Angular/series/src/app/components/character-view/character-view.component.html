@@ -9,11 +9,10 @@
                     <h1 class="card-title">{{character.nombre_real}}</h1>
                 </div>
                 <hr>
-                <h5 class="card-text">{{character.nombre_personaje}}</h5>
-                <p class="card-text">{{character.serie}}</p>
-                <p class="card-text">{{character.episodios}}</p>
-                <button class="btn btn-sm btn-warning m-1 px-4" [routerLink]="['/personajes']">Volver</button>
-                <button class="btn btn-sm btn-warning m-1" [routerLink]="['/serie', 'character.serie']">Su serie</button>
+                <h5 class="card-text">Nombre del personaje: {{character.nombre_personaje}}</h5>
+                <p class="card-text">Número de episodios: {{character.episodios}}</p>
+                <button class="btn btn-sm btn-warning m-1 px-4" [routerLink]="['/serie', character.serie, 'reparto']">Volver</button>
+                <button class="btn btn-sm btn-warning m-1" [routerLink]="['/serie', character.serie]">Su serie</button>
                 <router-outlet></router-outlet>
             </div>
         </div>

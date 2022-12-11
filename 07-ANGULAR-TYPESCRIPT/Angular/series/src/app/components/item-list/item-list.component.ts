@@ -14,7 +14,7 @@ import { SeriesService } from 'src/app/services/series.service';
 export class ItemListComponent implements OnInit{
   titulo: string="";
   arrItems: Serie[] | Character[] | any[]=[];
-
+  canal: string="";
   constructor(
     private seriesService: SeriesService,
     private characterService: CharactersService,
@@ -26,7 +26,13 @@ export class ItemListComponent implements OnInit{
     this.titulo = this.activatedRoute.snapshot.url[0].path;
     this.arrItems = (this.titulo === 'series')? this.seriesService.getAll() : this.characterService.getAll();
     //console.log(this.arrItems)
+  }
 
+  ngDoCheck(){
+    if(this.activatedRoute.snapshot.url.length > 1){
+      this.canal = this.activatedRoute.snapshot.url[1].path;
+      this.arrItems = this.seriesService.getByChannel(this.canal);
+    }
   }
 
 

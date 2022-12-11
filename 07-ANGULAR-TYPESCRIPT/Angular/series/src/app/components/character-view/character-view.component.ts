@@ -21,7 +21,7 @@ constructor(
 
 ngOnInit():void{
   this.activatedRoute.params.subscribe((params:any)=>{
-    let id:number = parseInt(params.idpersonaje)
+    let id:number = parseInt(params.idcharacter)
 
     let response = this.charactersService.getById(id);
     if(response){

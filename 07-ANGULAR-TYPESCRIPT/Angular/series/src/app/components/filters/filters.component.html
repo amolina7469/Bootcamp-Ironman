@@ -10,9 +10,11 @@
         <div class="card-button d-flex justify-content-center ">
             <input type="submit" value="Personajes" class="btn btn-dark m-1" [routerLink]="['/personajes']">
         </div>
-        <select class="form-select bg-transparent border-0 p-2">
-          <option value="todas" selected>Todas las cadenas</option>
-          <option *ngFor="let channel of arrChannels" value="channel">{{channel.toUpperCase()}}</option>
-        </select>
+        <div *ngIf="selectActive">
+          <select class="form-select bg-transparent border-0 p-2 mt-3" (change)="getChannel($event)">
+            <option value="todas" selected>Todas las cadenas</option>
+            <option *ngFor="let channel of arrChannels" [value]="channel">{{channel.toUpperCase()}}</option>
+          </select>
+        </div>
     </div>
 

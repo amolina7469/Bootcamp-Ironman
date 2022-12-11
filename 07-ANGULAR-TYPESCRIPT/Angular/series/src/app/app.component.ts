@@ -12,7 +12,7 @@ export class AppComponent {
 
   constructor(private router: Router){}
   ngDoCheck():void {
-    this.asideVisible =(this.router.url === '/personajes' || this.router.url === '/series')? true : false
+    this.asideVisible =(this.router.url === '/personajes' || this.router.url.includes('/series') )? true : false
 
   }
 

@@ -57,7 +57,8 @@
     16. Filtros, tenemos que tener 2 botones que me permitan cargar series y personajes.✅
     17. Ocultar la barra lateral en el componente ✅
     18. Filtro por canal de tv. Un selector que nos filtre sólo las series por canal. en le listado de personajes no se tiene que ver dicho filtro.✅
-    19. Ese filtro se llena con todos los canales del array de series. Ojo que vienen canales repetidos.Quiero que busqueis alguna forma de quitar los repetidos. GOOGLE
+    19. Ese filtro se llena con todos los canales del array de series. Ojo que vienen canales repetidos.Quiero que busqueis alguna forma de quitar los repetidos. GOOGLE✅
+    20. crear el filtro de busqueda por canal usando la ruta como cargador de la busqueda ya que los componentes no están enlazados entre si.
 
 
 

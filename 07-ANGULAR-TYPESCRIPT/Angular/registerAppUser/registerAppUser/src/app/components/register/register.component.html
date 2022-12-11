@@ -1,0 +1,46 @@
+<section class="container">
+    <div class="card shadow m-3 p-5">
+        <form [formGroup]="registerForm" (ngSubmit)="getDataForm()">
+
+            <div>
+                <label for="first_name" class="form-label">Nombre</label>
+                <input type="text" id="first_name" formControlName="first_name" class="form-control" placeholder="Introduce tu nombre">
+                <p *ngIf="checkControl('first_name', 'required')"><small class="text-danger">Campo obligatorio</small></p>
+                <p *ngIf="checkControl('first_name', 'minlength')"><small class="text-danger">El campo debe ser de tres caracteres al menos</small></p>
+            </div>
+            
+            <div>
+                <label for="last_name" class="form-label mt-3">Apellido</label>
+                <input type="text" id="last_name" formControlName="last_name" class="form-control" placeholder="Introduce tu apellido">
+                <p *ngIf="checkControl('last_name', 'required')"><small class="text-danger">Campo obligatorio</small></p>
+            </div>
+
+            <div>
+                <label for="email" class="form-label mt-3">Email</label>
+                <input type="text" id="email" formControlName="email" class="form-control" placeholder="Introduce tu email">
+                <p *ngIf="checkControl('email', 'required')"><small class="text-danger">Campo obligatorio</small></p>
+                <p *ngIf="checkControl('email', 'pattern')"><small class="text-danger">Campo obligatorio</small></p>
+            </div>
+
+            <div>
+                <label for="password" class="form-label mt-3">Contraseña</label>
+                <input type="password" id="password" formControlName="password" class="form-control" placeholder="Introduce tu contraseña">
+                <p *ngIf="checkControl('password', 'required')"><small class="text-danger">Campo obligatorio</small></p>
+                <p *ngIf="checkControl('password', 'minlength')"><small class="text-danger">Longitud minima de 5</small></p>
+                <p *ngIf="checkControl('password', 'maxlength')"><small class="text-danger">Longitud máxima de 8</small></p>
+
+            </div>
+
+            <div>
+                <label for="avatar" class="form-label mt-3">Foto</label>
+                <input type="text" id="avatar" formControlName="avatar" class="form-control" placeholder="Introduce tu foto">
+            </div>
+
+            <input type="submit" [disabled]="registerForm.invalid" value="Registrarse" class="btn btn-danger mt-3">
+        </form>
+
+    </div>
+
+    <app-myalert [message]="message" [viewAlert]="viewAlert" [typeError]="typeError"></app-myalert>
+
+</section>

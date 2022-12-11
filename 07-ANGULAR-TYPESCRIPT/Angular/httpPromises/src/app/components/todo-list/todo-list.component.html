@@ -1,0 +1,9 @@
+<section> 
+    <h2>Lista de tareas</h2>
+    <hr>
+    <article class="tarea" *ngFor="let todo of arrTodos">
+        <h3>{{todo?.title}}</h3>
+        <p>Estado: <span [ngClass] = "{'completa' : todo?.completed, 'incompleta': !todo?.completed}" >{{(todo.completed ? 'Completa' : 'Incompleta')}}</span></p>
+    </article>
+        
+</section>

@@ -1,0 +1,4 @@
+<div [class]="'alert alert-dismissible fade show alert-'+ typeError" role="alert" [ngClass]="{'show': viewAlert}">
+    <strong>{{message}}</strong> 
+    <button (click)="closeAlert()" type="button" class="btn-close" ></button>
+  </div>
