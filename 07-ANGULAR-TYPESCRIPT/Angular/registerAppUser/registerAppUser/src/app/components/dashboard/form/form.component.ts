@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Products } from 'src/app/interfaces/products.interface';
 import { ProductsService } from 'src/app/services/products.service';
 
 @Component({
@@ -13,6 +14,8 @@ export class FormComponent implements OnInit {
 form: FormGroup;
 arrCategorias: string[]=[];
 titulo: string = "Insertar";
+updateProduct!:Products;
+
 
 constructor( 
   private productService: ProductsService,
@@ -31,11 +34,13 @@ constructor(
 
 async ngOnInit(): Promise<void> {
   this.arrCategorias = await this.productService.getAllCategories();
-  this.activatedRoute.params.subscribe((params:any) => {
+  this.activatedRoute.params.subscribe(async(params:any) => {
     let id = params.idproduct;
     if(id){
       this.titulo = "Actualizar";
-      // debemos hacer una petición al servicio para traernos los datos del producto po id getById llenamos los campos del formulario con los datos de la petición y gestionamos la actualización con la API.
+      // debemos hacer una petición al servicio para traernos los datos del producto por id getById llenamos los campos del formulario con los datos de la petición y gestionamos la actualización con la API.
+      let response = await this.productService.getById(id)
+      this.updateProduct= response;
     }
   })
 }
