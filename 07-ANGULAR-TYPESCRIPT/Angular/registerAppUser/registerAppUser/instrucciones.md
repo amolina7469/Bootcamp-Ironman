@@ -8,3 +8,6 @@
     2. El proceso de login me devolverá un token que me debe dar acceso a uan parte privada, cuya ruta es /dashboard. Ha esa parte no podré acceder sin estar logado. GUARDS(clausulas de guarda)
    
     3. Pintar dentro de dashboard un componente como ruta hija (dashboard/productos) el listado de productos paginado (anterior y siguiente), del siguiente servicio. https://peticiones.online/products Gestionarlo con promises
+    4. crear
+    5. borrar
+    6. Crear un formulario de inserción de producto. La ruta será dasboard/product/new

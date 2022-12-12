@@ -13,7 +13,9 @@ import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MyalertComponent } from './components/myalert/myalert.component';
 import { HeaderComponent } from './components/header/header.component';
-import { ProductosComponent } from './components/productos/productos.component';
+import { ProductosComponent } from './components/dashboard/productos/productos.component';
+import { ProductViewComponent } from './components/dashboard/product-view/product-view.component';
+import { FormComponent } from './components/dashboard/form/form.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,10 @@ import { ProductosComponent } from './components/productos/productos.component';
     DashboardComponent,
     MyalertComponent,
     HeaderComponent,
-    ProductosComponent
+    ProductosComponent,
+    ProductViewComponent,
+    FormComponent,
+    
   ],
   imports: [
     BrowserModule,
