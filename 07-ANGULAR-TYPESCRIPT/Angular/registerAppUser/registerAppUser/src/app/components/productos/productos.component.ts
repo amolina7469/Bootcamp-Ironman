@@ -10,16 +10,12 @@ import { ProductsService } from 'src/app/services/products.service';
 export class ProductosComponent implements OnInit {
 
 arrProducts: Products[]=[];
-
+public page!: number;
 constructor(private productsService: ProductsService){}
 
-ngOnInit()  {
-
-
-    this.productsService.getAll().then(data => {this.arrProducts = data; console.log(this.arrProducts)});
-    //this.arrProducts = await this.productsService.getAll();
-    console.log(this.arrProducts)
- 
+async ngOnInit(): Promise<any>  {
+  this.arrProducts = await this.productsService.getAll().then(data => data.results);
+  console.log(this.arrProducts)
 }
 
 }

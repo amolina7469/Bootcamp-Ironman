@@ -12,7 +12,7 @@ export class ProductsService {
 
   constructor(private httpClient: HttpClient) { }
 
-getAll(): Promise<Products[]>{
+getAll(): Promise<any>{
   return lastValueFrom(this.httpClient.get<Products[]>(this.baseUrl))
 }
 }
