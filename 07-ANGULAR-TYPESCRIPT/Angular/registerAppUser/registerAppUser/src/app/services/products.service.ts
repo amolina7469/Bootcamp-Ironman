@@ -18,7 +18,7 @@ export class ProductsService {
 
 getAll(pPage = 1): Promise<any> {
   let rutaFinal = this.baseUrl + '?page=' + pPage;
-  return lastValueFrom(this.httpClient.get<any>(rutaFinal))
+  return lastValueFrom(this.httpClient.get<any>(rutaFinal));
 }
 
 getById(pId:string): Promise<Products> {
@@ -26,14 +26,17 @@ getById(pId:string): Promise<Products> {
 }
 
 delete(pId: string): Promise<any> {
-  return lastValueFrom(this.httpClient.delete<any>(`${this.baseUrl}${pId}`))
+  return lastValueFrom(this.httpClient.delete<any>(`${this.baseUrl}${pId}`));
 }
 
-async getAllCategories():Promise<string[]>{
-  return lastValueFrom(this.httpClient.get<string[]>(`${this.baseUrl}categories`))
+async getAllCategories():Promise<string[]> {
+  return lastValueFrom(this.httpClient.get<string[]>(`${this.baseUrl}categories`));
 }
 
-create(pFormValue: Products): Promise<Products>{
-  return lastValueFrom(this.httpClient.post<Products>(this.baseUrl, pFormValue))
+create(pFormValue: Products): Promise<Products> {
+  return lastValueFrom(this.httpClient.post<Products>(this.baseUrl, pFormValue));
+}
+update(pFormValue: Products):Promise<any> {
+  return lastValueFrom(this.httpClient.put<Products>(`${this.baseUrl}${pFormValue._id}`,pFormValue));
 }
 }

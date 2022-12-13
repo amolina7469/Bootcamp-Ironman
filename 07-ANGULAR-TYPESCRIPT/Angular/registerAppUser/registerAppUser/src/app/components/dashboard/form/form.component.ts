@@ -14,7 +14,10 @@ export class FormComponent implements OnInit {
 form: FormGroup;
 arrCategorias: string[]=[];
 titulo: string = "Insertar";
-updateProduct!:Products;
+// propiedades de la alerta
+mensaje: string = "";
+vistaAlerta: boolean = false;
+tipoError: string = "";
 
 
 constructor( 
@@ -39,18 +42,38 @@ async ngOnInit(): Promise<void> {
     if(id){
       this.titulo = "Actualizar";
       // debemos hacer una petición al servicio para traernos los datos del producto por id getById llenamos los campos del formulario con los datos de la petición y gestionamos la actualización con la API.
-      let response = await this.productService.getById(id)
-      this.updateProduct= response;
+      let producto = await this.productService.getById(id);
+      this.form = new FormGroup({
+        _id: new FormControl(producto._id,[]),
+        name:new FormControl(producto.name,[]), 
+        description:new FormControl(producto.description,[]), 
+        price:new FormControl(producto.price,[]), 
+        category:new FormControl(producto.category,[]), 
+        image:new FormControl(producto.image,[]), 
+        active:new FormControl(producto.active,[]), 
+      },[])
     }
   })
 }
 
 async getDataForm(): Promise<void>{
-  let response = await this.productService.create(this.form.value);
-  console.log(response)
-  //deberiamos redirigir al listado de productos y ver el nuevo producto listado.
-  if(response.id){
-    this.router.navigate(['/dashboard','productos']);
+  this.vistaAlerta = false;
+  if(this.form.value._id){
+    let response: any =  await this.productService.update(this.form.value);
+    if(!response.error){
+      this.router.navigate(['/dashboard','productos']);
+    }else {
+      this.vistaAlerta= true;
+      this.mensaje = response.error;
+      this.tipoError = 'danger';
+    }
+  } else {
+    let response: any = await this.productService.create(this.form.value);
+    console.log(response)
+//deberiamos redirigir al listado de productos y ver el nuevo producto listado.
+    if(response.id){
+      this.router.navigate(['/dashboard','productos']);
+    }
   }
 }
 
