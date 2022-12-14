@@ -1,0 +1,25 @@
+<section class="container-fluid mt-3">
+  <h1>Paises de Europa</h1>
+  <hr>
+  <div class="card p3 mapa">
+    <agm-map [latitude]="lat" [longitude]="long" [zoom]="5">
+
+      <agm-marker [latitude]="lat" [longitude]="long" [iconUrl]="$any({url:'https://images.vexels.com/media/users/3/135409/isolated/preview/ce89e34d35b8d83d821650449e7e096f-sombrilla-de-playa.png',scaledSize:{width: 50, height:50}})"></agm-marker>
+
+      <agm-marker *ngFor="let country of arrCountries" [latitude]="country?.capitalInfo.latlng[0]" [longitude]="country?.capitalInfo.latlng[1]" [iconUrl]="$any({url:country?.flags.svg, scaledSize:{width:30, height:25}})">
+        <agm-info-window>
+          <div class="info-window">
+            <h4><img class="icon" [src]="country?.flags.png" > | {{country?.name.common}}</h4>
+            <hr>
+            <ul>
+              <li><strong>Capital:</strong> {{country?.capital}}</li>
+              <li>Población: {{country?.population}}</li>
+            </ul>
+            <a [routerLink]="['/country',country?.cca2 | lowercase]" class="btn btn-danger btn-sm">Detalle</a>
+          </div>
+        </agm-info-window>
+      </agm-marker>
+
+    </agm-map>
+  </div>
+</section>

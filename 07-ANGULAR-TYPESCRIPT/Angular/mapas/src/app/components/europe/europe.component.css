@@ -1,0 +1,18 @@
+agm-map{
+  height: 700px;
+  width: 100%;
+}
+
+.info-window {
+  padding: 10px;
+}
+
+.info-window h4 {
+  font-size: 120%;
+  margin: 0;
+}
+
+.info-window .icon {
+  width: 20px;
+  height: auto;
+}
