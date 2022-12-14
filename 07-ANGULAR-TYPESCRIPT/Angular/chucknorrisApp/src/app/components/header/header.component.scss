@@ -1,0 +1,22 @@
+@import 'variables';
+
+.header{
+  background-color: $secondaryColor;
+  padding: 20px;
+  border-bottom: 3px solid $primaryColor;
+
+  .container{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h1{
+    color: $primaryColor;
+    font-weight: 700;
+  }
+  
+  select{
+    padding: 1px;
+  }
+
+}

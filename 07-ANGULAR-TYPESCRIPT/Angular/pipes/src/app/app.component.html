@@ -1,0 +1,65 @@
+
+  <p>{{ name | lowercase }}</p>
+  <p>{{ name | uppercase }}</p>
+  <p>{{ name }}</p>
+  <p>{{ 'miguel angel' | titlecase }}</p>
+  <p>El {{ iva | percent }} de {{precio}}€ es {{precio * iva}}</p>
+  <p>{{ racional | percent : '3.2-3' }}</p>
+  <p>{{ price | currency :'EUR'  }}</p>
+  <p>{{ racional | number : '2.4-5' }}</p>
+
+
+<hr>
+
+<p>{{ arrayNumeros }}</p>
+<p>{{ arrayNumeros2 }}</p>
+<!-- pipe de depuració -->
+<p>{{ arrayNumeros2 | json }}</p>n
+<ul>
+  <li *ngFor="let item of arrayNumeros2 | slice: 0:2">{{item.numero}}</li>
+</ul>
+
+<hr>
+
+<p>{{ fecha | date}}</p>
+<p>{{ fecha | date : 'dd MMMM'}}</p>
+<p>{{ fecha | date : 'dd M yyyy'}}</p>
+<p>{{ fecha | date : 'dd/M/yy'}}</p>
+<p>{{ fecha | date : 'dd MMMM y hh:mm:ss'}}</p>
+<p>{{ fecha | date : 'dd MMMM y hh:mm:ss a'}}</p>
+<p>{{ fecha | date : 'dd MMMM y hh:mm:ss z'}}</p>
+<p>{{ fecha | date : 'EEEE dd MMMM'}}</p>
+
+<hr>
+
+<p>{{ birthday }}</p>
+<p>{{ birthday | date }}</p>
+<p>{{ birthday | date : 'dd-MMMM-y' }}</p>
+
+<hr>
+
+<h1>Pipes asincronos, valen para observables y promesas</h1>
+<h2>Promises</h2>
+<ul>
+  <li *ngFor="let todo of arrTodoPromise | async | slice: 0:2">{{todo.title}}</li>
+</ul>
+<h2>Observables</h2>
+<ul>
+  <li *ngFor="let todo of arrTodoObservable | async | slice: 0:4">{{todo.title}}</li>
+</ul>
+
+<hr>
+<h2>Pipes propios</h2>
+<!-- Comando para crear un Pipe: ng generate pipe pipes/vueltecita -->
+<p>{{'Esta frase está del derecho' | vueltecita }}</p>
+
+<article>
+  <h3>titulo del articulo</h3>
+  <p>{{ texto | recortarStrings : 60 :'***' }}</p>
+</article>
+
+<p>Sueldo Neto : {{sueldoBrutoMensual | neto : 2 }}</p>
+
+<!-- formateador de texto, elegir un color, si lleva o no negrita, mayusculas o minusculas y argumentos no obligatorios -->
+
+<p [innerHTML]= "texto | formateador : '#00ff00' : 'bold' : 'capitalize'"></p>

@@ -1,0 +1,10 @@
+<div class="header">
+  <div class="container">
+    <h1>CHUCK-NORRIS</h1>
+    <select name="categories" id="categories" (change)="capturarCat($event)">
+    <option value="">Elige una categoría</option>
+    <option *ngFor="let category of arrCategories" [value]="category">{{category | titlecase}}</option>
+  </select>
+</div> 
+</div>
+
