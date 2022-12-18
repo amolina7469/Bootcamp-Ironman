@@ -1,0 +1,20 @@
+.logo {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poiret One', cursive;
+  font-size: 50px ;
+  }
+
+.head-link {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px ;
+}
+
+.search {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poiret One', cursive;
+  /* cambiar color del outline del input al pinchar */
+}
