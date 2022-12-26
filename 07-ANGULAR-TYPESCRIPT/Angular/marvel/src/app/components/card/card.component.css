@@ -5,6 +5,7 @@ figure {
   box-shadow: 1px 1px 5px rgba(116, 86, 86, 0.938);
   overflow:hidden;
   position: relative;
+  transition: transform 0.75s;
 }
 
 figure img {
@@ -20,4 +21,9 @@ figure figcaption{
   color: rgb(255, 255, 255);
   font-weight: 600;
   padding: 5px;
+}
+
+figure:hover {
+ transform: scale(1.15);
+
 }

@@ -1,7 +1,20 @@
-<section class="mt-5">
-  <div class="row g-4"></div>
-  <article  *ngFor="let character of characters" class="col-12 col-md-4 col-lg-3">
-    <app-card [character] = character></app-card>
-  </article>
+<section class="bg-dark">
+  <div class="container">
+    <div class="row g-4 mt-2">
+        <article  *ngFor="let character of characters" class="col-12 col-md-4 col-lg-3">
+      <app-card [character] = character></app-card>
+    </article>
+    </div>
+  </div>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>
 </section>
+
 
