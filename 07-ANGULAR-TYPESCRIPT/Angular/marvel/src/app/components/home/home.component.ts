@@ -10,7 +10,8 @@ import { Character } from 'src/app/interfaces/character.interface';
 export class HomeComponent implements OnInit {
 
 characters: Character[]=[];
-
+page!: number;
+notImage : string = "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available";
 constructor(private characterService: CharactersService){}
 
 ngOnInit() {

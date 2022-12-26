@@ -1,20 +1,15 @@
 <section class="bg-dark">
   <div class="container">
-    <div class="row g-4 mt-2">
-        <article  *ngFor="let character of characters" class="col-12 col-md-4 col-lg-3">
-      <app-card [character] = character></app-card>
+    <div class="row g-4">
+        <article  *ngFor="let character of characters | paginate: {itemsPerPage: 12, currentPage: page}" class="col-12 col-md-4 col-lg-3">
+      <!-- <div *ngIf="character.thumbnail.path != notImage"> -->
+        <app-card [character] = character></app-card>
+      <!-- </div> -->
     </article>
     </div>
   </div>
-  <nav aria-label="Page navigation example">
-    <ul class="pagination">
-      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item"><a class="page-link" href="#">Next</a></li>
-    </ul>
-  </nav>
 </section>
 
-
+<div class="pagination p-3 text-white bg-dark">
+  <pagination-controls (pageChange)=" page = $event" previousLabel="Anterior" nextLabel="Siguiente"></pagination-controls>
+</div>
