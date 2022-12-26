@@ -1,19 +1,7 @@
-
-  <article *ngFor="let character of characters ">
-    <div class="d-flex justify-content-center bg-dark">
-      <div class="card m-3 border border-4 border-danger bg-secondary " style="max-width: 1080px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src= {{character.thumbnail.path}}.{{character.thumbnail.extension}} class="img-fluid rounded-start border-end border-danger" alt="{{character.name}}">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">{{character.name}}</h5>
-              <p class="card-text">{{character.description}}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<section class="mt-5">
+  <div class="row g-4"></div>
+  <article  *ngFor="let character of characters" class="col-12 col-md-4 col-lg-3">
+    <app-card [character] = character></app-card>
   </article>
+</section>
 

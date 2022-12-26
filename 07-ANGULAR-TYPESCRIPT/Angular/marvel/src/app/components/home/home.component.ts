@@ -18,6 +18,5 @@ ngOnInit() {
   this.characters = data.data.results;
   console.log(this.characters);
   });  
-}
-
+ }
 }

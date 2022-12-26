@@ -1,0 +1,22 @@
+
+<!-- <div class="d-flex justify-content-center bg-dark">
+  <div class="card m-3 border border-4 border-danger bg-secondary " style="max-width: 1080px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src= {{character.thumbnail.path}}.{{character.thumbnail.extension}} class="img-fluid rounded-start border-end border-danger" alt="{{character.name}}">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{character.name}}</h5>
+          <p class="card-text">{{character.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+<figure class="card">
+    <img src={{character.thumbnail.path}}.{{character.thumbnail.extension}} [alt]= "character.name">
+    <figcaption>{{character.name}}</figcaption>
+</figure>
