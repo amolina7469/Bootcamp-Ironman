@@ -8,13 +8,15 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { CardViewComponent } from './components/card-view/card-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    CardComponent
+    CardComponent,
+    CardViewComponent
   ],
   imports: [
     BrowserModule,

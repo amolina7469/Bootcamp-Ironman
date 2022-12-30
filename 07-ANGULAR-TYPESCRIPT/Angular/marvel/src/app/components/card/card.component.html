@@ -1,5 +1,5 @@
 
 <figure class="card">
     <img src={{character.thumbnail.path}}.{{character.thumbnail.extension}} [alt]= "character.name">
-    <a href=""><figcaption>{{character.name}}</figcaption></a>
+    <a [routerLink]="['/character', character.id]"><figcaption>{{character.name}}</figcaption></a>
 </figure>

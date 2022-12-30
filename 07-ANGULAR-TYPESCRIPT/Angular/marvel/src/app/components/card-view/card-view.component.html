@@ -1,0 +1,41 @@
+<div class="container">
+  <article class="d-flex justify-content-center" *ngFor="let info of characters" >
+    <div class="card mt-5 mb-5" style="max-width: 1080px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src={{info.thumbnail.path}}.{{info.thumbnail.extension}} class="img-fluid rounded-start" alt={{info.name}}>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-danger">{{info.name.toUpperCase()}}</h5>
+            <p class="card-text">{{info.description}}</p>
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Comics
+            </button>
+            <button type="button" class="m-3 btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Series
+            </button>
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-danger" id="staticBackdropLabel">COMICS</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex justify-content-center" *ngFor="let comic of comics">
+                    
+                    <img src={{comic.thumbnail.path}}.{{comic.thumbnail.extension}}  alt={{comic.title}} width="300px" height="380px">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+
