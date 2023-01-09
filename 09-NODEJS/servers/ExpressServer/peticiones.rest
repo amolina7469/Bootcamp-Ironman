@@ -1,0 +1,43 @@
+GET  http://localhost:3000
+
+###
+GET http://localhost:3000/users
+
+###
+POST http://localhost:3000/users/new
+
+###
+GET http://localhost:3000/info
+
+###
+PUT http://localhost:3000/users/edit/profile
+
+###
+DELETE  http://localhost:3000/clients
+
+###
+POST http://localhost:3000/clients/create
+
+###
+PATCH http://localhost:3000/clients/update
+
+###
+POST http://localhost:3000/formulario
+
+###
+PUT http://localhost:3000/products/edit
+
+###
+GET http://localhost:3000/products/all
+
+###
+GET http://localhost:3000/api/clients
+
+###
+POST http://localhost:3000/api/products/new
+
+###
+PUT http://localhost:3000/api/users/edit/profile
+
+###
+DELETE http://localhost:3000/api/products/delete

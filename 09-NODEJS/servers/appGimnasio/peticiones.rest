@@ -1,0 +1,38 @@
+GET http://localhost:3000/api/clientes?page=45&limit=30
+
+###
+GET http://localhost:3000/api/clientes/31
+
+###
+GET http://localhost:3000/api/clientes/v3
+
+###
+GET http://localhost:3000/api/clientes/edad/56
+
+###
+POST http://localhost:3000/api/clientes
+Content-Type: application/json
+
+{
+  "nombre": "Mario Girón",
+  "edad": "34",
+  "email": "mario@gmail.com",
+  "telefono": 678192039
+}
+
+###
+PUT http://localhost:3000/api/clientes/78
+
+###
+DELETE http://localhost:3000/api/clientes/65
+
+
+##################
+# API PROFESORES #
+##################
+
+###
+GET http://localhost:3000/api/profesores
+
+###
+GET http://localhost:3000/api/profesores/10
