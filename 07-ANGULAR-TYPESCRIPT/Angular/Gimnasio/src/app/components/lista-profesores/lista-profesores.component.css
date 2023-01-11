@@ -1,0 +1,13 @@
+.profesores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.profesor {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 30px;
+}

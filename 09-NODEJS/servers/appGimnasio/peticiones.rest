@@ -13,18 +13,37 @@ GET http://localhost:3000/api/clientes/edad/56
 POST http://localhost:3000/api/clientes
 Content-Type: application/json
 
+
 {
-  "nombre": "Mario Girón",
-  "edad": "34",
-  "email": "mario@gmail.com",
-  "telefono": 678192039
+  "nombre": "Patricio",
+  "apellidos": "Organos",
+  "direccion": "65 Shopiko Mane",
+  "email": "porgan454s1@gmail.ly",
+  "edad": 25,
+  "genero": "m",
+  "cuota": "39.90",
+  "fecha_nacimiento": "1994-10-13",
+  "dni": "526984763h"
+  }
+
+
+###
+PUT http://localhost:3000/api/clientes/31
+Content-Type: application/json
+
+{
+  "nombre": "Ringo",
+  "apellidos": "Clem",
+  "direccion": "9 Monica Place",
+  "email": "rclemu@tinyurl.com",
+  "edad": 22,
+  "genero": "m",
+  "cuota": "39.90",
+  "fecha_nacimiento": "1960-07-06",
+  "dni": "427000097e"
 }
-
 ###
-PUT http://localhost:3000/api/clientes/78
-
-###
-DELETE http://localhost:3000/api/clientes/65
+DELETE http://localhost:3000/api/clientes/138
 
 
 ##################
@@ -36,3 +55,35 @@ GET http://localhost:3000/api/profesores
 
 ###
 GET http://localhost:3000/api/profesores/10
+
+###
+POST http://localhost:3000/api/profesores 
+Content-Type: application/json
+
+{
+  "nombre": "Luis",
+  "experiencia": 6
+}
+
+###
+
+PUT http://localhost:3000/api/profesores/104
+Content-Type: application/json
+
+{
+  "nombre": "Amela Gill",
+  "experiencia": 12
+}
+
+###
+DELETE http://localhost:3000/api/profesores/104
+
+##################
+# API EJERCICIOS #
+##################
+
+###
+GET http://localhost:3000/api/ejercicios
+
+###
+GET http://localhost:3000/api/ejercicios/15

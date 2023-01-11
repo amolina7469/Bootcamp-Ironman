@@ -1,6 +1,7 @@
 const router = require('express').Router();
 
-const { getAll, getById, getByEdad } = require('../../models/cliente.model');
+const { json } = require('express');
+const { getAll, getById, getByEdad, create, update, deleteById } = require('../../models/cliente.model');
 
 // /api/clientes?page=4&limit10
 router.get('/then-catch', (req, res)=>{
@@ -68,23 +69,38 @@ router.get('/edad/:edadCliente', async (req, res)=>{
   }
 });
 
-router.post('/', (req, res)=>{
-  console.log(req.body);
-  const { nombre, edad} = req.body;
-  console.log(nombre, edad);
-  res.send('Crea un cliente');
+router.post('/', async (req, res)=>{
+  try {
+    //Insertamos el cliente en la BD
+    const [result] = await create(req.body);
+
+    //Recupero de la base de datos el nuevo cliente creado
+    const [cliente] = await getById(result.insertId);
+
+    res.json(cliente[0]);
+  } catch (err) {
+    res.json({fatal: err.message});
+  }
 });
 
-router.put('/:clienteId', (req, res)=>{
+router.put('/:clienteId', async (req, res)=>{
   const { clienteId } = req.params; //Destructuring
-  console.log(clienteId);
-  res.send('Edita un cliente');
+try {
+  const [result] = await update(clienteId, req.body);
+  res.json(result);
+} catch (err) {
+  res.json({fatal: err.message});
+}
 });
 
-router.delete('/:clienteId', (req, res)=>{
+router.delete('/:clienteId', async (req, res)=>{
   const { clienteId } = req.params;
-  
-  res.send('Elimina un cliente');
+  try {
+    const [result] = await deleteById(clienteId);
+    res.json(result);
+  }catch (err){
+    res.json({fatal: err.message});
+  }
 });
 
 module.exports = router;

@@ -4,6 +4,7 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const dayjs = require('dayjs');
 const fs = require('fs');
+const cors = require('cors');
 
 
 //Creación de la aplicación de Express
@@ -11,6 +12,7 @@ const app = express();
 
 
 //Configuración de mi app de Express
+app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
