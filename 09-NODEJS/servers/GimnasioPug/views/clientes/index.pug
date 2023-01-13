@@ -1,0 +1,23 @@
+extends ../layout.pug 
+
+block content 
+  h2.mt-4 Lista clientes
+    .tabla 
+      .fila 
+        .celda Nombre
+        .celda Apellidos
+        .celda Dirección 
+        .celda Edad 
+        .celda Fecha Nacimiento
+        .celda Cuota
+        .celda Acciones
+      each cliente in clientes
+        .fila 
+          .celda= cliente.nombre
+          .celda= cliente.apellidos
+          .celda= cliente.direccion 
+          .celda= cliente.edad 
+          .celda= cliente.fecha_nacimiento
+          .celda= cliente.cuota
+          .celda
+            a.btn.btn-sm.btn-danger(href="/clientes/delete/"+cliente.id, onclick="return confirm('¿Estás seguro que quieres borrar el cliente?')") Borrar

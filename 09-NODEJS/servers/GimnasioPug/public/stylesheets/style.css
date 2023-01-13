@@ -1,0 +1,35 @@
+.tabla {
+  display: table;
+}
+
+.fila {
+  display: table-row;
+}
+
+.celda {
+  display: table-cell;
+}
+
+@media (max-width:1000px) {
+  .tabla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .tabla .fila:first-child {
+    display: none;
+  }
+
+  .fila {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    ;
+  }
+
+
+}

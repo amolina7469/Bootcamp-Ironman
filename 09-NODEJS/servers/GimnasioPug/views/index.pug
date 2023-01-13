@@ -1,0 +1,46 @@
+extends layout.pug 
+
+block content
+  h1 Título de la página
+  h2 Subtítulo de la página
+  div 
+    p Contenido del párrafo
+
+  div 
+    a(id="google-link" href="http://www.google.com", target="blank") Google.com
+    a#yahoo-link(href="http://www.yahoo.es", class="enlace buscador") Yahoo.es
+    a#20min-link.enlace.noticias(href="http://20minutos.es") 20minutos.es
+
+  .variables 
+    p= mensaje
+    p Mi mensaje es: #{mensaje}
+
+  .iteradores 
+    ul 
+        - for(let i = 0; i < animales.length; i++)
+          li=animales[i]
+
+    ul 
+        each animal in animales 
+          li=animal
+
+    - animales = [];
+    ul 
+        each animal in animales 
+          li=animal
+        else 
+          li No hay animales
+
+  .comentarios 
+    // Comentario HTML
+    //- Comentario PUG
+
+  .content
+    .row
+      .col-3 Uno
+      .col-3 Dos
+      .col-3 Tres
+      .col-3 Cuatro
+
+block footer 
+  p @Copyright 2023

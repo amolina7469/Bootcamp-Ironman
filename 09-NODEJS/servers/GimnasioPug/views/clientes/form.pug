@@ -1,0 +1,35 @@
+extends ../layout.pug 
+
+block content 
+    form.small-form(method="post", action="/clientes/create")
+      h1 Regitro cliente
+
+      .form-group
+        label.form-label Nombre
+        input.form-control(type="text", name="nombre")
+      .form-group
+        label.form-label Apellidos
+        input.form-control(type="text", name="apellidos")
+      .form-group
+        label.form-label Email
+        input.form-control(type="email", name="email")
+      .form-group
+        label.form-label Dirección
+        input.form-control(type="text", name="direccion")
+      .form-group
+        label.form-label Edad
+        input.form-control(type="text", name="edad")
+      .form-group
+        label.form-label Fecha Nacimiento
+        input.form-control(type="date", name="fecha_nacimiento")
+      .form-group
+        label.form-label Cuota
+        input.form-control(type="text", name="cuota")
+      .form-group
+        label.form-label Género
+        input.form-control(type="text", name="genero")
+      .form-group
+        label.form-label DNI
+        input.form-control(type="text", name="dni")
+
+      button.btn.btn-primary(type ="submit", value="Enviar") Enviar
