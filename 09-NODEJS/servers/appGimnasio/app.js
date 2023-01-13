@@ -44,7 +44,6 @@ app.use((req, res, next) => {
   //[FECHA] método GET. Url: /api/clientes
   const currentDate =dayjs().format('DD-MM-YYYY HH:mm:ss');
   const line = `[${currentDate}] Método: ${req.method}. Url: ${req.url}\n`;
-
   fs.appendFile('./logs/main.log', line, (err)=>{
     if (err) {
       return res.send(err.message);

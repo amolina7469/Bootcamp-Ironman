@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
 
@@ -9,13 +9,18 @@ export class ProfesoresService {
 
   private baseUrl: string;
 
-  constructor(private httpClient: HttpClient) { 
+  constructor(private httpClient: HttpClient) {
     this.baseUrl = 'http://localhost:3000/api/profesores';
   }
 
   getAll() {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Authorization': localStorage.getItem('token')!
+      })
+    }
     return firstValueFrom(
-      this.httpClient.get<any[]>(this.baseUrl)
+      this.httpClient.get<any[]>(this.baseUrl, httpOptions)
     );
   };
 
@@ -25,7 +30,7 @@ export class ProfesoresService {
     );
   };
 
-  create(formValues: any){
+  create(formValues: any) {
     return firstValueFrom(this.httpClient.post(this.baseUrl, formValues));
   };
 }

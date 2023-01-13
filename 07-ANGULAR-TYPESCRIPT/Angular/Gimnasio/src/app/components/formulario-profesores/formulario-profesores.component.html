@@ -1,11 +1,12 @@
+<app-nav-bar></app-nav-bar>
 <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
   <div class="form-group">
-      <label class="form-label">Nombre</label>
-      <input type="text" class="form-control" formControlName="nombre">
+    <label class="form-label">Nombre</label>
+    <input type="text" class="form-control" formControlName="nombre">
   </div>
   <div class="form-group">
-      <label class="form-label">Experiencia</label>
-      <input type="text" class="form-control" formControlName="experiencia">
+    <label class="form-label">Experiencia</label>
+    <input type="text" class="form-control" formControlName="experiencia">
   </div>
   <input type="submit" value="Crear Profesor">
 </form>

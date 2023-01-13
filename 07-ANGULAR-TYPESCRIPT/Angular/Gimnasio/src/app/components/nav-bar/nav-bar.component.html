@@ -1,0 +1,31 @@
+<div class="nav">
+  <div>
+    <img src="https://img.icons8.com/material-sharp/512/mysql-logo.png" alt="">
+  </div>
+  <div class="link">
+    <p [routerLink]="['/clientes']" *ngIf="usuariosService.isLogged()">
+      Lista clientes
+    </p>
+  </div>
+  <div class="link">
+    <p [routerLink]="['/clientes/new']" *ngIf="usuariosService.isLogged()">
+      Nuevo Cliente
+    </p>
+  </div>
+  <div class="link">
+    <p [routerLink]="['/profesores']" *ngIf="usuariosService.isLogged()">
+      Lista Profesores
+    </p>
+  </div>
+  <div class="link">
+    <p [routerLink]="['/registro']" *ngIf="!usuariosService.isLogged()">
+      Registro
+    </p>
+  </div>
+  <div class="link">
+    <p [routerLink]="['/login']" *ngIf="!usuariosService.isLogged()">
+      Login
+    </p>
+  </div>
+  <div class="link" (click)="onLogout()">Logout</div>
+</div>

@@ -1,0 +1,29 @@
+##################
+# API USUARIOS #
+##################
+
+@hostname = http://localhost
+@port = 3000
+@url = {{hostname}}:{{port}}/api/usuarios
+
+###
+GET {{url}}/profile
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozMiwidXNlcl9yb2xlIjoiYWRtaW4iLCJleHAiOjE2NzM1MTI5MjAsImlhdCI6MTY3MzUxMjYyMH0.qss6d20W3rbXXe7p6ggiAtmGH6w3WFyxYcXdFcUBezk
+
+POST {{url}}/registro
+Content-Type: application/json
+
+{
+  "username":"mario",
+  "email":"mario3@gmail.com",
+  "password":"12345"
+}
+
+###
+POST {{url}}/login
+Content-Type: application/json
+
+{
+  "email":"mario3@gmail.com",
+  "password":"12345"
+}

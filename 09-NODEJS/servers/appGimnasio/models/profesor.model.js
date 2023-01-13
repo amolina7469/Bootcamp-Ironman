@@ -3,32 +3,37 @@ const getAll = () => {
 };
 
 const getById = (profesorId) => {
-  return db.query ('select * from profesores where id = ? ', [profesorId]);
+  return db.query('select * from profesores where id = ? ', [profesorId]);
 };
 
 const create = ({ nombre, experiencia }) => {
   return db.query(
-    'insert into profesores (nombre, experiencia) values (?, ?)', 
+    'insert into profesores (nombre, experiencia) values (?, ?)',
     [nombre, experiencia]
   );
 };
 
 const update = (profesorId, { nombre, experiencia }) => {
   return db.query(
-    'update profesores set nombre = ?, experiencia = ? where id = ?', 
+    'update profesores set nombre = ?, experiencia = ? where id = ?',
     [nombre, experiencia, profesorId]
   );
 };
 
 const deleteById = (profesorId) => {
   return db.query('delete from profesores where id = ?',
-  [profesorId]);
+    [profesorId]);
 };
+
+const getNames = () => {
+  return db.query('select nombre from profesores');
+}
 
 module.exports = {
   getAll,
   getById,
   create,
   update,
-  deleteById
+  deleteById,
+  getNames
 };

@@ -1,9 +1,11 @@
 const router = require('express').Router();
 
-router.use('/clientes', require('./api/clientes'));
+const { checkToken, checkAdmin, checkRole } = require('../helpers/middlewares');
 
-router.use('/profesores', require('./api/profesores'));
 
+router.use('/clientes', checkToken, checkRole('regular'), require('./api/clientes'));
+router.use('/profesores', checkToken, checkAdmin, require('./api/profesores'));
 router.use('/ejercicios', require('./api/ejercicios'));
+router.use('/usuarios', require('./api/usuarios'));
 
 module.exports = router;

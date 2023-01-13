@@ -1,5 +1,5 @@
-GET http://localhost:3000/api/clientes?page=45&limit=30
-
+GET http://localhost:3000/api/clientes 
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozMiwidXNlcl9yb2xlIjoiYWRtaW4iLCJleHAiOjE2NzY1NjYwMTUsImlhdCI6MTY3MzU0MjAxNX0.VN2s4cfkCD-skAIKS8R-Vs6PiCCBps6l02cz8HhLMPg
 ###
 GET http://localhost:3000/api/clientes/31
 
@@ -52,9 +52,16 @@ DELETE http://localhost:3000/api/clientes/138
 
 ###
 GET http://localhost:3000/api/profesores
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozMiwidXNlcl9yb2xlIjoiYWRtaW4iLCJleHAiOjE2NzM1MTIzNTcsImlhdCI6MTY3MzUxMjA1N30.LF0d1-g1Tnr0FtZQtx_-e4bnDIvOcNqAVp_MbaKzbP8
 
 ###
 GET http://localhost:3000/api/profesores/10
+
+###
+GET http://localhost:3000/api/profesores/clientes 
+
+###
+GET http://localhost:3000/api/profesores/nombres
 
 ###
 POST http://localhost:3000/api/profesores 

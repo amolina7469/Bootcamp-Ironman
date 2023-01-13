@@ -4,12 +4,12 @@ const { json } = require('express');
 const { getAll, getById, getByEdad, create, update, deleteById } = require('../../models/cliente.model');
 
 // /api/clientes?page=4&limit10
-router.get('/then-catch', (req, res)=>{
+router.get('/then-catch', (req, res) => {
   // const { page = 1, limit = 10 } = req.query;
   // console.log(page, limit);
   //? Como hacer un -select * from clientes-
   db.query('select * from clientes')
-  //? 
+    //? 
     // .then((result) => {
     // console.log(result); //result es un array de 2 posiciones
     // console.log(result[0]);// la posicion [0] son los datos
@@ -18,8 +18,8 @@ router.get('/then-catch', (req, res)=>{
     // res.json(result[0]);
     // })
 
-//? OPCIÓN 1: promesa con then catch
-    .then (([result, fileds])=>{ 
+    //? OPCIÓN 1: promesa con then catch
+    .then(([result, fileds]) => {
       res.json(result);
     })
     .catch((err) => {
@@ -28,78 +28,80 @@ router.get('/then-catch', (req, res)=>{
 });
 
 //? OPCIÓN 2: promesa con async await
-router.get('/async-await', async (req, res)=> {
+router.get('/async-await', async (req, res) => {
   try {
     const [result, fields] = await db.query('select * from clientes');
     res.json(result);
-  }catch (err) {
+  } catch (err) {
     res.json(err.message);
   }
 });
 
 //? OPCIÓN 3: Opción chachi
-router.get('/', async (req, res)=> {
-  try{
+router.get('/', async (req, res) => {
+  console.log(req.user);
+  try {
     const [result] = await getAll();
     res.json(result);
-  }catch (err){
+  } catch (err) {
     res.json(err.message);
   }
 });
 
 
-router.get('/:clienteId', async (req, res)=>{
+router.get('/:clienteId', async (req, res) => {
   //select * from clientes where id=XXXXX
   const { clienteId } = req.params; //Destructuring
   try {
-    const [result] =  await getById(clienteId);
+    const [result] = await getById(clienteId);
     res.json(result[0]);
-  }catch (err){
+  } catch (err) {
     res.json(err.message);
   }
 });
 
-router.get('/edad/:edadCliente', async (req, res)=>{
+router.get('/edad/:edadCliente', async (req, res) => {
   const { edadCliente } = req.params;
-  try{
+  try {
     const [result] = await getByEdad(edadCliente);
     res.json(result);
-  }catch(err){
-    res.json({fatal:err.message});
+  } catch (err) {
+    res.json({ fatal: err.message });
   }
 });
 
-router.post('/', async (req, res)=>{
+
+router.post('/', async (req, res) => {
   try {
     //Insertamos el cliente en la BD
     const [result] = await create(req.body);
-
     //Recupero de la base de datos el nuevo cliente creado
     const [cliente] = await getById(result.insertId);
-
     res.json(cliente[0]);
   } catch (err) {
-    res.json({fatal: err.message});
+    res.json({ fatal: err.message });
   }
 });
 
-router.put('/:clienteId', async (req, res)=>{
+
+router.put('/:clienteId', async (req, res) => {
   const { clienteId } = req.params; //Destructuring
-try {
-  const [result] = await update(clienteId, req.body);
-  res.json(result);
-} catch (err) {
-  res.json({fatal: err.message});
-}
+  try {
+    const [result] = await update(clienteId, req.body);
+    res.json(result);
+  } catch (err) {
+    res.json({ fatal: err.message });
+  }
 });
 
-router.delete('/:clienteId', async (req, res)=>{
+
+router.delete('/:clienteId', async (req, res) => {
   const { clienteId } = req.params;
   try {
     const [result] = await deleteById(clienteId);
     res.json(result);
-  }catch (err){
-    res.json({fatal: err.message});
+  } catch (err) {
+    res.json({ fatal: err.message });
   }
 });
 

@@ -10,6 +10,9 @@ import { FormularioClientesComponent } from './components/formulario-clientes/fo
 import { ReactiveFormsModule } from '@angular/forms';
 import { ListaProfesoresComponent } from './components/lista-profesores/lista-profesores.component';
 import { FormularioProfesoresComponent } from './components/formulario-profesores/formulario-profesores.component';
+import { RegistroUsuariosComponent } from './components/usuarios/registro/registro.usuarios.component';
+import { LoginComponent } from './components/usuarios/login/login.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { FormularioProfesoresComponent } from './components/formulario-profesore
     ListaClientesComponent,
     FormularioClientesComponent,
     ListaProfesoresComponent,
-    FormularioProfesoresComponent
+    FormularioProfesoresComponent,
+    RegistroUsuariosComponent,
+    LoginComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

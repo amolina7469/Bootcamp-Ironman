@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { lastValueFrom, firstValueFrom } from 'rxjs'
 
@@ -9,13 +9,18 @@ export class ClientesService {
 
   private baseUrl: string;
 
-  constructor(private httpClient : HttpClient) {
+  constructor(private httpClient: HttpClient) {
     this.baseUrl = 'http://localhost:3000/api/clientes';
   }
 
   getAll() {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Authorization': localStorage.getItem('token')!
+      })
+    };
     return lastValueFrom(
-      this.httpClient.get<any[]>(this.baseUrl)
+      this.httpClient.get<any[]>(this.baseUrl, httpOptions)
     );
   }
 

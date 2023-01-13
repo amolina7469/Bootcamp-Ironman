@@ -1,7 +1,8 @@
+<app-nav-bar></app-nav-bar>
 <div class="profesores">
   <div class="profesor" *ngFor="let profesor of arrProfesores">
-      <h2>{{profesor.nombre}}</h2>
-      <p>Experiencia: {{profesor.experiencia}}</p>
-      <button (click)="borrar(profesor.id)">🗑️ Borrar</button>
+    <h2>{{profesor.nombre}}</h2>
+    <p>Experiencia: {{profesor.experiencia}}</p>
+    <button (click)="borrar(profesor.id)">🗑️ Borrar</button>
   </div>
 </div>
