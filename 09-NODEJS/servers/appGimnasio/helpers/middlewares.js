@@ -35,11 +35,11 @@ const checkAdmin = (req, res, next) => {
   next();
 }
 
-
-const checkRole = (role) => {
-  return (req, res, next) => {
+// middleware con parámetros
+const checkRole = (role) => { //ámbito superior con parámetros
+  return (req, res, next) => { // retorno la función
     if (role === req.user.role) {
-      res.json({ fatal: 'No eres administrador' })
+      return res.json({ fatal: 'No eres administrador' })
     }
     next();
   }
