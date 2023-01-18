@@ -1,0 +1,40 @@
+@url = http://localhost:3000/api
+
+###
+GET {{url}}/products
+
+###
+GET {{url}}/products/moda
+
+###
+GET {{url}}/products/min/20/max/35
+
+###
+GET {{url}}/products/actives
+
+###
+POST {{url}}/products
+Content-Type: application/json
+
+{
+  "name": "Pantalones amarillos",
+  "description": "Son para las piernas",
+  "price": 14,
+  "department": "moda",
+  "available": true,
+  "stock": 58,
+  "image": ""
+}
+
+###
+PUT {{url}}/products/63c54c11bcf5ccdbd7117a40
+Content-Type: application/json
+
+{
+  "price": 210,
+  "available":false
+}
+
+###
+DELETE {{url}}/products/63c663a54062fd55e166aaf5
+
