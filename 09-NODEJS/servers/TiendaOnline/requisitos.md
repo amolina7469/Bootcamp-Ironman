@@ -56,3 +56,10 @@
   - Recupera los productos disponibles y con stock mayor que 0
   - find(FILTRO)
 
+## GET /api/users/cart
+
+  - Recupera un array con todos los productos del usuario autenticado.
+
+## GET api/users/cart/remove/PRODUCTID
+
+  - Pasamos el id del producto a través de la url y borramos dicho producto del carrito del usuario autenticado.

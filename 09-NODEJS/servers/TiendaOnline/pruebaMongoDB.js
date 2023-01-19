@@ -5,6 +5,7 @@ const User = require('./models/user.model')
 
 
   (async () => {
+
     mongoose.set('strictQuery', false);
     await mongoose.connect('mongodb://127.0.0.1:27017/tienda_online');
 
@@ -35,7 +36,7 @@ const User = require('./models/user.model')
       username: 'mario',
       email: 'mario@mail.com',
       password: '12345',
-      address: 'gran via',
+      address: 'C Gran via 23',
       age: 23,
       role: 'admin'
     });
