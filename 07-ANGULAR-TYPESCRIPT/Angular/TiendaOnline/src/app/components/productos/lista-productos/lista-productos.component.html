@@ -1,12 +1,12 @@
-<div class="productos">
-  <div class="producto" *ngFor="let producto of arrProductos">
-    <h2>{{producto.name}}</h2>
-    <p><strong>Descripción:</strong> {{producto.description}}</p>
-    <p><strong>Precio:</strong> {{producto.price}}</p>
-    <!-- <p><strong>Precio con IVA:</strong> {{producto.price_tax}}</p> -->
-    <p><strong>Stock:</strong> {{producto.stock}}</p>
-    <p *ngIf="producto.image" class="image">
-      <img [src]="'http://localhost:3000/images/'+producto.image" alt="">
-    </p>
+<h2>Lista de productos</h2>
+<div class="card producto" *ngFor="let producto of arrProductos" style="width: 18rem;">
+  <p *ngIf="producto.image" class="image">
+    <img [src]="'http://localhost:3000/images/'+ producto.image" alt="">
+  </p>
+  <div class="card-body">
+    <h5 class="card-title">{{producto.name}}</h5>
+    <p class="card-text">Descripción: {{producto.description}}</p>
+    <p class="card-text">Disponibles: {{producto.stock}}</p>
+    <p class="card-text">Precio: {{producto.price}}€</p>
   </div>
 </div>
