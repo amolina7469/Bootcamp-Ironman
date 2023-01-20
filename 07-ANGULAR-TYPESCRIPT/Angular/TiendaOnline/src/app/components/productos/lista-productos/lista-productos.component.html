@@ -1,4 +1,12 @@
-<h2>Lista de productos</h2>
+<h2>Lista de productos </h2>
+<h3>Página: {{currentPage}}</h3>
+<div class="botones mb-5">
+  <button class="btn btn-primary" (click)="cambioPagina(false)" *ngIf="currentPage !== 1">Anterior</button>
+  <button class="btn btn-primary ms-2" (click)="cambioPagina(true)" *ngIf="currentPage !== pages">Siguiente</button>
+</div>
+<div>
+  <button *ngFor="let page of arrFromNumber(pages)" (click)="seleccionPagina(page)">{{page}}</button>
+</div>
 <div class="card producto" *ngFor="let producto of arrProductos" style="width: 18rem;">
   <p *ngIf="producto.image" class="image">
     <img [src]="'http://localhost:3000/images/'+ producto.image" alt="">

@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 const { json } = require('express');
-const { getAll, getById, getByEdad, create, update, deleteById } = require('../../models/cliente.model');
+const { getAll, getById, getByEdad, create, update, deleteById, getByPage, count } = require('../../models/cliente.model');
 
 // /api/clientes?page=4&limit10
 router.get('/then-catch', (req, res) => {
@@ -39,10 +39,20 @@ router.get('/async-await', async (req, res) => {
 
 //? OPCIÓN 3: Opción chachi
 router.get('/', async (req, res) => {
-  console.log(req.user);
+  const { limit = 10, page = 1 } = req.query;
   try {
-    const [result] = await getAll();
-    res.json(result);
+    const [clientes] = await getByPage(page, limit);//recupero los clientes por pagina
+    const [num] = await count(); //devuelve un array con un objeto [{count:95}]
+    const total = num[0].count;//accedemos a la propiedad count del primer registro[0]
+
+    res.json({
+      info: {
+        current_page: parseInt(page),
+        count: total,
+        pages: Math.ceil(total / limit)
+      },
+      results: clientes
+    });
   } catch (err) {
     res.json(err.message);
   }

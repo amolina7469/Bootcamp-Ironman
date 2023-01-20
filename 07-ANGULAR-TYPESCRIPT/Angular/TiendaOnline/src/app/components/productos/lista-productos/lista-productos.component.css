@@ -1,5 +1,5 @@
 .producto {
-  background-color: royalblue;
+  background-color: rgb(160, 174, 214);
   color: rgb(5, 22, 77);
   border: 1px solid black;
   box-shadow: 2px 2px 2px black;
@@ -27,4 +27,8 @@ h2 {
 
 .image {
   width: 10%;
+}
+
+.btn {
+  background-color: royalblue;
 }

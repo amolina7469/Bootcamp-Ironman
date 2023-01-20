@@ -33,6 +33,16 @@ const getByProfesor = (profesorId) => {
   return db.query('select * from clientes where profesor_id = ?', [profesorId]);
 };
 
+const getByPage = (page, limit) => {
+  limit = parseInt(limit);
+  page = parseInt(page);
+  return db.query('select * from clientes limit ? offset ?', [limit, (page - 1) * limit]);
+}
+
+const count = () => {
+  return db.query('select count(*) as count from clientes');
+}
+
 
 module.exports = {
   getAll,
@@ -41,5 +51,7 @@ module.exports = {
   create,
   update,
   deleteById,
-  getByProfesor
+  getByProfesor,
+  getByPage,
+  count
 };

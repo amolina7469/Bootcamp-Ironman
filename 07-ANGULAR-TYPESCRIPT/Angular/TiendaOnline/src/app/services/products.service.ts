@@ -13,7 +13,13 @@ export class ProductsService {
 
   getAll() {
     return lastValueFrom(
-      this.httpClient.get<any[]>(this.baseUrl)
+      this.httpClient.get<any>(this.baseUrl)
+    );
+  }
+
+  getByPage(page: number) {
+    return lastValueFrom(
+      this.httpClient.get<any>(`${this.baseUrl}?page=${page}`)
     );
   }
 
