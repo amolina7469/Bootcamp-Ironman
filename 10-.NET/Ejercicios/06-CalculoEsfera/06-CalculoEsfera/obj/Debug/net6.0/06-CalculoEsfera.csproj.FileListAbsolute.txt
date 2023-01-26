@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\obj\Debug\net6.0\06-CalculoEsfera.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\obj\Debug\net6.0\06-CalculoEsfera.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\obj\Debug\net6.0\06-CalculoEsfera.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\obj\Debug\net6.0\06-CalculoEsfera.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\obj\Debug\net6.0\06-CalculoEsfera.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\bin\Debug\net6.0\06-CalculoEsfera.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\bin\Debug\net6.0\06-CalculoEsfera.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\bin\Debug\net6.0\06-CalculoEsfera.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\bin\Debug\net6.0\06-CalculoEsfera.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\bin\Debug\net6.0\06-CalculoEsfera.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\obj\Debug\net6.0\06-CalculoEsfera.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\obj\Debug\net6.0\refint\06-CalculoEsfera.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\obj\Debug\net6.0\06-CalculoEsfera.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\obj\Debug\net6.0\06-CalculoEsfera.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\06-CalculoEsfera\06-CalculoEsfera\obj\Debug\net6.0\ref\06-CalculoEsfera.dll

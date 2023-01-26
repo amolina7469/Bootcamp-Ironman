@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\bin\Debug\net6.0\04-PedirNombre.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\bin\Debug\net6.0\04-PedirNombre.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\bin\Debug\net6.0\04-PedirNombre.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\bin\Debug\net6.0\04-PedirNombre.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\bin\Debug\net6.0\04-PedirNombre.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\obj\Debug\net6.0\04-PedirNombre.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\obj\Debug\net6.0\04-PedirNombre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\obj\Debug\net6.0\04-PedirNombre.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\obj\Debug\net6.0\04-PedirNombre.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\obj\Debug\net6.0\04-PedirNombre.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\obj\Debug\net6.0\04-PedirNombre.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\obj\Debug\net6.0\refint\04-PedirNombre.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\obj\Debug\net6.0\04-PedirNombre.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\obj\Debug\net6.0\04-PedirNombre.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\04-PedirNombre\04-PedirNombre\obj\Debug\net6.0\ref\04-PedirNombre.dll

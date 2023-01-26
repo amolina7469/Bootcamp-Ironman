@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\bin\Debug\net6.0\03-LeerEntradaUsuario.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\bin\Debug\net6.0\03-LeerEntradaUsuario.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\bin\Debug\net6.0\03-LeerEntradaUsuario.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\bin\Debug\net6.0\03-LeerEntradaUsuario.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\bin\Debug\net6.0\03-LeerEntradaUsuario.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\obj\Debug\net6.0\03-LeerEntradaUsuario.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\obj\Debug\net6.0\03-LeerEntradaUsuario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\obj\Debug\net6.0\03-LeerEntradaUsuario.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\obj\Debug\net6.0\03-LeerEntradaUsuario.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\obj\Debug\net6.0\03-LeerEntradaUsuario.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\obj\Debug\net6.0\03-LeerEntradaUsuario.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\obj\Debug\net6.0\refint\03-LeerEntradaUsuario.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\obj\Debug\net6.0\03-LeerEntradaUsuario.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\obj\Debug\net6.0\03-LeerEntradaUsuario.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\03-LeerEntradaUsuario\obj\Debug\net6.0\ref\03-LeerEntradaUsuario.dll

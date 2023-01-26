@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\obj\Debug\net6.0\07-Calculadora.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\obj\Debug\net6.0\07-Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\obj\Debug\net6.0\07-Calculadora.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\obj\Debug\net6.0\07-Calculadora.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\obj\Debug\net6.0\07-Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\bin\Debug\net6.0\07-Calculadora.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\bin\Debug\net6.0\07-Calculadora.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\bin\Debug\net6.0\07-Calculadora.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\bin\Debug\net6.0\07-Calculadora.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\bin\Debug\net6.0\07-Calculadora.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\obj\Debug\net6.0\07-Calculadora.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\obj\Debug\net6.0\refint\07-Calculadora.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\obj\Debug\net6.0\07-Calculadora.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\obj\Debug\net6.0\07-Calculadora.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\07-Calculadora\07-Calculadora\obj\Debug\net6.0\ref\07-Calculadora.dll

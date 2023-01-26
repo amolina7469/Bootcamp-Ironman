@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\bin\Debug\net6.0\01-HolaMundo.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\bin\Debug\net6.0\01-HolaMundo.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\bin\Debug\net6.0\01-HolaMundo.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\bin\Debug\net6.0\01-HolaMundo.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\bin\Debug\net6.0\01-HolaMundo.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\obj\Debug\net6.0\01-HolaMundo.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\obj\Debug\net6.0\01-HolaMundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\obj\Debug\net6.0\01-HolaMundo.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\obj\Debug\net6.0\01-HolaMundo.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\obj\Debug\net6.0\01-HolaMundo.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\obj\Debug\net6.0\01-HolaMundo.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\obj\Debug\net6.0\refint\01-HolaMundo.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\obj\Debug\net6.0\01-HolaMundo.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\obj\Debug\net6.0\01-HolaMundo.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\01-HolaMundo\01-HolaMundo\obj\Debug\net6.0\ref\01-HolaMundo.dll
