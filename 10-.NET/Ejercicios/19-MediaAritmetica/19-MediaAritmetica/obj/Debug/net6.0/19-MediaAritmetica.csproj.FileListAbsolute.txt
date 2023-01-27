@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\bin\Debug\net6.0\19-MediaAritmetica.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\bin\Debug\net6.0\19-MediaAritmetica.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\bin\Debug\net6.0\19-MediaAritmetica.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\bin\Debug\net6.0\19-MediaAritmetica.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\bin\Debug\net6.0\19-MediaAritmetica.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\obj\Debug\net6.0\19-MediaAritmetica.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\obj\Debug\net6.0\19-MediaAritmetica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\obj\Debug\net6.0\19-MediaAritmetica.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\obj\Debug\net6.0\19-MediaAritmetica.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\obj\Debug\net6.0\19-MediaAritmetica.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\obj\Debug\net6.0\19-MediaAritmetica.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\obj\Debug\net6.0\refint\19-MediaAritmetica.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\obj\Debug\net6.0\19-MediaAritmetica.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\obj\Debug\net6.0\19-MediaAritmetica.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\19-MediaAritmetica\19-MediaAritmetica\obj\Debug\net6.0\ref\19-MediaAritmetica.dll

@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\bin\Debug\net6.0\11-ValorFloatKmH.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\bin\Debug\net6.0\11-ValorFloatKmH.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\bin\Debug\net6.0\11-ValorFloatKmH.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\bin\Debug\net6.0\11-ValorFloatKmH.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\bin\Debug\net6.0\11-ValorFloatKmH.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\obj\Debug\net6.0\11-ValorFloatKmH.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\obj\Debug\net6.0\11-ValorFloatKmH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\obj\Debug\net6.0\11-ValorFloatKmH.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\obj\Debug\net6.0\11-ValorFloatKmH.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\obj\Debug\net6.0\11-ValorFloatKmH.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\obj\Debug\net6.0\11-ValorFloatKmH.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\obj\Debug\net6.0\refint\11-ValorFloatKmH.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\obj\Debug\net6.0\11-ValorFloatKmH.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\obj\Debug\net6.0\11-ValorFloatKmH.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\11-ValorFloatKmH\11-ValorFloatKmH\obj\Debug\net6.0\ref\11-ValorFloatKmH.dll

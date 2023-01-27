@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\bin\Debug\net6.0\10-TeoremaPitagoras.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\bin\Debug\net6.0\10-TeoremaPitagoras.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\bin\Debug\net6.0\10-TeoremaPitagoras.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\bin\Debug\net6.0\10-TeoremaPitagoras.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\bin\Debug\net6.0\10-TeoremaPitagoras.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\obj\Debug\net6.0\10-TeoremaPitagoras.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\obj\Debug\net6.0\10-TeoremaPitagoras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\obj\Debug\net6.0\10-TeoremaPitagoras.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\obj\Debug\net6.0\10-TeoremaPitagoras.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\obj\Debug\net6.0\10-TeoremaPitagoras.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\obj\Debug\net6.0\10-TeoremaPitagoras.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\obj\Debug\net6.0\refint\10-TeoremaPitagoras.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\obj\Debug\net6.0\10-TeoremaPitagoras.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\obj\Debug\net6.0\10-TeoremaPitagoras.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\10-TeoremaPitagoras\10-TeoremaPitagoras\obj\Debug\net6.0\ref\10-TeoremaPitagoras.dll

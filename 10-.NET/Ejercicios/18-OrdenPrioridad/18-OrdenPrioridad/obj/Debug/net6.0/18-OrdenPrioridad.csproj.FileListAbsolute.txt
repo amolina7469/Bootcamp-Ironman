@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\bin\Debug\net6.0\18-OrdenPrioridad.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\bin\Debug\net6.0\18-OrdenPrioridad.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\bin\Debug\net6.0\18-OrdenPrioridad.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\bin\Debug\net6.0\18-OrdenPrioridad.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\bin\Debug\net6.0\18-OrdenPrioridad.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\obj\Debug\net6.0\18-OrdenPrioridad.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\obj\Debug\net6.0\18-OrdenPrioridad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\obj\Debug\net6.0\18-OrdenPrioridad.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\obj\Debug\net6.0\18-OrdenPrioridad.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\obj\Debug\net6.0\18-OrdenPrioridad.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\obj\Debug\net6.0\18-OrdenPrioridad.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\obj\Debug\net6.0\refint\18-OrdenPrioridad.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\obj\Debug\net6.0\18-OrdenPrioridad.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\obj\Debug\net6.0\18-OrdenPrioridad.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\18-OrdenPrioridad\18-OrdenPrioridad\obj\Debug\net6.0\ref\18-OrdenPrioridad.dll

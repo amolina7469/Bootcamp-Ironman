@@ -6,10 +6,10 @@
         {
             Console.WriteLine("Introduce un número:");
             int num = int.Parse(Console.ReadLine());
-         
+
             Console.WriteLine("Introduce otro número:");
             var num2 = int.Parse(Console.ReadLine());
-          
+
 
             var suma = num + num2;
             Console.WriteLine("\n" + num + " + " + num2 + " = " + suma);

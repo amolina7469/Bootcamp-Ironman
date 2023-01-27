@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\bin\Debug\net6.0\12-TablaMultiplicar.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\bin\Debug\net6.0\12-TablaMultiplicar.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\bin\Debug\net6.0\12-TablaMultiplicar.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\bin\Debug\net6.0\12-TablaMultiplicar.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\bin\Debug\net6.0\12-TablaMultiplicar.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\obj\Debug\net6.0\12-TablaMultiplicar.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\obj\Debug\net6.0\12-TablaMultiplicar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\obj\Debug\net6.0\12-TablaMultiplicar.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\obj\Debug\net6.0\12-TablaMultiplicar.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\obj\Debug\net6.0\12-TablaMultiplicar.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\obj\Debug\net6.0\12-TablaMultiplicar.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\obj\Debug\net6.0\refint\12-TablaMultiplicar.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\obj\Debug\net6.0\12-TablaMultiplicar.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\obj\Debug\net6.0\12-TablaMultiplicar.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\12-TablaMultiplicar\12-TablaMultiplicar\obj\Debug\net6.0\ref\12-TablaMultiplicar.dll

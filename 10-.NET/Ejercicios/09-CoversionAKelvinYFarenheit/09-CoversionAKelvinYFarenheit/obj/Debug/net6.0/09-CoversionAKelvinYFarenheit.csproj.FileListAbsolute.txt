@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\obj\Debug\net6.0\09-CoversionAKelvinYFarenheit.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\obj\Debug\net6.0\09-CoversionAKelvinYFarenheit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\obj\Debug\net6.0\09-CoversionAKelvinYFarenheit.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\obj\Debug\net6.0\09-CoversionAKelvinYFarenheit.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\obj\Debug\net6.0\09-CoversionAKelvinYFarenheit.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\bin\Debug\net6.0\09-CoversionAKelvinYFarenheit.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\bin\Debug\net6.0\09-CoversionAKelvinYFarenheit.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\bin\Debug\net6.0\09-CoversionAKelvinYFarenheit.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\bin\Debug\net6.0\09-CoversionAKelvinYFarenheit.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\bin\Debug\net6.0\09-CoversionAKelvinYFarenheit.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\obj\Debug\net6.0\09-CoversionAKelvinYFarenheit.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\obj\Debug\net6.0\refint\09-CoversionAKelvinYFarenheit.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\obj\Debug\net6.0\09-CoversionAKelvinYFarenheit.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\obj\Debug\net6.0\09-CoversionAKelvinYFarenheit.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\09-CoversionAKelvinYFarenheit\09-CoversionAKelvinYFarenheit\obj\Debug\net6.0\ref\09-CoversionAKelvinYFarenheit.dll

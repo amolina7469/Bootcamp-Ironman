@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\bin\Debug\net6.0\17-DivisionPor0.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\bin\Debug\net6.0\17-DivisionPor0.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\bin\Debug\net6.0\17-DivisionPor0.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\bin\Debug\net6.0\17-DivisionPor0.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\bin\Debug\net6.0\17-DivisionPor0.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\obj\Debug\net6.0\17-DivisionPor0.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\obj\Debug\net6.0\17-DivisionPor0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\obj\Debug\net6.0\17-DivisionPor0.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\obj\Debug\net6.0\17-DivisionPor0.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\obj\Debug\net6.0\17-DivisionPor0.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\obj\Debug\net6.0\17-DivisionPor0.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\obj\Debug\net6.0\refint\17-DivisionPor0.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\obj\Debug\net6.0\17-DivisionPor0.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\obj\Debug\net6.0\17-DivisionPor0.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\17-DivisionPor0\17-DivisionPor0\obj\Debug\net6.0\ref\17-DivisionPor0.dll

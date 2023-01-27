@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\bin\Debug\net6.0\16-DivisionYResto.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\bin\Debug\net6.0\16-DivisionYResto.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\bin\Debug\net6.0\16-DivisionYResto.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\bin\Debug\net6.0\16-DivisionYResto.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\bin\Debug\net6.0\16-DivisionYResto.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\obj\Debug\net6.0\16-DivisionYResto.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\obj\Debug\net6.0\16-DivisionYResto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\obj\Debug\net6.0\16-DivisionYResto.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\obj\Debug\net6.0\16-DivisionYResto.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\obj\Debug\net6.0\16-DivisionYResto.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\obj\Debug\net6.0\16-DivisionYResto.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\obj\Debug\net6.0\refint\16-DivisionYResto.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\obj\Debug\net6.0\16-DivisionYResto.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\obj\Debug\net6.0\16-DivisionYResto.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\16-DivisionYResto\16-DivisionYResto\obj\Debug\net6.0\ref\16-DivisionYResto.dll

@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\bin\Debug\net6.0\08-PintarLetras.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\bin\Debug\net6.0\08-PintarLetras.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\bin\Debug\net6.0\08-PintarLetras.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\bin\Debug\net6.0\08-PintarLetras.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\bin\Debug\net6.0\08-PintarLetras.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\obj\Debug\net6.0\08-PintarLetras.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\obj\Debug\net6.0\08-PintarLetras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\obj\Debug\net6.0\08-PintarLetras.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\obj\Debug\net6.0\08-PintarLetras.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\obj\Debug\net6.0\08-PintarLetras.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\obj\Debug\net6.0\08-PintarLetras.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\obj\Debug\net6.0\refint\08-PintarLetras.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\obj\Debug\net6.0\08-PintarLetras.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\obj\Debug\net6.0\08-PintarLetras.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\08-PintarLetras\08-PintarLetras\obj\Debug\net6.0\ref\08-PintarLetras.dll

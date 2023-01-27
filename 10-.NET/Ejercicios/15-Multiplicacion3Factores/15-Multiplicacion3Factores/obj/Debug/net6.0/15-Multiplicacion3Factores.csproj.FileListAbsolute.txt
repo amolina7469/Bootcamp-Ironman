@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\bin\Debug\net6.0\15-Multiplicacion3Factores.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\bin\Debug\net6.0\15-Multiplicacion3Factores.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\bin\Debug\net6.0\15-Multiplicacion3Factores.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\bin\Debug\net6.0\15-Multiplicacion3Factores.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\bin\Debug\net6.0\15-Multiplicacion3Factores.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\obj\Debug\net6.0\15-Multiplicacion3Factores.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\obj\Debug\net6.0\15-Multiplicacion3Factores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\obj\Debug\net6.0\15-Multiplicacion3Factores.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\obj\Debug\net6.0\15-Multiplicacion3Factores.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\obj\Debug\net6.0\15-Multiplicacion3Factores.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\obj\Debug\net6.0\15-Multiplicacion3Factores.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\obj\Debug\net6.0\refint\15-Multiplicacion3Factores.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\obj\Debug\net6.0\15-Multiplicacion3Factores.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\obj\Debug\net6.0\15-Multiplicacion3Factores.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\15-Multiplicacion3Factores\15-Multiplicacion3Factores\obj\Debug\net6.0\ref\15-Multiplicacion3Factores.dll
