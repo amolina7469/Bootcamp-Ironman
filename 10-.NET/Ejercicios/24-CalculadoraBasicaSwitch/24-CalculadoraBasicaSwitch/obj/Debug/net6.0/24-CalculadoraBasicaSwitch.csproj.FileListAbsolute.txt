@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\bin\Debug\net6.0\24-CalculadoraBasicaSwitch.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\bin\Debug\net6.0\24-CalculadoraBasicaSwitch.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\bin\Debug\net6.0\24-CalculadoraBasicaSwitch.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\bin\Debug\net6.0\24-CalculadoraBasicaSwitch.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\bin\Debug\net6.0\24-CalculadoraBasicaSwitch.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\obj\Debug\net6.0\24-CalculadoraBasicaSwitch.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\obj\Debug\net6.0\24-CalculadoraBasicaSwitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\obj\Debug\net6.0\24-CalculadoraBasicaSwitch.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\obj\Debug\net6.0\24-CalculadoraBasicaSwitch.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\obj\Debug\net6.0\24-CalculadoraBasicaSwitch.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\obj\Debug\net6.0\24-CalculadoraBasicaSwitch.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\obj\Debug\net6.0\refint\24-CalculadoraBasicaSwitch.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\obj\Debug\net6.0\24-CalculadoraBasicaSwitch.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\obj\Debug\net6.0\24-CalculadoraBasicaSwitch.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\24-CalculadoraBasicaSwitch\24-CalculadoraBasicaSwitch\obj\Debug\net6.0\ref\24-CalculadoraBasicaSwitch.dll

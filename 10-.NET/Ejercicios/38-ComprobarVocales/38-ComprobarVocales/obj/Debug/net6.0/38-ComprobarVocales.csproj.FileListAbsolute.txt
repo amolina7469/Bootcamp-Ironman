@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\obj\Debug\net6.0\38-ComprobarVocales.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\obj\Debug\net6.0\38-ComprobarVocales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\obj\Debug\net6.0\38-ComprobarVocales.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\obj\Debug\net6.0\38-ComprobarVocales.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\obj\Debug\net6.0\38-ComprobarVocales.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\bin\Debug\net6.0\38-ComprobarVocales.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\bin\Debug\net6.0\38-ComprobarVocales.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\bin\Debug\net6.0\38-ComprobarVocales.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\bin\Debug\net6.0\38-ComprobarVocales.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\bin\Debug\net6.0\38-ComprobarVocales.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\obj\Debug\net6.0\38-ComprobarVocales.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\obj\Debug\net6.0\refint\38-ComprobarVocales.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\obj\Debug\net6.0\38-ComprobarVocales.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\obj\Debug\net6.0\38-ComprobarVocales.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\38-ComprobarVocales\38-ComprobarVocales\obj\Debug\net6.0\ref\38-ComprobarVocales.dll

@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\obj\Debug\net6.0\32-SwitchBreakDefault.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\obj\Debug\net6.0\32-SwitchBreakDefault.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\obj\Debug\net6.0\32-SwitchBreakDefault.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\obj\Debug\net6.0\32-SwitchBreakDefault.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\obj\Debug\net6.0\32-SwitchBreakDefault.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\bin\Debug\net6.0\32-SwitchBreakDefault.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\bin\Debug\net6.0\32-SwitchBreakDefault.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\bin\Debug\net6.0\32-SwitchBreakDefault.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\bin\Debug\net6.0\32-SwitchBreakDefault.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\bin\Debug\net6.0\32-SwitchBreakDefault.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\obj\Debug\net6.0\32-SwitchBreakDefault.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\obj\Debug\net6.0\refint\32-SwitchBreakDefault.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\obj\Debug\net6.0\32-SwitchBreakDefault.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\obj\Debug\net6.0\32-SwitchBreakDefault.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\32-SwitchBreakDefault\32-SwitchBreakDefault\obj\Debug\net6.0\ref\32-SwitchBreakDefault.dll

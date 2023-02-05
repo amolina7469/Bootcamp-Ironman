@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\obj\Debug\net6.0\27-DoWhilePor10.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\obj\Debug\net6.0\27-DoWhilePor10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\obj\Debug\net6.0\27-DoWhilePor10.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\obj\Debug\net6.0\27-DoWhilePor10.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\obj\Debug\net6.0\27-DoWhilePor10.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\bin\Debug\net6.0\27-DoWhilePor10.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\bin\Debug\net6.0\27-DoWhilePor10.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\bin\Debug\net6.0\27-DoWhilePor10.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\bin\Debug\net6.0\27-DoWhilePor10.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\bin\Debug\net6.0\27-DoWhilePor10.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\obj\Debug\net6.0\27-DoWhilePor10.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\obj\Debug\net6.0\refint\27-DoWhilePor10.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\obj\Debug\net6.0\27-DoWhilePor10.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\obj\Debug\net6.0\27-DoWhilePor10.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\27-DoWhilePor10\27-DoWhilePor10\obj\Debug\net6.0\ref\27-DoWhilePor10.dll

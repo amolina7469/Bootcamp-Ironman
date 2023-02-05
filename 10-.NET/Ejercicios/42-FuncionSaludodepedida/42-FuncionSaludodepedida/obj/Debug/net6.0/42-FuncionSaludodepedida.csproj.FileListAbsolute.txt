@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\bin\Debug\net6.0\42-FuncionSaludodepedida.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\bin\Debug\net6.0\42-FuncionSaludodepedida.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\bin\Debug\net6.0\42-FuncionSaludodepedida.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\bin\Debug\net6.0\42-FuncionSaludodepedida.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\bin\Debug\net6.0\42-FuncionSaludodepedida.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\obj\Debug\net6.0\42-FuncionSaludodepedida.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\obj\Debug\net6.0\42-FuncionSaludodepedida.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\obj\Debug\net6.0\42-FuncionSaludodepedida.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\obj\Debug\net6.0\42-FuncionSaludodepedida.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\obj\Debug\net6.0\42-FuncionSaludodepedida.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\obj\Debug\net6.0\42-FuncionSaludodepedida.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\obj\Debug\net6.0\refint\42-FuncionSaludodepedida.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\obj\Debug\net6.0\42-FuncionSaludodepedida.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\obj\Debug\net6.0\42-FuncionSaludodepedida.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\42-FuncionSaludodepedida\42-FuncionSaludodepedida\obj\Debug\net6.0\ref\42-FuncionSaludodepedida.dll

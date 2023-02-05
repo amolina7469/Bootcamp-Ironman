@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\obj\Debug\net6.0\AbumFotos.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\obj\Debug\net6.0\AbumFotos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\obj\Debug\net6.0\AbumFotos.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\obj\Debug\net6.0\AbumFotos.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\obj\Debug\net6.0\AbumFotos.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\bin\Debug\net6.0\AbumFotos.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\bin\Debug\net6.0\AbumFotos.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\bin\Debug\net6.0\AbumFotos.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\bin\Debug\net6.0\AbumFotos.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\bin\Debug\net6.0\AbumFotos.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\obj\Debug\net6.0\AbumFotos.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\obj\Debug\net6.0\refint\AbumFotos.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\obj\Debug\net6.0\AbumFotos.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\obj\Debug\net6.0\AbumFotos.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\AbumFotos\AbumFotos\obj\Debug\net6.0\ref\AbumFotos.dll

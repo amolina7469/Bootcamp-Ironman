@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\obj\Debug\net6.0\39-ComprobarNumerosExcepciones.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\obj\Debug\net6.0\39-ComprobarNumerosExcepciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\obj\Debug\net6.0\39-ComprobarNumerosExcepciones.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\obj\Debug\net6.0\39-ComprobarNumerosExcepciones.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\obj\Debug\net6.0\39-ComprobarNumerosExcepciones.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\bin\Debug\net6.0\39-ComprobarNumerosExcepciones.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\bin\Debug\net6.0\39-ComprobarNumerosExcepciones.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\bin\Debug\net6.0\39-ComprobarNumerosExcepciones.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\bin\Debug\net6.0\39-ComprobarNumerosExcepciones.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\bin\Debug\net6.0\39-ComprobarNumerosExcepciones.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\obj\Debug\net6.0\39-ComprobarNumerosExcepciones.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\obj\Debug\net6.0\refint\39-ComprobarNumerosExcepciones.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\obj\Debug\net6.0\39-ComprobarNumerosExcepciones.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\obj\Debug\net6.0\39-ComprobarNumerosExcepciones.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\39-ComprobarNumerosExcepciones\39-ComprobarNumerosExcepciones\obj\Debug\net6.0\ref\39-ComprobarNumerosExcepciones.dll

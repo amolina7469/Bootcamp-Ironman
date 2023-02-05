@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\bin\Debug\net6.0\40-BooleanYCondicional.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\bin\Debug\net6.0\40-BooleanYCondicional.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\bin\Debug\net6.0\40-BooleanYCondicional.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\bin\Debug\net6.0\40-BooleanYCondicional.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\bin\Debug\net6.0\40-BooleanYCondicional.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\obj\Debug\net6.0\40-BooleanYCondicional.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\obj\Debug\net6.0\40-BooleanYCondicional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\obj\Debug\net6.0\40-BooleanYCondicional.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\obj\Debug\net6.0\40-BooleanYCondicional.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\obj\Debug\net6.0\40-BooleanYCondicional.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\obj\Debug\net6.0\40-BooleanYCondicional.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\obj\Debug\net6.0\refint\40-BooleanYCondicional.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\obj\Debug\net6.0\40-BooleanYCondicional.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\obj\Debug\net6.0\40-BooleanYCondicional.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\40-BooleanYCondicional\40-BooleanYCondicional\obj\Debug\net6.0\ref\40-BooleanYCondicional.dll

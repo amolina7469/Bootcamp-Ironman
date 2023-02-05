@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\obj\Debug\net6.0\41-Struct.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\obj\Debug\net6.0\41-Struct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\obj\Debug\net6.0\41-Struct.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\obj\Debug\net6.0\41-Struct.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\obj\Debug\net6.0\41-Struct.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\bin\Debug\net6.0\41-Struct.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\bin\Debug\net6.0\41-Struct.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\bin\Debug\net6.0\41-Struct.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\bin\Debug\net6.0\41-Struct.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\bin\Debug\net6.0\41-Struct.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\obj\Debug\net6.0\41-Struct.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\obj\Debug\net6.0\refint\41-Struct.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\obj\Debug\net6.0\41-Struct.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\obj\Debug\net6.0\41-Struct.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\41-Struct\41-Struct\obj\Debug\net6.0\ref\41-Struct.dll

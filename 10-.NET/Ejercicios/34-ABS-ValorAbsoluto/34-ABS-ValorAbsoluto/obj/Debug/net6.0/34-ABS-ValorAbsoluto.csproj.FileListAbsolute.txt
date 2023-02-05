@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\bin\Debug\net6.0\34-ABS-ValorAbsoluto.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\bin\Debug\net6.0\34-ABS-ValorAbsoluto.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\bin\Debug\net6.0\34-ABS-ValorAbsoluto.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\bin\Debug\net6.0\34-ABS-ValorAbsoluto.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\bin\Debug\net6.0\34-ABS-ValorAbsoluto.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\obj\Debug\net6.0\34-ABS-ValorAbsoluto.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\obj\Debug\net6.0\34-ABS-ValorAbsoluto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\obj\Debug\net6.0\34-ABS-ValorAbsoluto.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\obj\Debug\net6.0\34-ABS-ValorAbsoluto.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\obj\Debug\net6.0\34-ABS-ValorAbsoluto.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\obj\Debug\net6.0\34-ABS-ValorAbsoluto.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\obj\Debug\net6.0\refint\34-ABS-ValorAbsoluto.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\obj\Debug\net6.0\34-ABS-ValorAbsoluto.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\obj\Debug\net6.0\34-ABS-ValorAbsoluto.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\34-ABS-ValorAbsoluto\34-ABS-ValorAbsoluto\obj\Debug\net6.0\ref\34-ABS-ValorAbsoluto.dll

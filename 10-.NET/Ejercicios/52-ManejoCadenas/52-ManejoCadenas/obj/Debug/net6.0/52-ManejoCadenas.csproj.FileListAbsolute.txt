@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\bin\Debug\net6.0\52-ManejoCadenas.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\bin\Debug\net6.0\52-ManejoCadenas.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\bin\Debug\net6.0\52-ManejoCadenas.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\bin\Debug\net6.0\52-ManejoCadenas.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\bin\Debug\net6.0\52-ManejoCadenas.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\obj\Debug\net6.0\52-ManejoCadenas.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\obj\Debug\net6.0\52-ManejoCadenas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\obj\Debug\net6.0\52-ManejoCadenas.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\obj\Debug\net6.0\52-ManejoCadenas.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\obj\Debug\net6.0\52-ManejoCadenas.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\obj\Debug\net6.0\52-ManejoCadenas.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\obj\Debug\net6.0\refint\52-ManejoCadenas.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\obj\Debug\net6.0\52-ManejoCadenas.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\obj\Debug\net6.0\52-ManejoCadenas.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\52-ManejoCadenas\52-ManejoCadenas\obj\Debug\net6.0\ref\52-ManejoCadenas.dll

@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\obj\Debug\net6.0\22-DibujarRectangulo.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\obj\Debug\net6.0\22-DibujarRectangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\obj\Debug\net6.0\22-DibujarRectangulo.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\obj\Debug\net6.0\22-DibujarRectangulo.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\obj\Debug\net6.0\22-DibujarRectangulo.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\bin\Debug\net6.0\22-DibujarRectangulo.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\bin\Debug\net6.0\22-DibujarRectangulo.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\bin\Debug\net6.0\22-DibujarRectangulo.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\bin\Debug\net6.0\22-DibujarRectangulo.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\bin\Debug\net6.0\22-DibujarRectangulo.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\obj\Debug\net6.0\22-DibujarRectangulo.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\obj\Debug\net6.0\refint\22-DibujarRectangulo.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\obj\Debug\net6.0\22-DibujarRectangulo.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\obj\Debug\net6.0\22-DibujarRectangulo.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\22-DibujarRectangulo\22-DibujarRectangulo\obj\Debug\net6.0\ref\22-DibujarRectangulo.dll

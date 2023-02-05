@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\bin\Debug\net6.0\NumerosImparesDescendetes.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\bin\Debug\net6.0\NumerosImparesDescendetes.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\bin\Debug\net6.0\NumerosImparesDescendetes.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\bin\Debug\net6.0\NumerosImparesDescendetes.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\bin\Debug\net6.0\NumerosImparesDescendetes.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\obj\Debug\net6.0\NumerosImparesDescendetes.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\obj\Debug\net6.0\NumerosImparesDescendetes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\obj\Debug\net6.0\NumerosImparesDescendetes.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\obj\Debug\net6.0\NumerosImparesDescendetes.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\obj\Debug\net6.0\NumerosImparesDescendetes.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\obj\Debug\net6.0\NumerosImparesDescendetes.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\obj\Debug\net6.0\refint\NumerosImparesDescendetes.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\obj\Debug\net6.0\NumerosImparesDescendetes.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\obj\Debug\net6.0\NumerosImparesDescendetes.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\NumerosImparesDescendetes\NumerosImparesDescendetes\obj\Debug\net6.0\ref\NumerosImparesDescendetes.dll

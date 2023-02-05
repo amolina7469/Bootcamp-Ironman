@@ -1,0 +1,15 @@
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\obj\Debug\net6.0\43-FuncionParametros.csproj.AssemblyReference.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\obj\Debug\net6.0\43-FuncionParametros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\obj\Debug\net6.0\43-FuncionParametros.AssemblyInfoInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\obj\Debug\net6.0\43-FuncionParametros.AssemblyInfo.cs
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\obj\Debug\net6.0\43-FuncionParametros.csproj.CoreCompileInputs.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\bin\Debug\net6.0\43-FuncionParametros.exe
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\bin\Debug\net6.0\43-FuncionParametros.deps.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\bin\Debug\net6.0\43-FuncionParametros.runtimeconfig.json
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\bin\Debug\net6.0\43-FuncionParametros.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\bin\Debug\net6.0\43-FuncionParametros.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\obj\Debug\net6.0\43-FuncionParametros.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\obj\Debug\net6.0\refint\43-FuncionParametros.dll
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\obj\Debug\net6.0\43-FuncionParametros.pdb
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\obj\Debug\net6.0\43-FuncionParametros.genruntimeconfig.cache
+C:\Users\amanc\OneDrive\Documentos\AMANCIO\Bootcamp Ironman\10-.NET\Ejercicios\43-FuncionParametros\43-FuncionParametros\obj\Debug\net6.0\ref\43-FuncionParametros.dll

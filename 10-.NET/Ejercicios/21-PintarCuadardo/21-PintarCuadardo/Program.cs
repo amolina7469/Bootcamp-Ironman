@@ -15,13 +15,3 @@ for (int i = 0; i < y; i++)
 
 }
 
-//Pintar rectángulo
-//for (int i = 0; i < y; i++)
-//{
-//    Console.WriteLine();
-//    for (int j = 0; j < x; j++)
-//    {
-//        Console.Write(x);
-//    }
-
-//}
